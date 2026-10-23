@@ -36,6 +36,17 @@ Requires Node.js 18.18+ (Node 20 or 22 recommended).
 7. **Photography:** all photos come from Unsplash and are listed in `src/content/images.ts`. They are illustrative stock images, not staff or clients. Swap any URL for your own photos in `/public/images`.
 8. **Pricing:** prices show "Custom quote". Edit `pricingModels` in `src/content/shared.ts` if you decide to publish prices.
 
+## Form entries: Supabase + Resend
+
+Enquiries are saved to Supabase and emailed to you through Resend.
+
+1. In Supabase, run `supabase/schema.sql` in the SQL Editor (creates `enquiries` and `newsletter_subscribers`, locked with row level security).
+2. Set `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` (server-only secret).
+3. In Resend, verify your sending domain, then set `RESEND_API_KEY`, `RESEND_FROM` (an address on the verified domain) and `NOTIFY_EMAIL`.
+4. Optional: `SEND_AUTOREPLY=true` emails visitors a short confirmation.
+
+If Supabase saves the enquiry but an email fails, the visitor still sees success and the entry is safe in Supabase. View entries in Supabase > Table Editor > enquiries.
+
 ## Editing content (CMS-ready structure)
 
 All copy lives in structured files, separate from the page templates, so it can later move to a headless CMS:
