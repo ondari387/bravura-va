@@ -1,0 +1,228 @@
+import type { ServiceContent } from "./types";
+
+export const customerServices: ServiceContent[] = [
+  {
+    slug: "customer-support",
+    metaTitle: "Customer Support Virtual Assistant | Email, Chat & Phone Support | Bravura VA",
+    metaDescription: "Outsourced customer support from human virtual assistants in Nairobi: email support, live chat, phone support, ticket management, order enquiries and escalations for US, UK and Australian businesses.",
+    hero: {
+      eyebrow: "Customer Support",
+      headline: "Still Answering Customer Emails After Hours?",
+      intro: "Customers expect clear, friendly and timely answers. When enquiries pile up, response times slip and frustration grows. Bravura VA provides human customer support assistants who handle email, chat and phone enquiries with care, follow your policies and escalate the issues that need you.",
+    },
+    overview: [
+      "Customer support is where your reputation is made or lost, one conversation at a time. A customer who gets a quick, helpful reply is far more likely to come back and recommend you. A customer who waits three days for an answer to a simple question may simply leave.",
+      "For growing businesses, the challenge is capacity. Enquiries arrive while you're running the business, and the person answering them is often the founder or a team member pulled away from other work. Quality becomes inconsistent, and the backlog becomes a source of stress.",
+      "Our customer support assistants become an extension of your team. They learn your products, policies and tone of voice, work inside your helpdesk or inbox, and handle routine enquiries end-to-end. When something needs a decision (a refund outside policy, an angry customer, a technical fault) they escalate it clearly, with the context you need to act quickly.",
+    ],
+    taskGroups: [
+      { title: "Email support", items: ["Answering enquiries using your knowledge base", "Personalized replies in your brand voice", "Order status and delivery updates", "Customer follow-ups after resolution"] },
+      { title: "Live chat & messaging", items: ["Website live chat during agreed hours", "Social media and WhatsApp messages", "Pre-sale product questions", "Handing conversations to sales when relevant"] },
+      { title: "Phone support", items: ["Answering and returning customer calls", "Logging call notes in your helpdesk", "Taking messages and booking callbacks", "Polite handling of difficult conversations"] },
+      { title: "Tickets & escalations", items: ["Ticket triage, tagging and prioritization", "Complaint escalation with full context", "Returns and refund requests per policy", "Updating FAQs and saved replies"] },
+    ],
+    audience: [
+      { title: "E-commerce stores", text: "Order questions, delivery updates and returns handled promptly, especially during busy seasons." },
+      { title: "SaaS and technology companies", text: "First-line support that answers how-to questions and passes technical issues to your team with clear notes." },
+      { title: "Service businesses", text: "Bookings, quotes and customer questions answered while your team is out delivering the work." },
+      { title: "Subscription businesses", text: "Billing questions, account changes and retention conversations handled with care." },
+    ],
+    benefits: [
+      { title: "Faster response times", text: "Enquiries are answered within agreed timeframes instead of when someone finds a minute.", icon: "zap" },
+      { title: "Consistent quality", text: "Saved replies, a shared knowledge base and your tone of voice applied every time.", icon: "checkCircle" },
+      { title: "Cleaner escalations", text: "Only the issues that need you reach you, with the context already gathered.", icon: "lifebuoy" },
+      { title: "Insight from conversations", text: "Regular summaries of common questions and complaints help you improve.", icon: "chart" },
+    ],
+    workflows: [
+      { title: "Handling a 'where is my order?' enquiry", steps: ["The customer emails or opens a chat", "Your assistant looks up the order in Shopify and the carrier's tracking", "Replies with a clear status and expected delivery date", "If the parcel is lost, follows your policy and escalates where needed"] },
+      { title: "Escalating a complaint", steps: ["A customer reports a faulty product and is frustrated", "Your assistant acknowledges the issue with empathy and gathers photos and order details", "Applies the standard resolution if it's within policy", "Escalates anything outside policy to you with a summary and a recommended next step"] },
+    ],
+    software: ["Zendesk", "Freshdesk", "Gorgias", "Help Scout", "Intercom", "HubSpot Service Hub", "Zoho Desk", "Shopify", "Gmail", "Outlook", "Tidio", "WhatsApp Business", "Aircall", "Slack"],
+    support: [
+      "Great support relies on great information. During onboarding we gather or help create the essentials: product details, policies, common questions, saved replies and escalation rules. If your knowledge base is thin, your assistant will help build it as they go, every new question answered becomes a resource for next time.",
+      "We agree response-time targets and working hours that fit your customers' time zones and your budget. You'll receive regular reporting on volumes, themes and open issues, and we'll review performance with you at check-ins so support keeps improving.",
+    ],
+    humanAi: "Chatbots and AI-drafted replies can handle simple questions, and where you use them your assistant can work alongside them: reviewing drafts, improving saved answers and taking over when the bot gets stuck. What customers remember, though, is how they were treated when something went wrong. A thoughtful human response, sensible judgment on exceptions and genuine follow-through are what turn a complaint into loyalty.",
+    why: [
+      "Clear, friendly English communication with international customers",
+      "Escalation rules agreed upfront, so you stay in control",
+      "Experience working inside the major helpdesk platforms",
+      "Regular insight reports on what your customers are asking",
+    ],
+    faqs: [
+      { q: "Can your team support customers in US, UK and Australian time zones?", a: "Working hours are agreed with you. Nairobi's time zone (UTC+3) gives natural overlap with the UK and early overlap with US mornings and Australian afternoons, and other hours can be discussed depending on your needs." },
+      { q: "Do you provide 24/7 customer support?", a: "We don't promise 24/7 cover by default. We'll discuss your volumes and expectations and recommend a realistic arrangement." },
+      { q: "Will customers know they're talking to an outsourced team?", a: "That's your choice. Most clients have their assistant work under the company name as part of the team. We'll never misrepresent anything about your business to customers." },
+      { q: "Can you process refunds?", a: "Your assistant can process refunds and returns within the rules and permissions you set, and escalate anything outside them." },
+    ],
+    related: ["virtual-receptionist", "ecommerce-virtual-assistant", "sales-support"],
+  },
+  {
+    slug: "virtual-receptionist",
+    metaTitle: "Virtual Receptionist Services | Remote Call Answering & Booking | Bravura VA",
+    metaDescription: "A remote virtual receptionist to answer calls, take messages, screen enquiries, book appointments and follow up, so no customer or lead slips through. Human support from Nairobi, Kenya.",
+    hero: {
+      eyebrow: "Virtual Receptionist",
+      headline: "Never Let Another Enquiry Go to Voicemail.",
+      intro: "Every missed call could be a new customer calling someone else. A Bravura VA virtual receptionist answers calls professionally, takes accurate messages, books appointments and makes sure every enquiry gets a response, without you hiring a front-desk team.",
+    },
+    overview: [
+      "For many businesses, the phone is still where the most valuable conversations start: a homeowner needing an urgent repair, a patient booking an appointment, a client with a question about their order. But when you're on a job site, in a meeting or with another customer, answering every call isn't realistic.",
+      "A virtual receptionist gives your business a consistent, professional first point of contact. Calls are answered with your business name, callers are helped or routed, and every interaction is logged so you can follow up. Appointments can be booked directly into your calendar or scheduling system.",
+      "Because reception work is often about juggling, our receptionists also handle the related admin: returning missed calls, sending confirmation emails, managing booking changes and keeping a clean record of enquiries.",
+    ],
+    taskGroups: [
+      { title: "Call handling", items: ["Answering calls in your business name", "Screening and routing calls to the right person", "Accurate message taking and instant notifications", "Returning missed calls and voicemails"] },
+      { title: "Appointments", items: ["Booking into your calendar or booking system", "Rescheduling and cancellations", "Appointment confirmations and reminders", "Managing waitlists"] },
+      { title: "Enquiries", items: ["Answering common questions from a script", "Capturing new lead details", "Sending information packs and quotes", "Logging enquiries in your CRM"] },
+      { title: "Front-office admin", items: ["Managing the shared inbox", "Updating customer records", "Daily call and enquiry summaries", "Coordinating with your field team"] },
+    ],
+    audience: [
+      { title: "Home service businesses", text: "Plumbers, electricians, cleaners and contractors who can't answer the phone mid-job." },
+      { title: "Clinics and wellness practices", text: "Non-clinical appointment booking and reminders, scoped carefully for privacy requirements." },
+      { title: "Law firms and professional offices", text: "Professional call handling and intake admin for busy fee earners." },
+      { title: "Real estate and property teams", text: "Enquiries about listings and viewings captured and booked without delay." },
+    ],
+    benefits: [
+      { title: "More enquiries converted", text: "Callers reach a real person instead of voicemail.", icon: "phoneCall" },
+      { title: "A professional first impression", text: "Every call answered consistently, in your business name.", icon: "smile" },
+      { title: "Fewer interruptions", text: "Focus on your work while calls are handled and summarized.", icon: "shield" },
+      { title: "Organized follow-up", text: "Every enquiry logged with details and next steps.", icon: "listChecks" },
+    ],
+    workflows: [
+      { title: "A new customer calls about a quote", steps: ["Your receptionist answers in your business name", "Captures the caller's details and job requirements using your intake script", "Books a site visit or call-back into your calendar", "Sends you a summary and the customer a confirmation email"] },
+      { title: "End-of-day wrap-up", steps: ["Your receptionist reviews the day's calls and messages", "Returns any missed calls during working hours", "Updates the CRM with outcomes", "Sends a daily summary listing anything that needs your attention"] },
+    ],
+    software: ["RingCentral", "Aircall", "Dialpad", "Zoom Phone", "Google Voice", "Microsoft Teams Phone", "Calendly", "Acuity Scheduling", "Jobber", "Housecall Pro", "HubSpot", "Google Calendar", "WhatsApp Business", "Slack"],
+    support: [
+      "We'll work with you to design a simple call flow: how calls are answered, which questions the receptionist can answer, how messages reach you, and what counts as urgent. Calls are typically routed to your receptionist through your existing business phone system or a cloud phone provider.",
+      "Your receptionist follows a call script that we refine together after the first few weeks. You'll receive instant notifications for important messages and a daily summary of all activity.",
+    ],
+    humanAi: "AI voice agents are improving, and some businesses use them for simple after-hours messages. But callers with urgent problems, complex questions or real frustration still want a human. A virtual receptionist listens, reassures, asks the right follow-up questions and makes a judgment call about urgency, things that protect your reputation on the calls that matter most.",
+    why: [
+      "Clear, professional English phone manner",
+      "Call scripts and escalation rules agreed with you",
+      "Integrates with common cloud phone and booking systems",
+      "Daily summaries so nothing gets lost",
+    ],
+    faqs: [
+      { q: "How do calls get to the receptionist?", a: "Usually through call forwarding or a shared line in a cloud phone system such as RingCentral, Aircall or Dialpad. We'll help you choose a setup that works with your current number." },
+      { q: "Will the receptionist answer in my business name?", a: "Yes. Your receptionist answers as part of your team using an agreed greeting." },
+      { q: "What hours can the receptionist cover?", a: "Coverage hours are agreed during onboarding based on your time zone and call patterns. We don't promise 24/7 coverage by default." },
+      { q: "Can a receptionist support a healthcare practice?", a: "We can provide non-clinical admin such as appointment scheduling, but privacy obligations (for example HIPAA in the US) must be assessed before work begins. Receptionists never give medical advice." },
+    ],
+    related: ["customer-support", "inbox-calendar-management", "sales-support"],
+  },
+  {
+    slug: "lead-generation",
+    metaTitle: "Lead Generation Virtual Assistant | Prospect Research & Lists | Bravura VA",
+    metaDescription: "Lead generation virtual assistants for prospect research, targeted list building, contact verification, lead qualification and CRM entry. Human-led B2B lead support from Nairobi, Kenya.",
+    hero: {
+      eyebrow: "Lead Generation",
+      headline: "More Qualified Prospects. Less Time Hunting for Them.",
+      intro: "Your sales team should be talking to prospects, not searching for them. A lead generation assistant researches your ideal customers, builds accurate prospect lists, qualifies leads and keeps your CRM stocked, so every week starts with real opportunities.",
+    },
+    overview: [
+      "Most businesses don't have a lead problem, they have a time problem. Finding the right companies, identifying decision-makers, verifying contact details and qualifying interest is slow, meticulous work. When it's squeezed into a salesperson's day, it's done inconsistently, and pipelines run dry.",
+      "Our lead generation support takes on the research-heavy part of prospecting. Working from a clear profile of your ideal customer, your assistant builds targeted lists, enriches them with relevant details, checks the information and loads it into your CRM. Inbound leads can be qualified too, so your team spends time on the ones most likely to buy.",
+      "We focus on responsible, quality-first lead generation: accurate data, compliant outreach preparation and lists built around your real buyers, not volume for its own sake.",
+    ],
+    taskGroups: [
+      { title: "Prospect research", items: ["Defining and refining your ideal customer profile", "Finding target companies by industry, size and location", "Identifying decision-makers and roles", "Researching trigger events and buying signals"] },
+      { title: "List building", items: ["Building segmented prospect lists", "Verifying emails and company details", "Removing duplicates and existing customers", "Enriching records with relevant notes"] },
+      { title: "Lead qualification", items: ["Reviewing inbound leads against your criteria", "Researching fit before a sales call", "Scoring and prioritizing leads", "Routing qualified leads to the right salesperson"] },
+      { title: "Outreach preparation", items: ["Loading sequences into your outreach tool", "Personalizing first lines from research", "Tracking replies and booking meetings", "Keeping opt-outs and suppression lists current"] },
+    ],
+    audience: [
+      { title: "B2B startups", text: "Need a steady flow of target accounts while founders sell." },
+      { title: "Agencies and consultancies", text: "Want to build a pipeline beyond referrals without hiring a full SDR team." },
+      { title: "Recruitment firms", text: "Need research on hiring companies and decision-makers in specific sectors." },
+      { title: "SaaS sales teams", text: "Want reps focused on calls and demos while research happens in the background." },
+    ],
+    benefits: [
+      { title: "A fuller pipeline", text: "Consistent weekly research means fewer dry spells.", icon: "trendingUp" },
+      { title: "Better-fit prospects", text: "Lists built around your ideal customer, not generic databases.", icon: "target" },
+      { title: "More selling time", text: "Your salespeople spend their hours in conversations, not spreadsheets.", icon: "clock" },
+      { title: "Cleaner CRM data", text: "Accurate, verified records that make reporting meaningful.", icon: "database" },
+    ],
+    workflows: [
+      { title: "Weekly prospecting sprint", steps: ["Each Monday your assistant researches 50-100 new target accounts matching your profile", "Identifies relevant decision-makers and verifies contact details", "Adds research notes and personalization points", "Imports the batch into your CRM, tagged and ready for outreach"] },
+      { title: "Qualifying an inbound lead", steps: ["A new form submission arrives", "Your assistant researches the company and contact", "Scores the lead against your criteria", "Books a call with sales or adds the lead to a nurture list, as agreed"] },
+    ],
+    software: ["LinkedIn Sales Navigator", "Apollo", "ZoomInfo", "Hunter", "HubSpot", "Salesforce", "Pipedrive", "Close", "Lemlist", "Instantly", "Outreach", "Google Sheets", "Airtable", "Clay"],
+    support: [
+      "We begin by getting specific about who you sell to: industry, company size, geography, roles and any disqualifiers. If your ideal customer profile isn't written down yet, we'll help you capture it from your best existing customers.",
+      "Your assistant then works in regular batches, with quality checks and a clear handover into your CRM or outreach tool. We'll review results with you and refine the targeting based on what's converting.",
+    ],
+    humanAi: "Data tools and AI can surface large lists quickly, but much of that data is outdated, mismatched or simply wrong. A human researcher checks whether a company genuinely fits, whether the contact still holds the role, and what would make an outreach message relevant. That's the difference between a list and a pipeline.",
+    why: [
+      "Lists built to your profile, checked by a person",
+      "Quality over volume: fewer bounces, better conversations",
+      "Respect for data-protection and email marketing rules in your markets",
+      "Seamless handover into your existing CRM and tools",
+    ],
+    faqs: [
+      { q: "Do you send cold emails on our behalf?", a: "Your assistant can prepare and load outreach in your tools and manage replies. Sending strategy, messaging approval and compliance with laws in your market (such as CAN-SPAM, PECR/UK GDPR or Australia's Spam Act) remain your decision, and we'll follow the rules you set." },
+      { q: "Where does the data come from?", a: "From publicly available business sources and the prospecting tools you subscribe to. We don't scrape in breach of site terms or buy questionable lists." },
+      { q: "How many leads can an assistant produce?", a: "It depends on how niche your market is and how much research each record needs. We'll agree realistic targets after a short pilot rather than promising a number upfront." },
+      { q: "Can you qualify leads by phone?", a: "Yes, if agreed. Your assistant can make qualification calls using an agreed script and book meetings for your sales team." },
+    ],
+    related: ["sales-support", "data-entry-research", "customer-support"],
+  },
+  {
+    slug: "sales-support",
+    metaTitle: "Sales Support Virtual Assistant | CRM, Follow-ups & Appointment Setting | Bravura VA",
+    metaDescription: "Sales support virtual assistants for CRM administration, lead qualification, appointment setting, sales follow-ups, pipeline updates and outreach preparation. Human-led support from Nairobi, Kenya.",
+    hero: {
+      eyebrow: "Sales Support",
+      headline: "Let Your Sellers Sell. We'll Handle the Admin Around It.",
+      intro: "Salespeople spend a surprising share of their week on everything except selling: updating the CRM, chasing follow-ups, booking meetings and preparing proposals. A sales support assistant takes that load off, so deals keep moving and nothing goes cold.",
+    },
+    overview: [
+      "Deals are rarely lost in the big moments. They're lost in the gaps: the follow-up that didn't go out, the proposal that took a week, the CRM note nobody wrote so the next conversation started from scratch. As a business grows, those gaps multiply.",
+      "Sales support assistants keep the machinery of your sales process running smoothly. They keep the CRM accurate, make sure every lead gets timely follow-up, book meetings into your team's calendars, prepare documents and keep the pipeline report current.",
+      "With the admin handled, your sales team has more time and energy for what actually wins business: preparing well, listening to customers and closing.",
+    ],
+    taskGroups: [
+      { title: "CRM administration", items: ["Logging calls, emails and meeting notes", "Updating deal stages and next steps", "Cleaning and de-duplicating records", "Maintaining pipeline reports and dashboards"] },
+      { title: "Follow-ups", items: ["Post-meeting follow-up emails", "Re-engaging stalled deals with agreed messaging", "Reminders for renewals and check-ins", "Chasing paperwork and signatures"] },
+      { title: "Appointment setting", items: ["Booking discovery calls and demos", "Confirming and rescheduling meetings", "Pre-meeting research and briefing notes", "Reminders to reduce no-shows"] },
+      { title: "Sales documents", items: ["Formatting proposals and quotes", "Updating decks and sales collateral", "Preparing contracts for review", "Organizing case studies and references"] },
+    ],
+    audience: [
+      { title: "Founder-led sales teams", text: "Founders still closing deals need someone keeping the pipeline organized." },
+      { title: "Small B2B sales teams", text: "A shared assistant boosts the whole team's productivity without another quota-carrying hire." },
+      { title: "Agencies and consultancies", text: "Proposals, follow-ups and onboarding paperwork handled promptly." },
+      { title: "Real estate and financial services", text: "High-touch client processes with lots of scheduling and paperwork." },
+    ],
+    benefits: [
+      { title: "More selling time", text: "Admin moves off your sellers' calendars.", icon: "clock" },
+      { title: "No more cold leads", text: "Systematic follow-up keeps every opportunity warm.", icon: "repeat" },
+      { title: "Accurate forecasting", text: "An up-to-date CRM means pipeline reports you can rely on.", icon: "chart" },
+      { title: "Faster proposals", text: "Documents prepared and sent while interest is high.", icon: "fileText" },
+    ],
+    workflows: [
+      { title: "After a discovery call", steps: ["Your salesperson drops quick notes in Slack", "Your assistant logs the meeting in the CRM and updates the deal stage", "Drafts a follow-up email with the agreed next steps for approval", "Books the next meeting and sets a reminder task"] },
+      { title: "Monday pipeline review", steps: ["Your assistant checks every open deal for missing next steps", "Flags deals with no activity in 14 days", "Updates the pipeline dashboard", "Sends the sales lead a summary before the team meeting"] },
+    ],
+    software: ["HubSpot", "Salesforce", "Pipedrive", "Zoho CRM", "Close", "Monday Sales CRM", "PandaDoc", "DocuSign", "Proposify", "Calendly", "Chili Piper", "Gong", "Google Workspace", "Microsoft 365"],
+    support: [
+      "We'll map your sales process with you (stages, handoffs, required fields and follow-up rules) so your assistant knows exactly what good looks like. Where your process has gaps, we'll suggest simple improvements based on what we see.",
+      "Your assistant works inside your CRM and communication tools with clear permissions, and supports one salesperson or a whole team. Weekly check-ins keep priorities aligned with your sales targets.",
+    ],
+    humanAi: "CRMs now offer AI-generated summaries and suggested follow-ups, and your assistant can use those features where you've enabled them. But knowing that a prospect went quiet because of a budget freeze, or that a particular buyer prefers a phone call, comes from paying attention. A human sales assistant connects those dots and keeps follow-up genuinely personal.",
+    why: [
+      "Assistants who understand sales processes and CRM discipline",
+      "Professional written communication with international buyers",
+      "Clear permissions and approval steps for outbound messages",
+      "Flexible support for one seller or a whole team",
+    ],
+    faqs: [
+      { q: "Can a sales assistant close deals?", a: "No. Closing stays with your sales team. Assistants support the process around the sale: research, admin, follow-ups and scheduling." },
+      { q: "Do you need access to our CRM?", a: "Yes, ideally with a dedicated user account and permissions appropriate to their tasks." },
+      { q: "Can the assistant send emails from my account?", a: "If you choose. Many teams prefer the assistant drafts and schedules, with the salesperson approving. We'll agree what works for you." },
+      { q: "Is sales support suitable for a single salesperson?", a: "Yes. Part-time support for one busy seller is a common starting point." },
+    ],
+    related: ["lead-generation", "customer-support", "data-entry-research"],
+  },
+];

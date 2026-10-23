@@ -1,0 +1,201 @@
+import type { LocationPage } from "./types";
+
+const uk = {
+  zone: "GMT / BST",
+  difference: "Nairobi is 3 hours ahead of the UK in winter (GMT) and 2 hours ahead in summer (BST).",
+  overlap: "Your assistant can work a schedule covering your full working day (for example, 11am-8pm Nairobi time matches 9am-6pm UK time in summer).",
+};
+const aus = (zone: string, diff: string) => ({
+  zone,
+  difference: diff,
+  overlap: "Your afternoon overlaps with the Nairobi morning. Many clients brief their assistant after lunch and receive completed work by the next morning.",
+});
+
+export const cityPages: LocationPage[] = [
+  {
+    slug: "london", parent: "uk", name: "London",
+    metaTitle: "Virtual Assistant London | Virtual PA & Remote Admin Support | Bravura VA",
+    metaDescription: "Virtual assistant and virtual PA services for London founders, SMEs, agencies and professional firms. Remote support from Nairobi, just 2-3 hours ahead of London time.",
+    eyebrow: "Virtual assistants for London businesses", h1: "Virtual Assistant and Virtual PA Services for London Businesses",
+    intro: "London moves quickly, and so does the work behind every London business. Bravura VA provides professional virtual PAs and assistants who can cover your whole working day from Nairobi, without London overheads.",
+    image: "womanGlasses",
+    context: { title: "Support for London's fast-paced businesses", paragraphs: [
+      "London is one of the world's leading centres for financial and professional services, and a hub for startups, fintech, creative agencies and media. Founders and directors juggle packed diaries, client demands and fast-moving teams.",
+      "Office space and salaries in London are among the highest in the UK, so adding support locally can be a significant commitment. A remote virtual PA or assistant offers a flexible alternative for diary management, inbox support, client coordination and business admin.",
+      "With Nairobi only two to three hours ahead, your assistant can be online for the whole London working day, ready for live calls, quick turnarounds and real-time collaboration.",
+    ] },
+    timezone: { ...uk, tips: ["Full-day overlap is straightforward", "Morning prep done before you arrive", "Quick turnaround on same-day requests", "British English and conventions by default"] },
+    industries: [
+      { name: "Startups", slug: "startups", why: "Flexible support for London founders." },
+      { name: "Financial Services", slug: "financial-services", why: "Admin support under your firm's supervision." },
+      { name: "Marketing Agencies", slug: "marketing-agencies", why: "Coordination and production capacity." },
+      { name: "Legal Services", slug: "legal-services", why: "Diary and document admin." },
+    ],
+    services: ["executive-virtual-assistant", "inbox-calendar-management", "project-management-support", "social-media-management"],
+    considerations: { title: "Considerations for London businesses", points: [
+      "UK GDPR and the Data Protection Act 2018 apply to personal data; we'll agree a data processing approach where needed.",
+      "FCA-regulated firms must consider outsourcing and operational resilience requirements before delegating.",
+      "Your assistant can use British English, UK date formats and UK business conventions.",
+    ] },
+    faqs: [
+      { q: "Can a virtual PA support a London director full-time?", a: "Yes. Dedicated support can cover the full UK working day thanks to the small time difference." },
+      { q: "Do you meet clients in person in London?", a: "No. We work remotely from Nairobi, Kenya, and meet clients by video call." },
+      { q: "Can you invoice in GBP?", a: "Yes, we can quote and invoice in pounds sterling." },
+    ],
+  },
+  {
+    slug: "manchester", parent: "uk", name: "Manchester",
+    metaTitle: "Virtual Assistant Manchester | Remote Admin & Business Support | Bravura VA",
+    metaDescription: "Virtual assistant services for Manchester businesses: digital and creative agencies, tech startups, professional services and SMEs. Remote support from Nairobi covering UK hours.",
+    eyebrow: "Virtual assistants for Manchester businesses", h1: "Virtual Assistant Services for Manchester Businesses",
+    intro: "Manchester has become one of the UK's most dynamic cities for digital, creative and tech businesses. Bravura VA helps Manchester companies scale with remote assistants who work in step with the UK day.",
+    image: "teamCouch",
+    context: { title: "Support for Manchester's digital and creative economy", paragraphs: [
+      "Greater Manchester is home to a thriving digital, media and creative scene (including MediaCityUK in Salford) alongside professional services, education, healthcare and a growing startup community.",
+      "Agencies and tech companies in the city often face a familiar challenge: client work grows faster than the operations around it. A remote assistant can take on project coordination, reporting, scheduling and customer support so teams stay focused on delivery.",
+      "With Nairobi just two to three hours ahead, your assistant works the same hours as your team.",
+    ] },
+    timezone: { ...uk, tips: ["Same working hours as your team", "Join stand-ups and team calls live", "Fast same-day turnaround", "British English by default"] },
+    industries: [
+      { name: "Marketing Agencies", slug: "marketing-agencies", why: "Coordination and production help." },
+      { name: "Technology & SaaS", slug: "technology-saas", why: "Support and operations capacity." },
+      { name: "Education", slug: "education", why: "Course and enrolment admin." },
+      { name: "Small Businesses", slug: "small-businesses", why: "Everyday admin and customer support." },
+    ],
+    services: ["project-management-support", "customer-support", "graphic-design", "administrative-support"],
+    considerations: { title: "Considerations for Manchester businesses", points: [
+      "UK GDPR applies to personal data your assistant handles; we'll agree a data processing approach.",
+      "Agencies can use assistants white-label under their own brand.",
+      "Support can scale with project pipelines and client wins.",
+    ] },
+    faqs: [
+      { q: "Can your assistant join our team's daily stand-up?", a: "Yes. The small time difference makes live participation easy." },
+      { q: "Do you support Manchester agencies?", a: "Yes, with coordination, reporting, design production and social media support." },
+      { q: "Do you have a Manchester office?", a: "No. We support Manchester businesses remotely from Nairobi, Kenya." },
+    ],
+  },
+  {
+    slug: "birmingham", parent: "uk", name: "Birmingham",
+    metaTitle: "Virtual Assistant Birmingham | Remote Admin & PA Support | Bravura VA",
+    metaDescription: "Virtual assistant services for Birmingham and West Midlands businesses: professional services, manufacturing admin, property, construction and SMEs. Remote support covering UK hours.",
+    eyebrow: "Virtual assistants for Birmingham businesses", h1: "Virtual Assistant Services for Birmingham Businesses",
+    intro: "As the UK's second city, Birmingham has a broad business base: from professional services to manufacturing, property and construction. Bravura VA gives Birmingham businesses dependable remote support across the full UK day.",
+    image: "womanOfficeLaptop2",
+    context: { title: "Support for the West Midlands' broad business base", paragraphs: [
+      "Birmingham and the wider West Midlands combine a large professional and financial services sector with a long manufacturing heritage, a busy property and construction market and thousands of small businesses.",
+      "Those businesses often run lean back offices. Remote assistants can manage diaries, process paperwork, update systems, coordinate suppliers and answer customer enquiries, without adding to office costs.",
+      "With Nairobi only two to three hours ahead of UK time, collaboration feels like working with a colleague down the corridor.",
+    ] },
+    timezone: { ...uk, tips: ["Full UK working-day coverage", "Live phone and video support", "Paperwork processed same-day", "British English by default"] },
+    industries: [
+      { name: "Construction", slug: "construction", why: "Document control and scheduling admin." },
+      { name: "Property Management", slug: "property-management", why: "Tenant and maintenance coordination." },
+      { name: "Consulting", slug: "consulting", why: "Diary and proposal support." },
+      { name: "Small Businesses", slug: "small-businesses", why: "Everyday admin and customer service." },
+    ],
+    services: ["administrative-support", "virtual-receptionist", "bookkeeping-administration", "operations-support"],
+    considerations: { title: "Considerations for Birmingham businesses", points: [
+      "UK GDPR applies to personal data your assistant handles.",
+      "Bookkeeping administration supports your accountant and doesn't replace professional advice.",
+      "Construction and property firms can delegate document control and supplier coordination.",
+    ] },
+    faqs: [
+      { q: "Can a remote assistant answer our office phones?", a: "Yes, through call forwarding or a cloud phone system, during agreed UK hours." },
+      { q: "Can you support manufacturing businesses?", a: "Yes, with administrative work such as order processing, supplier communication and data entry." },
+      { q: "Do you have a Birmingham office?", a: "No. We support Birmingham businesses remotely from Nairobi, Kenya." },
+    ],
+  },
+  {
+    slug: "sydney", parent: "australia", name: "Sydney",
+    metaTitle: "Virtual Assistant Sydney | Remote VA Support for Sydney Businesses | Bravura VA",
+    metaDescription: "Virtual assistant services for Sydney businesses: professional services, real estate, e-commerce and startups. Human-led remote support from Nairobi with next-morning turnaround.",
+    eyebrow: "Virtual assistants for Sydney businesses", h1: "Virtual Assistant Services for Sydney Businesses",
+    intro: "Sydney is Australia's largest city and a hub for financial services, professional services, property and startups. Bravura VA gives Sydney businesses a practical way to add capacity, with work progressing while you're offline.",
+    image: "womanLaptopLap",
+    context: { title: "Support for Sydney's busy businesses", paragraphs: [
+      "Sydney's economy is anchored by financial and professional services, with strong technology, property, tourism and creative sectors. Business owners face high operating costs and competitive hiring, which makes flexible remote support attractive.",
+      "Working with Nairobi creates a useful rhythm. Your afternoon overlaps with your assistant's morning, so you can hand over tasks after lunch, answer questions live, then find the work finished when you start the next day.",
+      "Assistants can follow Australian English and work in tools common in Sydney businesses, from Xero to realestate.com.au and Domain.",
+    ] },
+    timezone: { ...aus("AEST / AEDT", "Nairobi is 7 hours behind Sydney during AEST and 8 hours behind during AEDT (daylight saving)."), tips: ["Hand over tasks after lunch", "Live overlap in your afternoon", "Completed work ready next morning", "The gap changes by an hour with NSW daylight saving"] },
+    industries: [
+      { name: "Real Estate", slug: "real-estate", why: "Listing and lead admin for agents." },
+      { name: "Financial Services", slug: "financial-services", why: "Admin support under your supervision." },
+      { name: "E-commerce", slug: "ecommerce", why: "Store and customer operations." },
+      { name: "Startups", slug: "startups", why: "Flexible support for founders." },
+    ],
+    services: ["executive-virtual-assistant", "real-estate-virtual-assistant", "ecommerce-virtual-assistant", "bookkeeping-administration"],
+    considerations: { title: "Considerations for Sydney businesses", points: [
+      "The Privacy Act 1988 and Australian Privacy Principles may apply, including rules on disclosing personal information overseas.",
+      "AFSL holders and other regulated firms must consider outsourcing obligations before delegating.",
+      "Real estate licensing rules in NSW mean assistants provide admin support only.",
+    ] },
+    faqs: [
+      { q: "How do we communicate across the time difference?", a: "Use your afternoon for live calls and chat, plus async updates via Slack, email or a task board." },
+      { q: "Can you support Sydney real estate agents?", a: "Yes. Listing admin, CRM updates and enquiry responses are common tasks." },
+      { q: "Do you have a Sydney office?", a: "No. We support Sydney businesses remotely from Nairobi, Kenya." },
+    ],
+  },
+  {
+    slug: "melbourne", parent: "australia", name: "Melbourne",
+    metaTitle: "Virtual Assistant Melbourne | Remote VA Support for Melbourne Businesses | Bravura VA",
+    metaDescription: "Virtual assistant services for Melbourne businesses: startups, education and training providers, healthcare admin, creative agencies and small businesses. Remote support from Nairobi.",
+    eyebrow: "Virtual assistants for Melbourne businesses", h1: "Virtual Assistant Services for Melbourne Businesses",
+    intro: "Melbourne's business community spans education, healthcare, creative industries, startups and a vibrant small-business scene. Bravura VA helps Melbourne businesses delegate routine work to dependable remote assistants.",
+    image: "teamThreeWomen",
+    context: { title: "Support for Melbourne's diverse economy", paragraphs: [
+      "Melbourne is known for its universities and education providers, healthcare and research, creative and design industries, hospitality and a strong startup community. Many organizations here run lean teams and value practical, flexible support.",
+      "Education and training providers can delegate enrolment admin and learner communication; agencies can add production capacity; small businesses can hand over inbox, bookings and invoicing.",
+      "Your afternoon overlaps with the Nairobi morning, giving a daily window for live collaboration and next-morning delivery for everything else.",
+    ] },
+    timezone: { ...aus("AEST / AEDT", "Nairobi is 7 hours behind Melbourne during AEST and 8 hours behind during AEDT (daylight saving)."), tips: ["Brief your assistant in your afternoon", "Overnight progress on longer tasks", "Weekly priority check-ins", "Victoria observes daylight saving"] },
+    industries: [
+      { name: "Education", slug: "education", why: "Enrolment and LMS admin." },
+      { name: "Healthcare Administration", slug: "healthcare-administration", why: "Non-clinical admin after compliance review." },
+      { name: "Marketing Agencies", slug: "marketing-agencies", why: "Coordination and design production." },
+      { name: "Hospitality", slug: "hospitality", why: "Bookings, guest messaging and reviews." },
+    ],
+    services: ["administrative-support", "customer-support", "content-writing", "graphic-design"],
+    considerations: { title: "Considerations for Melbourne businesses", points: [
+      "The Privacy Act 1988 may apply, and health information has additional protections under Australian law.",
+      "Education providers should consider student data obligations before delegating.",
+      "Australian English and local conventions can be used throughout.",
+    ] },
+    faqs: [
+      { q: "Can you support a Melbourne training provider?", a: "Yes, with enrolment admin, scheduling, LMS management and learner communication." },
+      { q: "What's the best way to work across the time difference?", a: "Hand over in your afternoon during the overlap and review completed work the next morning." },
+      { q: "Do you have a Melbourne office?", a: "No. We support Melbourne businesses remotely from Nairobi, Kenya." },
+    ],
+  },
+  {
+    slug: "brisbane", parent: "australia", name: "Brisbane",
+    metaTitle: "Virtual Assistant Brisbane | Remote VA Support for Brisbane & Queensland | Bravura VA",
+    metaDescription: "Virtual assistant services for Brisbane and Queensland businesses in construction, property, tourism and small business. Remote support from Nairobi, a constant 7-hour time difference.",
+    eyebrow: "Virtual assistants for Brisbane businesses", h1: "Virtual Assistant Services for Brisbane Businesses",
+    intro: "Brisbane and South East Queensland are growing quickly, with major investment in construction, infrastructure and property ahead of the 2032 Olympic and Paralympic Games. Bravura VA helps Brisbane businesses manage the admin that comes with growth.",
+    image: "teamDiscussion",
+    context: { title: "Support for a growing Queensland economy", paragraphs: [
+      "Brisbane's economy includes construction, property, tourism, education, healthcare and a large small-business base. Population growth and major projects across South East Queensland mean many businesses are busier than ever.",
+      "Construction and property businesses in particular carry heavy administrative workloads: quotes, schedules, compliance documents and client updates. Remote assistants can manage much of that while teams focus on sites and clients.",
+      "Queensland doesn't observe daylight saving, and neither does Kenya, so the time difference stays a constant seven hours all year, which makes scheduling easy.",
+    ] },
+    timezone: { ...aus("AEST (no daylight saving)", "Nairobi is 7 hours behind Brisbane all year round, because neither Queensland nor Kenya changes clocks."), tips: ["The gap never changes", "Live overlap in your afternoon", "Overnight progress on admin and documents", "Morning summaries before you start"] },
+    industries: [
+      { name: "Construction", slug: "construction", why: "Document control and scheduling admin." },
+      { name: "Real Estate", slug: "real-estate", why: "Listing and lead admin." },
+      { name: "Hospitality", slug: "hospitality", why: "Guest communication and booking admin." },
+      { name: "Home Services", slug: "home-services", why: "Call handling and quote follow-up." },
+    ],
+    services: ["administrative-support", "project-management-support", "real-estate-virtual-assistant", "virtual-receptionist"],
+    considerations: { title: "Considerations for Brisbane businesses", points: [
+      "The Privacy Act 1988 and Australian Privacy Principles may apply to personal information your assistant handles.",
+      "Construction firms can delegate document control and subcontractor coordination; technical and safety decisions stay with your team.",
+      "Real estate licensing rules in Queensland mean assistants provide admin support only.",
+    ] },
+    faqs: [
+      { q: "Does the time difference change with daylight saving?", a: "No. Queensland and Kenya both stay on standard time, so it's always seven hours." },
+      { q: "Can you support Brisbane construction companies?", a: "Yes. Estimates admin, document control, scheduling and invoicing support." },
+      { q: "Do you have a Brisbane office?", a: "No. We support Brisbane businesses remotely from Nairobi, Kenya." },
+    ],
+  },
+];

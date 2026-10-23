@@ -1,0 +1,69 @@
+@import "@fontsource-variable/plus-jakarta-sans";
+@import "@fontsource-variable/inter";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-deep-teal: #0D292D;
+  --brand-aqua: #59C4D0;
+  --brand-orange: #FF981F;
+  --brand-pale-aqua: #E5F8F8;
+  --brand-off-white: #F8F9F5;
+  --brand-white: #FFFFFF;
+  --brand-dark-text: #10152E;
+  --brand-muted-text: #59686B;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+  body { @apply bg-white font-sans text-ink antialiased; text-rendering: optimizeLegibility; }
+  *, ::before, ::after { border-color: rgba(13, 41, 45, 0.1); }
+  h1, h2, h3, h4, h5 { @apply font-heading text-ink; letter-spacing: -0.02em; }
+  ::selection { background: var(--brand-aqua); color: var(--brand-deep-teal); }
+  :focus-visible { outline: 3px solid var(--brand-orange); outline-offset: 2px; border-radius: 6px; }
+  [id] { scroll-margin-top: 110px; }
+}
+
+@layer components {
+  .container-x { @apply mx-auto w-full max-w-container px-4 sm:px-6 lg:px-8; }
+  .eyebrow { @apply inline-flex items-center gap-2 font-heading text-xs font-bold uppercase tracking-[0.16em] text-ink; }
+  .eyebrow::before { content: ""; @apply inline-block h-2 w-2 rounded-full bg-orange; }
+  .h-display { @apply font-heading text-[2.35rem] font-extrabold leading-[1.08] sm:text-5xl lg:text-[3.6rem]; }
+  .h-section { @apply font-heading text-3xl font-extrabold leading-tight sm:text-4xl lg:text-[2.75rem]; }
+  .lead { @apply text-lg leading-relaxed text-ink-muted; }
+  .card { @apply rounded-3xl bg-white shadow-card; }
+  .input { @apply w-full rounded-2xl border border-teal/10 bg-white px-4 py-3 text-[15px] text-ink placeholder:text-ink-muted/70 transition focus:border-aqua focus:outline-none focus:ring-4 focus:ring-aqua/25; }
+  .label { @apply mb-1.5 block text-sm font-semibold text-ink; }
+
+  /* Long-form article / legal typography */
+  .prose-brand { @apply text-[17px] leading-[1.8] text-ink/90; }
+  .prose-brand > * + * { @apply mt-5; }
+  .prose-brand h2 { @apply mt-12 font-heading text-2xl font-extrabold text-ink sm:text-[1.75rem]; }
+  .prose-brand h3 { @apply mt-8 font-heading text-xl font-bold text-ink; }
+  .prose-brand a { @apply font-semibold text-teal underline decoration-aqua decoration-2 underline-offset-4 hover:decoration-orange; }
+  .prose-brand ul { @apply list-none space-y-2 pl-0; }
+  .prose-brand ul > li { @apply relative pl-7; }
+  .prose-brand ul > li::before { content: ""; @apply absolute left-1 top-[0.7em] h-2 w-2 rounded-full bg-aqua; }
+  .prose-brand ol { @apply list-decimal space-y-2 pl-6 marker:font-bold marker:text-teal; }
+  .prose-brand strong { @apply font-semibold text-ink; }
+  .prose-brand blockquote { @apply rounded-2xl border-l-4 border-orange bg-offwhite px-6 py-4 italic text-ink; }
+  .prose-brand table { @apply w-full overflow-hidden rounded-2xl text-left text-[15px]; }
+  .prose-brand th { @apply bg-teal px-4 py-3 font-heading font-bold text-white; }
+  .prose-brand td { @apply border-b border-teal/10 px-4 py-3 align-top; }
+  .prose-brand tr:nth-child(even) td { @apply bg-offwhite; }
+  .prose-brand hr { @apply my-10 border-teal/10; }
+}
+
+@layer utilities {
+  .js .reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease; }
+  .js .reveal.is-visible { opacity: 1; transform: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { scrollbar-width: none; }
+  .bg-dots { background-image: radial-gradient(rgba(89,196,208,.35) 1.5px, transparent 1.5px); background-size: 22px 22px; }
+}

@@ -1,0 +1,228 @@
+import type { ServiceContent } from "./types";
+
+export const creativeServices: ServiceContent[] = [
+  {
+    slug: "content-writing",
+    metaTitle: "Content Writing Virtual Assistant | Blogs, Newsletters & Web Copy | Bravura VA",
+    metaDescription: "Content writing support for blog posts, newsletters, product descriptions, website copy and social captions: researched, written for real readers and edited to your brand voice.",
+    hero: {
+      eyebrow: "Content Writing",
+      headline: "Consistent, Useful Content, Without Writing It All Yourself.",
+      intro: "You know content helps customers find and trust you. You just don't have time to write it. Our content writing support produces clear, researched, on-brand content for your blog, newsletter, website and social channels, reviewed by you before anything goes live.",
+    },
+    overview: [
+      "Most business owners have a list of content they mean to write: the blog post answering a common customer question, the monthly newsletter, the updated About page, product descriptions that actually sell. It all matters, but it keeps getting pushed down the list by more urgent work.",
+      "Content writing support turns that list into a steady publishing rhythm. Your writer learns your audience, your expertise and your voice, then researches and drafts content that's genuinely useful to readers. You review, add your perspective and approve, far quicker than writing from scratch.",
+      "We write for people first. That means plain language, practical examples and accurate information, with sensible search optimization built in rather than forced. No keyword stuffing, no generic filler, and no invented statistics.",
+    ],
+    taskGroups: [
+      { title: "Blog & articles", items: ["Topic research based on customer questions", "Outlines and full drafts", "Editing and updating older posts", "Internal linking and metadata"] },
+      { title: "Email & newsletters", items: ["Monthly newsletters", "Welcome and nurture sequences", "Promotional emails", "Customer announcements"] },
+      { title: "Website & product copy", items: ["Service and landing page copy", "About and team pages", "Product descriptions", "FAQs and help content"] },
+      { title: "Repurposing", items: ["Turning articles into social posts", "Summaries of webinars and podcasts", "Case study write-ups from interviews", "Simple lead magnets and guides"] },
+    ],
+    audience: [
+      { title: "Service businesses and consultants", text: "Experts who want to share knowledge without spending evenings writing." },
+      { title: "E-commerce brands", text: "Stores needing large volumes of consistent product and category copy." },
+      { title: "Agencies", text: "Teams needing reliable writing capacity for client content." },
+      { title: "Startups", text: "Founders building awareness and search visibility on a lean budget." },
+    ],
+    benefits: [
+      { title: "A consistent publishing rhythm", text: "Content goes out on schedule instead of in bursts.", icon: "calendar" },
+      { title: "Your voice, preserved", text: "A writer who learns how you sound and what you believe.", icon: "pen" },
+      { title: "Search-friendly by default", text: "Clear structure and sensible optimization without keyword stuffing.", icon: "search" },
+      { title: "Faster approvals", text: "Reviewing a strong draft takes minutes, not hours.", icon: "zap" },
+    ],
+    workflows: [
+      { title: "Monthly blog post", steps: ["Your writer proposes three topics based on customer questions and search interest", "You pick one and share a few thoughts on a quick voice note", "Your writer researches and drafts the article with headings, links and metadata", "You review, add comments, and the final version is formatted in your CMS"] },
+      { title: "Newsletter in an hour of your time", steps: ["Your writer gathers updates, recent posts and offers", "Drafts the newsletter in your email platform", "Sends you a test email to approve", "Schedules it and reports on opens and clicks afterwards"] },
+    ],
+    software: ["WordPress", "Webflow", "Shopify", "Squarespace", "Google Docs", "Notion", "Grammarly", "Hemingway", "Mailchimp", "Klaviyo", "ConvertKit", "Beehiiv", "HubSpot", "Canva"],
+    support: [
+      "We start by building a short brand voice guide together: your audience, tone, words you love and words you hate, plus examples you're proud of. Your writer also gathers source material, your expertise, product details and customer questions, so content reflects real knowledge.",
+      "Every piece is reviewed by you before publication. Over time, as your writer learns your style, approvals get faster and edits lighter.",
+    ],
+    humanAi: "AI writing tools can generate a draft in seconds, and where you approve it your writer may use them for research prompts or first outlines. But AI-generated text is often generic and can contain errors stated with confidence. Readers, and search engines, reward content that's accurate, specific and genuinely helpful. Your writer checks facts, adds real examples and writes in your voice, so the content earns trust.",
+    why: [
+      "Writers fluent in American, British or Australian English as needed",
+      "People-first content with no invented statistics or claims",
+      "Collaborative process with your approval on everything",
+      "Can combine with social media and design support",
+    ],
+    faqs: [
+      { q: "Will content be written in American or British English?", a: "Whichever your audience uses. We'll agree spelling and style conventions at the start." },
+      { q: "Do you use AI to write content?", a: "Only where you approve it, and never as a replacement for a human writer's research, judgment and editing. We'll tell you how tools are used on your account." },
+      { q: "Can you write about technical or specialist topics?", a: "Yes, with input from you. For regulated subjects such as health, legal or financial topics, content should be reviewed by a qualified professional before publication." },
+      { q: "Do you guarantee search rankings?", a: "No one can honestly guarantee rankings. We write high-quality, well-structured content that gives you the best chance of being found." },
+    ],
+    related: ["social-media-management", "graphic-design", "website-technical-support"],
+  },
+  {
+    slug: "graphic-design",
+    metaTitle: "Graphic Design Virtual Assistant | Social Graphics & Presentations | Bravura VA",
+    metaDescription: "Graphic design support for social media graphics, presentations, documents, marketing materials and brand templates: on-brand, quick-turnaround design from a remote assistant.",
+    hero: {
+      eyebrow: "Graphic Design",
+      headline: "On-Brand Designs, Without Waiting on an Agency.",
+      intro: "Your business needs a steady stream of visuals: social posts, presentations, proposals, ads and flyers. Our graphic design support delivers professional, on-brand designs quickly, so your marketing looks polished without you wrestling with design tools.",
+    },
+    overview: [
+      "Good design builds trust. A clean presentation, a consistent social feed and a professional proposal all tell customers you take your business seriously. But everyday design work is constant, and agencies are often too slow or expensive for the small, frequent requests most businesses have.",
+      "A design assistant fills that gap. They work from your brand guidelines, or help create simple ones, to produce graphics, presentations and marketing materials on a regular schedule. Templates are built so your team can make quick edits too.",
+      "Our design support is ideal for day-to-day, production-focused design. For major brand identity projects, we'll be honest about when a specialist brand agency might be the better choice.",
+    ],
+    taskGroups: [
+      { title: "Social media graphics", items: ["Post and story graphics", "Carousel designs", "Quote and announcement templates", "Event and promotion visuals"] },
+      { title: "Presentations & documents", items: ["Pitch and sales decks", "Proposal and report layouts", "Branded document templates", "Webinar and training slides"] },
+      { title: "Marketing materials", items: ["Flyers and brochures", "Email headers and banners", "Simple ad creatives", "Website images and banners"] },
+      { title: "Brand consistency", items: ["Template libraries in Canva", "Basic brand style guides", "Resizing for different platforms", "Organizing brand asset folders"] },
+    ],
+    audience: [
+      { title: "Small businesses", text: "Who want a professional look without a full-time designer." },
+      { title: "Coaches and consultants", text: "Needing polished decks, workbooks and social content." },
+      { title: "Real estate professionals", text: "Listing flyers, social posts and presentation materials." },
+      { title: "Marketing teams and agencies", text: "Extra production capacity for everyday design requests." },
+    ],
+    benefits: [
+      { title: "Faster turnaround", text: "Everyday design requests handled without agency lead times.", icon: "zap" },
+      { title: "Consistent branding", text: "Templates and guidelines keep everything on-brand.", icon: "palette" },
+      { title: "Professional impressions", text: "Polished materials that build credibility.", icon: "star" },
+      { title: "Editable templates", text: "Your team can make simple changes themselves.", icon: "layers" },
+    ],
+    workflows: [
+      { title: "Monthly social graphics", steps: ["Your content calendar is agreed for the month", "Your designer creates graphics for each post using your templates", "You review all designs in one batch", "Final files are delivered or scheduled directly"] },
+      { title: "Refreshing a sales deck", steps: ["You share your current deck and key messages", "Your designer proposes a refreshed layout using your brand", "Builds the full deck with icons, charts and imagery", "Creates a master template so future decks stay consistent"] },
+    ],
+    software: ["Canva", "Adobe Express", "Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign", "Figma", "Google Slides", "PowerPoint", "Keynote", "Unsplash", "Pexels", "Remove.bg", "Dropbox", "Google Drive"],
+    support: [
+      "We start with your brand assets: logo, colors, fonts and examples you like. If guidelines don't exist, your designer can create a simple one-page style guide as a first project.",
+      "Requests are managed through a shared board or channel so you can see what's in progress. We agree turnaround expectations based on your hours and typical request size.",
+    ],
+    humanAi: "AI image generators and design assistants can speed up some tasks, and your designer may use them where appropriate and properly licensed. But brand consistency, clear communication and design that suits your audience still depend on human taste and judgment. We also take care to use images and fonts you're licensed to use.",
+    why: [
+      "Production-focused design for everyday needs",
+      "Careful use of properly licensed images and fonts",
+      "Reusable templates that save your team time",
+      "Pairs well with content and social media support",
+    ],
+    faqs: [
+      { q: "Can you design a logo?", a: "Our focus is everyday design production. For a new logo or full brand identity, a specialist brand designer may be better, we'll advise honestly." },
+      { q: "Who owns the designs?", a: "Ownership of work produced for you is set out in your service agreement. Typically, final designs you've paid for belong to you, subject to third-party licenses for stock assets." },
+      { q: "Do you use Canva or Adobe?", a: "Both, depending on your needs and the tools you use. Many clients prefer Canva so their team can edit templates easily." },
+      { q: "How many designs can I get?", a: "It depends on complexity and hours. We'll scope realistic volumes after understanding your typical requests." },
+    ],
+    related: ["social-media-management", "content-writing", "website-technical-support"],
+  },
+  {
+    slug: "social-media-management",
+    metaTitle: "Social Media Management Virtual Assistant | Bravura VA",
+    metaDescription: "Social media management support: content calendars, post creation and scheduling, community management, engagement and monthly reporting across LinkedIn, Instagram, Facebook and more.",
+    hero: {
+      eyebrow: "Social Media Management",
+      headline: "Show Up Consistently on Social, Without Living on Your Phone.",
+      intro: "Posting regularly, replying to comments and keeping your profiles active takes more time than most business owners have. Our social media management support plans, creates, schedules and monitors your content so your brand stays visible and responsive.",
+    },
+    overview: [
+      "Social media rewards consistency. The businesses that build an audience are usually the ones that show up week after week with useful, recognizable content, and reply when people engage. That's hard to sustain alongside running a company.",
+      "A social media assistant takes on the day-to-day work: planning a content calendar, writing captions, creating or sourcing visuals, scheduling posts, replying to comments and messages, and reporting on what's working.",
+      "We focus on organic social media management and marketing administration. If you need paid advertising strategy, we'll be clear about what we can support and when a specialist is the better fit.",
+    ],
+    taskGroups: [
+      { title: "Planning", items: ["Monthly content calendars", "Content pillars and themes", "Campaign and launch planning", "Repurposing blog and video content"] },
+      { title: "Creation & scheduling", items: ["Caption writing in your voice", "Graphics and short-form visuals", "Hashtag and tagging research", "Scheduling across platforms"] },
+      { title: "Community management", items: ["Replying to comments and messages", "Flagging leads and complaints", "Engaging with relevant accounts", "Monitoring mentions"] },
+      { title: "Reporting & admin", items: ["Monthly performance reports", "Tracking follower and engagement trends", "Marketing admin and asset organization", "Ad campaign admin support"] },
+    ],
+    audience: [
+      { title: "Small businesses", text: "Who know they should be active on social but can't find the time." },
+      { title: "Coaches and personal brands", text: "Building authority on LinkedIn or Instagram." },
+      { title: "E-commerce brands", text: "Needing regular product content and responsive customer engagement." },
+      { title: "Agencies", text: "Extra capacity for client social accounts." },
+    ],
+    benefits: [
+      { title: "Consistent presence", text: "A steady posting schedule that builds recognition.", icon: "calendarCheck" },
+      { title: "Responsive engagement", text: "Comments and messages answered promptly.", icon: "chat" },
+      { title: "Less daily distraction", text: "Stop dipping into apps throughout the day.", icon: "shield" },
+      { title: "Clear results", text: "Monthly reporting on what's working.", icon: "chart" },
+    ],
+    workflows: [
+      { title: "Planning next month's content", steps: ["Your assistant reviews last month's performance", "Drafts a calendar with themes, post ideas and key dates", "You approve or adjust in one review session", "Captions and graphics are created and scheduled"] },
+      { title: "Daily community check", steps: ["Your assistant reviews new comments, mentions and messages", "Replies to routine questions using your guidelines", "Forwards leads and complaints to the right person", "Logs notable conversations for the monthly report"] },
+    ],
+    software: ["Meta Business Suite", "LinkedIn", "Instagram", "Facebook", "TikTok", "X", "Pinterest", "YouTube Studio", "Buffer", "Hootsuite", "Later", "Sprout Social", "Canva", "CapCut"],
+    support: [
+      "We'll agree goals, platforms, tone of voice, posting frequency and what your assistant can reply to without approval. Your assistant gets access through platform-native roles wherever possible, rather than shared passwords.",
+      "Content is approved in batches, so your involvement is focused and predictable. Monthly reports show performance and suggest improvements.",
+    ],
+    humanAi: "AI tools can suggest captions, hashtags or post ideas, and your assistant may use them with your approval. But audiences notice generic content, and comment sections need real judgment, especially when someone's unhappy. Your assistant writes in your voice, engages thoughtfully and knows when to escalate.",
+    why: [
+      "Consistent, on-brand content planning and posting",
+      "Thoughtful community engagement in your voice",
+      "Access managed through platform roles, not shared passwords",
+      "Honest reporting without vanity-metric spin",
+    ],
+    faqs: [
+      { q: "Which platforms do you manage?", a: "Commonly LinkedIn, Instagram, Facebook, TikTok, X, Pinterest and YouTube. We'll recommend focusing on the platforms your customers actually use." },
+      { q: "Do you run paid ads?", a: "We can support ad admin and reporting. For paid strategy and large budgets, a specialist media buyer may be more appropriate." },
+      { q: "Will you guarantee followers or engagement?", a: "No. We focus on consistent, quality content and engagement, and report honestly on results." },
+      { q: "Do I need to provide photos?", a: "Your own photos usually perform best, but your assistant can create graphics and source properly licensed stock imagery too." },
+    ],
+    related: ["graphic-design", "content-writing", "customer-support"],
+  },
+  {
+    slug: "website-technical-support",
+    metaTitle: "Website & Technical Support Virtual Assistant | WordPress & Shopify | Bravura VA",
+    metaDescription: "Website and technical support: WordPress and Shopify content updates, plugin and app housekeeping, page building, basic SEO fields, form checks and SaaS tool administration.",
+    hero: {
+      eyebrow: "Website & Technical Support",
+      headline: "Keep Your Website Current Without Waiting on a Developer.",
+      intro: "Small website updates shouldn't take weeks. Our website and technical support assistants handle content changes, page updates, plugin housekeeping and everyday tool administration in WordPress, Shopify and the platforms you use.",
+    },
+    overview: [
+      "Your website is often the first place a customer meets your business, yet keeping it current is surprisingly hard. A new service needs a page, a team member leaves, prices change, a form stops sending emails. Developers are expensive for small jobs, and doing it yourself means learning tools you only touch occasionally.",
+      "A website and technical support assistant handles these everyday updates quickly and carefully. They build and update pages using your theme or page builder, keep plugins and content tidy, check forms and links, and look after the admin side of your other software tools.",
+      "Our focus is non-developer technical support. For custom code, complex integrations or security incidents, we'll tell you when a developer is needed and can help coordinate with them.",
+    ],
+    taskGroups: [
+      { title: "WordPress support", items: ["Page and post updates", "Building pages with Elementor, Divi or Gutenberg", "Plugin updates with backups first", "Media library organization"] },
+      { title: "Shopify website support", items: ["Theme content and section updates", "Navigation and collection pages", "App settings housekeeping", "Banner and announcement updates"] },
+      { title: "Website maintenance", items: ["Broken link and form checks", "Basic on-page SEO fields", "Image compression and alt text", "Uptime and backup checks with your tools"] },
+      { title: "Tool administration", items: ["User and permission management", "Email marketing platform admin", "Form and booking tool setup", "Simple integrations in Zapier or Make"] },
+    ],
+    audience: [
+      { title: "Small businesses on WordPress", text: "Sites that need regular updates without a developer retainer." },
+      { title: "Shopify store owners", text: "Frequent content changes for promotions and new products." },
+      { title: "Agencies", text: "White-label help with routine website updates for clients." },
+      { title: "Teams using many SaaS tools", text: "Someone to manage users, settings and integrations." },
+    ],
+    benefits: [
+      { title: "Faster updates", text: "Small changes done in days, not weeks.", icon: "zap" },
+      { title: "A healthier website", text: "Regular checks keep forms, links and plugins in order.", icon: "shield" },
+      { title: "Lower developer costs", text: "Save specialist time for genuinely technical work.", icon: "coins" },
+      { title: "Better first impressions", text: "Accurate, up-to-date content for every visitor.", icon: "monitor" },
+    ],
+    workflows: [
+      { title: "Monthly WordPress care", steps: ["Your assistant confirms a recent backup exists", "Updates plugins and themes on staging or one at a time", "Checks key pages and forms still work", "Sends a short maintenance report"] },
+      { title: "Launching a new service page", steps: ["You share the copy and images", "Your assistant builds the page using your existing layout", "Adds SEO title, description and alt text", "Sends a preview link for approval before publishing"] },
+    ],
+    software: ["WordPress", "Elementor", "Divi", "Gutenberg", "WooCommerce", "Shopify", "Webflow", "Squarespace", "Wix", "Yoast SEO", "Rank Math", "Google Search Console", "Zapier", "Make"],
+    support: [
+      "We'll review your site and tools, agree what your assistant can change independently and what needs approval, and make sure backups are in place before any maintenance work. Access is set up through individual user accounts with appropriate roles.",
+      "Requests are tracked on a shared board with clear status updates. For larger or riskier changes, your assistant will propose the approach and wait for your go-ahead.",
+    ],
+    humanAi: "AI tools can suggest code snippets or generate page content, but website changes carry real risk: a broken checkout or a deleted page costs money. Your assistant uses tools carefully, tests changes, follows a backup-first approach and knows when a problem needs a developer rather than a quick fix.",
+    why: [
+      "Careful, backup-first approach to website changes",
+      "Comfortable in WordPress, Shopify and common page builders",
+      "Honest about when you need a developer",
+      "Individual access accounts, not shared admin logins",
+    ],
+    faqs: [
+      { q: "Can you build a new website from scratch?", a: "Our service focuses on updating and maintaining existing sites. For a new custom website, a web design agency or developer is usually the right choice." },
+      { q: "Can you fix a hacked website?", a: "Security incidents need a specialist. Your assistant can help coordinate with your host or developer, but we don't provide incident response." },
+      { q: "Do you do SEO?", a: "Your assistant can handle on-page SEO housekeeping such as titles, descriptions, alt text and internal links. Strategic SEO is a separate specialist discipline." },
+      { q: "Will you need admin access to my website?", a: "Usually an editor or administrator account depending on tasks. We'll recommend the lowest level of access that works." },
+    ],
+    related: ["content-writing", "graphic-design", "ecommerce-virtual-assistant"],
+  },
+];
