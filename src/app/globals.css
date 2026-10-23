@@ -34,8 +34,8 @@
   .container-x { @apply mx-auto w-full max-w-container px-4 sm:px-6 lg:px-8; }
   .eyebrow { @apply inline-flex items-center gap-2 font-heading text-xs font-bold uppercase tracking-[0.16em] text-ink; }
   .eyebrow::before { content: ""; @apply inline-block h-2 w-2 rounded-full bg-orange; }
-  .h-display { @apply font-heading text-[2.35rem] font-extrabold leading-[1.08] sm:text-5xl lg:text-[3.6rem]; }
-  .h-section { @apply font-heading text-3xl font-extrabold leading-tight sm:text-4xl lg:text-[2.75rem]; }
+  .h-display { @apply font-heading text-[2.35rem] font-extrabold leading-[1.15] sm:text-[3rem] sm:leading-[1.14] lg:text-[3.6rem] lg:leading-[1.12]; }
+  .h-section { @apply font-heading text-[1.875rem] font-extrabold leading-[1.25] sm:text-[2.25rem] sm:leading-[1.2] lg:text-[2.75rem] lg:leading-[1.18]; }
   .lead { @apply text-lg leading-relaxed text-ink-muted; }
   .card { @apply rounded-3xl bg-white shadow-card; }
   .input { @apply w-full rounded-2xl border border-teal/10 bg-white px-4 py-3 text-[15px] text-ink placeholder:text-ink-muted/70 transition focus:border-aqua focus:outline-none focus:ring-4 focus:ring-aqua/25; }

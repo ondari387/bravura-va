@@ -13,7 +13,7 @@ export const site = {
   whatsappWithText: (text: string) => `https://wa.me/254714089042?text=${encodeURIComponent(text)}`,
   location: "Nairobi, Kenya",
   // Set NEXT_PUBLIC_CALENDLY_URL in .env when the real booking link is available.
-  calendlyUrl: process.env.NEXT_PUBLIC_CALENDLY_URL || "",
+  calendlyUrl: process.env.NEXT_PUBLIC_CALENDLY_URL || "https://calendly.com/va-bravura/30min",
   // EDIT: add real profile URLs. Empty links are hidden automatically.
   social: {
     linkedin: "",

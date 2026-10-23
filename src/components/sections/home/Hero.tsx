@@ -15,7 +15,7 @@ export function HomeHero() {
             Your Business Needs You. <span className="relative whitespace-nowrap text-teal">Not Another<svg aria-hidden="true" viewBox="0 0 300 16" className="absolute -bottom-2 left-0 h-3 w-full" preserveAspectRatio="none"><path d="M3 12C70 4 160 2 297 8" stroke="#FF981F" strokeWidth="6" strokeLinecap="round" fill="none" /></svg></span> To&#8209;Do List.
           </h1>
           <p className="lead mt-7 max-w-xl animate-fade-up [animation-delay:160ms]">
-            Drowning in emails, customer enquiries, scheduling and daily admin? Bravura VA helps startups, entrepreneurs and growing businesses across the USA, UK and Australia delegate time-consuming work to dependable virtual assistants based in Nairobi, Kenya.
+            Drowning in emails, enquiries and daily admin? Bravura VA gives startups and growing businesses in the USA, UK and Australia dependable virtual assistants based in Nairobi, Kenya.
           </p>
           <div className="mt-9 flex animate-fade-up flex-col gap-3 [animation-delay:240ms] sm:flex-row">
             <BookCallButton source="home_hero" />
