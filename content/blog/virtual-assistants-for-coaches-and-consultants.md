@@ -2,7 +2,7 @@
 title: "Virtual Assistants for Coaches and Consultants"
 description: "How coaches and consultants use virtual assistants to protect billable time: client scheduling, onboarding, proposals, invoicing, content, course admin and follow-ups."
 category: "Industry Guides"
-date: 2026-09-02
+date: 2026-10-23
 image: womanLaptopLap
 keywords: ["virtual assistant for coaches", "virtual assistant for consultants", "coaching business admin", "consultant executive assistant"]
 related: ["tasks-small-business-owners-can-delegate-to-virtual-assistants", "how-to-hire-your-first-virtual-assistant", "how-virtual-assistants-can-use-ai-to-improve-productivity"]

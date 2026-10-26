@@ -17,7 +17,7 @@ export default function ContactPage() {
     { t: "Call or WhatsApp", v: site.phone, h: site.phoneHref, i: "phone" as const, sub: "Kenya (East Africa Time, UTC+3)" },
     { t: "Email", v: site.email, h: site.emailHref, i: "mail" as const, sub: "We reply by email to every enquiry" },
     { t: "WhatsApp chat", v: "Message us now", h: site.whatsapp, i: "chat" as const, sub: "Quick questions welcome" },
-    { t: "Headquarters", v: "Nairobi, Kenya", h: "", i: "mapPin" as const, sub: "Supporting the USA, UK & Australia remotely" },
+    { t: "Headquarters", v: "Nairobi, Kenya", h: "", i: "mapPin" as const, sub: "Supporting the USA, UK, Australia & Canada remotely" },
   ];
   return (
     <>

@@ -3,10 +3,10 @@ import type { ServiceContent } from "./types";
 export const operationsServices: ServiceContent[] = [
   {
     slug: "ecommerce-virtual-assistant",
-    metaTitle: "E-commerce Virtual Assistant | Shopify & Amazon Seller Support | Bravura VA",
+    metaTitle: "Shopify Virtual Assistant & E-commerce VA Services | Bravura VA",
     metaDescription: "E-commerce virtual assistants for Shopify administration, Amazon seller support, product listings and descriptions, order admin, customer enquiries, returns and inventory updates.",
     hero: {
-      eyebrow: "E-commerce Virtual Assistant",
+      eyebrow: "E-commerce & Shopify Virtual Assistant",
       headline: "More Orders Shouldn't Mean More Admin Headaches.",
       intro: "Growth in an online store brings a wave of behind-the-scenes work: listings to update, orders to check, customers to answer, returns to process. An e-commerce virtual assistant keeps your store running smoothly so you can focus on products, marketing and growth.",
     },
@@ -16,7 +16,7 @@ export const operationsServices: ServiceContent[] = [
       "An e-commerce virtual assistant takes on the daily operational load across your store and marketplaces. They work in Shopify, Amazon Seller Central, WooCommerce and the apps you rely on, follow your processes and keep the details right, giving you a store that scales without you working every evening.",
     ],
     taskGroups: [
-      { title: "Shopify administration", items: ["Creating and updating product pages", "Managing collections, tags and variants", "Discount codes and promotion setup", "App and theme content updates"] },
+      { title: "Shopify administration", items: ["Product uploads, including bulk CSV imports", "Collections, tags, variants and metafields", "Discount codes and promotion setup", "Homepage banners and theme content updates"] },
       { title: "Amazon seller support", items: ["Listing creation and optimization support", "Monitoring account health notifications", "Managing buyer messages", "Inventory and FBA shipment admin"] },
       { title: "Orders & customers", items: ["Order checks, edits and fulfillment admin", "Order status and delivery enquiries", "Returns and exchange coordination", "Review monitoring and responses"] },
       { title: "Catalog & data", items: ["Product descriptions and SEO fields", "Image uploads and alt text", "Inventory data updates across channels", "Supplier price and stock updates"] },
@@ -35,6 +35,7 @@ export const operationsServices: ServiceContent[] = [
     ],
     workflows: [
       { title: "Launching a new product", steps: ["You share supplier details, images and key selling points", "Your assistant writes the product description and SEO fields in your brand voice", "Builds the product page with variants, tags and collections", "Lists on Amazon or other channels and confirms stock levels match"] },
+      { title: "Bulk Shopify product upload", steps: ["You share a supplier spreadsheet and product photos", "Your assistant maps the data to Shopify's product CSV format and fills in titles, variants, SEO fields and tags", "Imports a small test batch, checks it on the storefront, then imports the rest", "Sends you a list of anything that needs a decision, like missing prices or images"] },
       { title: "Daily store check", steps: ["Your assistant reviews new orders for issues like address errors or fraud flags", "Answers overnight customer messages", "Logs any returns and updates the returns tracker", "Sends a short summary of anything that needs your decision"] },
     ],
     software: ["Shopify", "Amazon Seller Central", "WooCommerce", "BigCommerce", "Etsy", "eBay", "Gorgias", "Zendesk", "Klaviyo", "ShipStation", "Loop Returns", "Canva", "Google Sheets", "Helium 10"],
@@ -107,7 +108,7 @@ export const operationsServices: ServiceContent[] = [
     ],
     faqs: [
       { q: "Can a real estate VA show properties or negotiate?", a: "No. Our assistants provide remote administrative support only. Licensed activities stay with you and your licensed team." },
-      { q: "Do you support agents in the US, UK and Australia?", a: "Yes. Your assistant learns your local portals, CRM and processes during onboarding." },
+      { q: "Do you support agents in the US, UK, Australia and Canada?", a: "Yes. Your assistant learns your local portals, CRM and processes during onboarding." },
       { q: "Can you act as a transaction coordinator?", a: "Your assistant can support transaction coordination, tracking deadlines, organizing documents and chasing paperwork, under your supervision and according to your brokerage's requirements." },
       { q: "Can you manage my real estate social media too?", a: "Yes. Listing graphics and social posts are a common addition to real estate support." },
     ],
@@ -170,11 +171,11 @@ export const operationsServices: ServiceContent[] = [
     related: ["inbox-calendar-management", "data-entry-research", "administrative-support"],
   },
   {
-    slug: "bookkeeping-administration",
-    metaTitle: "Bookkeeping Administration Virtual Assistant | Invoices & Receipts | Bravura VA",
+    slug: "bookkeeping-virtual-assistant",
+    metaTitle: "Bookkeeping Virtual Assistant | Invoice, Receipt & Payables Admin Support | Bravura VA",
     metaDescription: "Bookkeeping administration support: receipt capture, invoice preparation, bill logging, payment reminders and record organization so your books are ready for your accountant. Not accounting or tax advice.",
     hero: {
-      eyebrow: "Bookkeeping Administration",
+      eyebrow: "Bookkeeping Support",
       headline: "Keep Your Financial Admin Tidy, and Your Accountant Happy.",
       intro: "Shoeboxes of receipts, unsent invoices and half-reconciled spreadsheets create stress at the end of every month. Bookkeeping administration support keeps your financial paperwork organized and up to date, so your accountant or bookkeeper can focus on the numbers.",
     },
@@ -185,7 +186,7 @@ export const operationsServices: ServiceContent[] = [
     ],
     taskGroups: [
       { title: "Receipts & expenses", items: ["Capturing receipts into Dext, Hubdoc or your accounting tool", "Matching receipts to transactions", "Expense report preparation", "Chasing missing receipts from your team"] },
-      { title: "Invoicing", items: ["Preparing and sending invoices from your system", "Recurring invoice setup", "Logging supplier bills for approval", "Organizing invoice records"] },
+      { title: "Invoicing & payables", items: ["Preparing and sending invoices from your system", "Recurring invoice setup", "Accounts payable admin: logging supplier bills for your approval", "Organizing invoice records"] },
       { title: "Accounts receivable admin", items: ["Tracking overdue invoices", "Polite payment reminder emails", "Updating payment status", "Aged receivables summaries"] },
       { title: "Record keeping", items: ["Organizing financial documents in folders", "Preparing month-end document packs", "Answering your accountant's document requests", "Maintaining supplier and customer records"] },
     ],
@@ -335,6 +336,6 @@ export const operationsServices: ServiceContent[] = [
       { q: "Do I need existing processes?", a: "No. Documenting what exists, often for the first time, is one of the most valuable things an operations assistant does." },
       { q: "Can operations support be combined with other services?", a: "Yes. It's often combined with project management support or administrative support." },
     ],
-    related: ["project-management-support", "administrative-support", "bookkeeping-administration"],
+    related: ["project-management-support", "administrative-support", "bookkeeping-virtual-assistant"],
   },
 ];

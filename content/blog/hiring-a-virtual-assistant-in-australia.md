@@ -2,7 +2,7 @@
 title: "Hiring a Virtual Assistant in Australia: Complete Guide"
 description: "A complete guide for Australian business owners hiring a virtual assistant: what to delegate, local vs offshore options, time zones, the Privacy Act, Spam Act considerations and setting up for success."
 category: "International Business"
-date: 2026-08-18
+date: 2026-10-23
 image: womanLaptopLap
 keywords: ["virtual assistant Australia", "hire virtual assistant Australia", "remote administrative support Australia", "offshore virtual assistant Australia"]
 related: ["managing-virtual-assistants-across-time-zones", "how-to-hire-your-first-virtual-assistant", "kenya-vs-philippines-vs-india-virtual-assistant-outsourcing"]
@@ -120,4 +120,4 @@ If you hire individuals directly, understand the difference between contractors 
 
 Hiring a virtual assistant can help Australian businesses add capacity without the cost and commitment of local hires. Choose the right location for your needs, plan around time zones, respect privacy and spam laws, and build a strong working rhythm.
 
-Learn more about our support for [Australian businesses](/virtual-assistants/australia/).
+Learn more about our support for [Australian businesses](/virtual-assistant-australia/).

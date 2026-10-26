@@ -14,7 +14,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "About Bravura VA | Human-Led Virtual Assistants From Nairobi, Kenya",
-  description: "Bravura VA is a Nairobi-based virtual assistant company helping startups, entrepreneurs and growing businesses in the USA, UK and Australia delegate work to dependable, human-led remote support.",
+  description: "Bravura VA is a Nairobi-based virtual assistant company helping startups, entrepreneurs and growing businesses in the USA, UK, Australia and Canada delegate work to dependable, human-led remote support.",
   path: "/about/",
 });
 
@@ -34,7 +34,7 @@ export default function AboutPage() {
         crumbs={[{ name: "About Us", href: "/about/" }]}
         eyebrow="About Bravura VA"
         title="Behind Every Growing Business Is Support That Makes a Difference."
-        description="Bravura VA is a virtual assistant and remote business support company headquartered in Nairobi, Kenya. We help startups, entrepreneurs, executives and growing businesses across the USA, UK and Australia hand over the work that slows them down, to real people who care about getting it right."
+        description="Bravura VA is a virtual assistant and remote business support company headquartered in Nairobi, Kenya. We help startups, entrepreneurs, executives and growing businesses across the USA, UK, Australia and Canada hand over the work that slows them down, to real people who care about getting it right."
         image="teamTableLaptops"
       />
 
@@ -94,7 +94,7 @@ export default function AboutPage() {
             <h2 className="h-section mt-4">Why Nairobi Is a Smart Base for Remote Business Support</h2>
             <div className="lead mt-6 space-y-4">
               <p>Nairobi is Kenya&apos;s capital and one of East Africa&apos;s most established centres for business, technology and international organizations. It has a young, well-educated workforce and a growing community of professionals working remotely for clients around the world.</p>
-              <p>English is one of Kenya&apos;s official languages and is widely used in education, government and business, so communication with US, UK and Australian teams is natural. Kenya also observes a single time zone, East Africa Time (UTC+3), with no daylight saving changes, which makes scheduling predictable.</p>
+              <p>English is one of Kenya&apos;s official languages and is widely used in education, government and business, so communication with US, UK, Australian and Canadian teams is natural. Kenya also observes a single time zone, East Africa Time (UTC+3), with no daylight saving changes, which makes scheduling predictable.</p>
             </div>
           </div>
           <div className="rounded-[2.5rem] bg-offwhite p-6 sm:p-8"><WorldMap /></div>
@@ -174,8 +174,8 @@ export default function AboutPage() {
           </div>
         ) : (
           <div className="mx-auto mt-12 max-w-3xl rounded-[2rem] bg-aqua-pale p-8 text-center">
-            <p className="text-ink-muted">Team profiles are coming soon. In the meantime, the best way to meet us is a free discovery call, you&apos;ll speak with a real person from our Nairobi team.</p>
-            <BookCallButton className="mt-6" source="about_people">Meet Us on a Free Call</BookCallButton>
+            <p className="text-ink-muted">Team profiles are coming soon. In the meantime, the best way to meet us is a free consultation, you&apos;ll speak with a real person from our Nairobi team.</p>
+            <BookCallButton className="mt-6" source="about_people">Book a Free Consultation</BookCallButton>
           </div>
         )}
       </Section>

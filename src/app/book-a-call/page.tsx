@@ -6,15 +6,15 @@ import { CalendlyEmbed } from "@/components/layout/Booking";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "Book a Free Discovery Call | Bravura VA",
-  description: "Book a free, no-obligation discovery call with Bravura VA. Talk through your workload, the tasks you'd like to delegate and whether virtual assistant support is right for your business.",
+  title: "Book a Free Consultation | Bravura VA",
+  description: "Book a free, no-obligation consultation with Bravura VA. Talk through your workload, the tasks you'd like to delegate and whether virtual assistant support is right for your business.",
   path: "/book-a-call/",
 });
 
 export default function BookPage() {
   return (
     <>
-      <PageHero crumbs={[{ name: "Book a Call", href: "/book-a-call/" }]} eyebrow="Free discovery call" title="Let's Talk About What You Can Delegate." description="A short, friendly conversation with no hard sell and no obligation. You'll leave with a clearer view of what to hand over first, whether or not you work with us." primaryLabel={null} compact />
+      <PageHero crumbs={[{ name: "Book a Call", href: "/book-a-call/" }]} eyebrow="Free consultation" title="Let's Talk About What You Can Delegate." description="A short, friendly conversation with no hard sell and no obligation. You'll leave with a clearer view of what to hand over first, whether or not you work with us." primaryLabel={null} compact />
       <Section tone="off">
         <div className="grid gap-8 lg:grid-cols-[0.75fr_1.25fr]">
           <div className="space-y-5">

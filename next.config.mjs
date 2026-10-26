@@ -27,6 +27,13 @@ const nextConfig = {
       { source: "/book", destination: "/book-a-call/", permanent: true },
       { source: "/privacy", destination: "/privacy-policy/", permanent: true },
       { source: "/terms", destination: "/terms-of-service/", permanent: true },
+      // International pages moved to flatter URLs; state and city guides consolidated into country pages
+      ...["usa", "uk", "australia", "canada", "kenya", "africa"].flatMap((c) => [
+        { source: `/virtual-assistants/${c}`, destination: `/virtual-assistant-${c}/`, permanent: true },
+        { source: `/virtual-assistants/${c}/:path*`, destination: `/virtual-assistant-${c}/`, permanent: true },
+      ]),
+      { source: "/services/website-technical-support", destination: "/services/wordpress-virtual-assistant/", permanent: true },
+      { source: "/services/bookkeeping-administration", destination: "/services/bookkeeping-virtual-assistant/", permanent: true },
     ];
   },
 };

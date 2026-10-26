@@ -3,7 +3,8 @@ import type { ImageKey } from "../images";
 
 export type LocationPage = {
   slug: string;
-  parent?: "usa" | "uk" | "australia";
+  path: string;
+  currency?: string;
   name: string;
   metaTitle: string;
   metaDescription: string;
@@ -13,6 +14,8 @@ export type LocationPage = {
   image: ImageKey;
   context: { title: string; paragraphs: string[] };
   timezone: { zone: string; difference: string; overlap: string; tips: string[] };
+  zones?: { zone: string; places: string; difference: string }[];
+  useCases?: { title: string; text: string }[];
   industries: { name: string; slug: string; why: string }[];
   services: string[];
   considerations: { title: string; points: string[] };

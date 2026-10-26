@@ -18,6 +18,9 @@ create table if not exists public.enquiries (
   page text,
   consent boolean not null default false,
   ip_country text,
+  budget text,
+  contact_method text,
+  utm jsonb,
   status text not null default 'new'
 );
 

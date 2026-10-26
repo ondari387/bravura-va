@@ -2,7 +2,7 @@
 title: "Why AI Alone Isn't a Complete Customer Support Strategy"
 description: "AI chatbots and automation can make customer support faster, but relying on them alone creates gaps. Learn the limitations, the risks and how to design a balanced support strategy with human escalation."
 category: "AI & Human Support"
-date: 2026-08-22
+date: 2026-10-23
 image: womanHeadsetDesk
 keywords: ["AI customer support strategy", "chatbot limitations", "human escalation", "customer service outsourcing"]
 related: ["why-human-customer-support-still-matters", "ai-virtual-assistant-vs-human-virtual-assistant", "how-shopify-store-owners-can-use-virtual-assistants"]

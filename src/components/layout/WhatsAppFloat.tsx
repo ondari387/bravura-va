@@ -1,6 +1,5 @@
 "use client";
 import { site } from "@/lib/site";
-import { track } from "@/lib/analytics";
 
 export function WhatsAppFloat() {
   return (
@@ -8,9 +7,9 @@ export function WhatsAppFloat() {
       href={site.whatsappWithText("Hi Bravura VA, I'd like to learn more about your virtual assistant services.")}
       target="_blank"
       rel="noopener noreferrer"
-      onClick={() => track("whatsapp_click", { source: "floating_button" })}
+     
       aria-label="Chat with Bravura VA on WhatsApp"
-      className="group fixed bottom-5 right-5 z-50 flex items-center gap-2 rounded-full bg-teal py-2 pl-2 pr-2 text-white shadow-lift transition hover:pr-5 sm:bottom-6 sm:right-6"
+      className="group fixed bottom-5 right-5 z-50 hidden items-center md:flex gap-2 rounded-full bg-teal py-2 pl-2 pr-2 text-white shadow-lift transition hover:pr-5 sm:bottom-6 sm:right-6"
     >
       <span className="grid h-11 w-11 place-items-center rounded-full bg-aqua text-teal">
         <svg viewBox="0 0 24 24" className="h-6 w-6" fill="currentColor" aria-hidden="true">

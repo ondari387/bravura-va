@@ -1,146 +1,10 @@
 import type { LocationPage } from "./types";
 
-export const countries: LocationPage[] = [
-  {
-    slug: "usa",
-    name: "United States",
-    metaTitle: "Hire a Virtual Assistant in the USA | Remote VA Services for US Businesses | Bravura VA",
-    metaDescription: "Virtual assistant services for American startups, small businesses and executives. Human-led remote support from Nairobi, Kenya, with working hours arranged around US time zones.",
-    eyebrow: "Virtual assistants for US businesses",
-    h1: "Virtual Assistant Services for American Businesses",
-    intro: "From solo founders in Austin to growing agencies in New York, US business owners are rethinking how they add capacity. Bravura VA gives American businesses dependable, human-led virtual assistants based in Nairobi, Kenya, with working arrangements built around your time zone.",
-    image: "womanOfficeLaptop",
-    context: {
-      title: "Why US businesses are looking beyond local hiring",
-      paragraphs: [
-        "Small businesses make up the vast majority of companies in the United States, and many of them are run by owners who handle sales, service and administration personally. As those businesses grow, the choice is often framed as 'keep doing it all yourself' or 'make a full-time hire'. For a lot of recurring support work, there's a third option.",
-        "A managed virtual assistant service lets you delegate defined tasks (inbox management, customer support, CRM updates, e-commerce admin, scheduling) to a skilled professional who works remotely, without the recruitment process, payroll administration and overheads that come with a local employee. You get the help you need, scoped to the hours you need.",
-        "Bravura VA focuses on the things American clients tell us matter most: clear English communication, reliability, responsiveness during agreed hours, and an assistant who actually understands their business rather than just following instructions.",
-      ],
-    },
-    timezone: {
-      zone: "Eastern, Central, Mountain, Pacific, Alaska and Hawaii time",
-      difference: "Nairobi (UTC+3, no daylight saving) is 7 hours ahead of US Eastern Daylight Time and 8 hours ahead of Eastern Standard Time, and 10-11 hours ahead of Pacific time.",
-      overlap: "A Nairobi afternoon-and-evening schedule overlaps with the US East Coast morning and early afternoon. For West Coast clients, many find the best model combines a short live overlap with work completed overnight, ready when the day starts.",
-      tips: ["Agree a daily overlap window for live questions", "Use async updates (Slack, Loom, task boards) for everything else", "Ask for an end-of-day summary that arrives before your morning", "Remember Kenya doesn't change clocks: the gap shifts by an hour when US daylight saving starts and ends"],
-    },
-    industries: [
-      { name: "Real Estate", slug: "real-estate", why: "Agents nationwide need fast lead response and listing admin." },
-      { name: "E-commerce", slug: "ecommerce", why: "Shopify and Amazon sellers need daily store and customer support." },
-      { name: "Startups", slug: "startups", why: "Founders need flexible support without premature hires." },
-      { name: "Home Services", slug: "home-services", why: "Contractors lose jobs to missed calls and slow quotes." },
-    ],
-    services: ["executive-virtual-assistant", "customer-support", "real-estate-virtual-assistant", "ecommerce-virtual-assistant", "sales-support", "administrative-support"],
-    considerations: {
-      title: "Practical considerations for US businesses",
-      points: [
-        "Many states now have consumer privacy laws (for example California, Texas, Virginia and Colorado). If your assistant will handle customer data, we'll follow your data-handling instructions.",
-        "Healthcare practices covered by HIPAA must assess requirements, including Business Associate Agreements, before sharing protected health information.",
-        "Email outreach should follow the CAN-SPAM Act, and calling or texting may be subject to TCPA rules, your assistant follows the policies you set.",
-        "Working with an independent service provider is different from employing staff. Your agreement with Bravura VA is a business-to-business service contract.",
-      ],
-    },
-    faqs: [
-      { q: "Can a Kenya-based VA work US business hours?", a: "Partially or fully, depending on the arrangement. For East Coast clients, a Nairobi afternoon/evening schedule overlaps naturally. For other time zones we'll agree an arrangement that balances live overlap and overnight delivery." },
-      { q: "Do you invoice in US dollars?", a: "We can quote and invoice in US dollars. Payment terms are set out in your proposal." },
-      { q: "Do you have a US office?", a: "No. Bravura VA is headquartered in Nairobi, Kenya, and supports US clients remotely." },
-      { q: "Which US states do you support?", a: "Businesses in any US state. We've published guides for several states, and our service is available nationwide." },
-    ],
-  },
-  {
-    slug: "uk",
-    name: "United Kingdom",
-    metaTitle: "Virtual Assistant UK | Virtual PA & Remote Admin Support for UK Businesses | Bravura VA",
-    metaDescription: "Virtual assistant and virtual PA services for UK businesses. Remote administrative, customer and business support from Nairobi, Kenya, just 2-3 hours ahead of UK time.",
-    eyebrow: "Virtual assistants for UK businesses",
-    h1: "Virtual Assistant and Virtual PA Support for UK Businesses",
-    intro: "UK founders, SMEs and professional firms are increasingly turning to remote support to stay productive. Bravura VA provides professional virtual assistants and virtual PAs from Nairobi: a time zone just two to three hours ahead of the UK, which makes working together refreshingly simple.",
-    image: "womanGlasses",
-    context: {
-      title: "A natural fit for UK working days",
-      paragraphs: [
-        "For British businesses, one of the biggest practical advantages of working with Nairobi is the time difference, or rather, how small it is. Kenya is two hours ahead of the UK during British Summer Time and three hours ahead during Greenwich Mean Time. That means your assistant can comfortably work a schedule that covers the whole UK business day.",
-        "Kenya and the UK also share a long history of commercial ties, and English is an official language in Kenya, widely used in education, law and business. Your assistant can adapt to British spelling, tone and business etiquette, whether that's a formal client letter or a quick Slack message.",
-        "From virtual PA support for directors to customer service for e-commerce brands, our UK clients get dependable help with the work that slows them down, without the cost and commitment of recruiting locally for every role.",
-      ],
-    },
-    timezone: {
-      zone: "GMT / BST",
-      difference: "Nairobi is 3 hours ahead of the UK in winter (GMT) and 2 hours ahead in summer (BST).",
-      overlap: "Your assistant can work a schedule that covers the full UK working day (for example, 11am-8pm Nairobi time is 9am-6pm in London during BST).",
-      tips: ["Real-time collaboration is easy across the full UK day", "Morning tasks can be completed before you start work", "No need for complex async workarounds", "The gap changes by one hour when UK clocks change"],
-    },
-    industries: [
-      { name: "Small Businesses & SMEs", slug: "small-businesses", why: "Owners need dependable admin and customer support." },
-      { name: "Marketing Agencies", slug: "marketing-agencies", why: "Agencies need coordination and production capacity." },
-      { name: "Recruitment", slug: "recruitment-staffing", why: "Recruiters need sourcing and scheduling support." },
-      { name: "Consulting", slug: "consulting", why: "Consultants need virtual PA support for diaries and proposals." },
-    ],
-    services: ["executive-virtual-assistant", "administrative-support", "customer-support", "recruitment-virtual-assistant", "bookkeeping-administration", "social-media-management"],
-    considerations: {
-      title: "Practical considerations for UK businesses",
-      points: [
-        "Personal data is protected by the UK GDPR and the Data Protection Act 2018. We'll agree data-handling arrangements, including a data processing agreement where appropriate.",
-        "Transfers of personal data outside the UK may require appropriate safeguards, your data protection lead should confirm the right approach.",
-        "Electronic marketing is governed by PECR, so outreach preparation follows your consent and opt-out rules.",
-        "We can follow British English spelling and conventions in all communication.",
-      ],
-    },
-    faqs: [
-      { q: "What's the difference between a virtual assistant and a virtual PA?", a: "The terms are often used interchangeably in the UK. A virtual PA usually supports one director or executive closely; a virtual assistant may support a business more broadly." },
-      { q: "Can my assistant work UK business hours?", a: "Yes. Because Nairobi is only 2-3 hours ahead, covering the UK working day is straightforward." },
-      { q: "Do you invoice in pounds sterling?", a: "We can quote in GBP. Payment details are set out in your proposal." },
-      { q: "Do you have a UK office?", a: "No. We're headquartered in Nairobi, Kenya, and support UK clients remotely." },
-    ],
-  },
-  {
-    slug: "australia",
-    name: "Australia",
-    metaTitle: "Virtual Assistant Australia | Hire a Remote VA for Your Australian Business | Bravura VA",
-    metaDescription: "Flexible virtual assistant support for Australian businesses and entrepreneurs: admin, customer service, e-commerce and creative support from Nairobi, with practical working-hour arrangements.",
-    eyebrow: "Virtual assistants for Australian businesses",
-    h1: "Flexible Virtual Assistant Support for Australian Businesses",
-    intro: "Australian business owners have long been early adopters of remote support. Bravura VA offers a fresh option: professional, English-speaking virtual assistants in Nairobi, Kenya, with working arrangements designed around Australian time zones.",
-    image: "womanLaptopLap",
-    context: {
-      title: "Remote support that works with Australia's time zones",
-      paragraphs: [
-        "Australia's small and medium businesses face familiar pressures: rising costs, tight labour markets and owners stretched across too many roles. Delegating routine work to a virtual assistant is a practical way to add capacity without committing to another full-time hire.",
-        "Nairobi is behind Australia, five hours behind Perth and seven to eight hours behind the east coast. That creates a useful 'follow the sun' pattern: you hand over tasks in your afternoon, and your assistant works on them while you finish your day and overnight, with an overlap window in your afternoon for live questions.",
-        "Our assistants can adapt to Australian English and business conventions, and work inside the tools Australian businesses commonly use, from Xero and MYOB to Shopify and realestate.com.au.",
-      ],
-    },
-    timezone: {
-      zone: "AWST, ACST/ACDT, AEST/AEDT",
-      difference: "Nairobi is 5 hours behind Perth, 7 hours behind Brisbane, and 7-8 hours behind Sydney and Melbourne depending on daylight saving.",
-      overlap: "The natural overlap is your afternoon (Nairobi morning). Many Australian clients prefer to brief their assistant after lunch and receive completed work by the next morning.",
-      tips: ["Hand over tasks in your afternoon for next-morning delivery", "Use your afternoon overlap for live calls", "Early-start schedules in Nairobi can widen the overlap", "Queensland doesn't observe daylight saving; NSW and Victoria do"],
-    },
-    industries: [
-      { name: "Real Estate", slug: "real-estate", why: "Agents need listing admin and lead follow-up." },
-      { name: "E-commerce", slug: "ecommerce", why: "Online retailers need store and customer support." },
-      { name: "Construction", slug: "construction", why: "Builders need document and scheduling support." },
-      { name: "Coaching", slug: "coaching", why: "Coaches need scheduling, onboarding and content help." },
-    ],
-    services: ["administrative-support", "ecommerce-virtual-assistant", "real-estate-virtual-assistant", "bookkeeping-administration", "customer-support", "content-writing"],
-    considerations: {
-      title: "Practical considerations for Australian businesses",
-      points: [
-        "Many businesses must comply with the Privacy Act 1988 and the Australian Privacy Principles, including rules on cross-border disclosure of personal information.",
-        "Commercial email and SMS are governed by the Spam Act 2003, your assistant follows your consent and unsubscribe rules.",
-        "Financial and accounting tasks remain administrative; regulated advice stays with your accountant or adviser.",
-        "We can follow Australian English spelling and conventions.",
-      ],
-    },
-    faqs: [
-      { q: "Can a Kenya-based VA support an Australian business?", a: "Yes. Many tasks work well asynchronously, and there's a daily overlap window during your afternoon for live communication." },
-      { q: "Do you quote in Australian dollars?", a: "We can quote in AUD. Payment terms are set out in your proposal." },
-      { q: "Can you work with Xero or MYOB?", a: "Yes, for bookkeeping administration tasks, using the access level you set." },
-      { q: "Do you have an Australian office?", a: "No. We're headquartered in Nairobi, Kenya, and support Australian clients remotely." },
-    ],
-  },
+/** Supporting pages about where the team is based (Kenya) and the wider African outsourcing context. */
+export const originPages: LocationPage[] = [
   {
     slug: "kenya",
+    path: "/virtual-assistant-kenya/",
     name: "Kenya",
     metaTitle: "Virtual Assistant Kenya | Hire Kenyan Virtual Assistants in Nairobi | Bravura VA",
     metaDescription: "Hire professional Kenyan virtual assistants from Bravura VA in Nairobi. English-speaking, human-led remote support for international businesses, and for Kenyan companies too.",
@@ -158,7 +22,7 @@ export const countries: LocationPage[] = [
     },
     timezone: {
       zone: "East Africa Time (EAT), UTC+3",
-      difference: "2-3 hours ahead of the UK, 7-11 hours ahead of the mainland US, and 5-8 hours behind Australia.",
+      difference: "2-3 hours ahead of the UK, 7-11 hours ahead of the mainland US and most of Canada, and 5-8 hours behind Australia.",
       overlap: "Nairobi's position makes it possible to overlap with the UK working day, US mornings and Australian afternoons, with the right schedule.",
       tips: ["No daylight saving in Kenya: predictable scheduling", "Overlap windows agreed for each client", "Async workflows for distant time zones", "Clear end-of-day handovers"],
     },
@@ -194,6 +58,7 @@ export const countries: LocationPage[] = [
   },
   {
     slug: "africa",
+    path: "/virtual-assistant-africa/",
     name: "Africa",
     metaTitle: "Hire Virtual Assistants in Africa | African Virtual Assistant Company | Bravura VA",
     metaDescription: "Considering African virtual assistants? Learn why international businesses are hiring remote support in Africa, how key markets compare, and how Bravura VA supports clients from Nairobi, Kenya.",

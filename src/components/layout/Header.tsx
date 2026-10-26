@@ -20,11 +20,11 @@ const companyLinks: { href: string; label: string; desc: string; icon: IconName 
   { href: "/faq/", label: "FAQ", desc: "Answers before you delegate", icon: "info" },
 ];
 const marketLinks = [
-  { href: "/virtual-assistants/usa/", label: "United States" },
-  { href: "/virtual-assistants/uk/", label: "United Kingdom" },
-  { href: "/virtual-assistants/australia/", label: "Australia" },
-  { href: "/virtual-assistants/kenya/", label: "Kenya" },
-  { href: "/virtual-assistants/africa/", label: "Africa" },
+  { href: "/virtual-assistant-usa/", label: "United States" },
+  { href: "/virtual-assistant-uk/", label: "United Kingdom" },
+  { href: "/virtual-assistant-australia/", label: "Australia" },
+  { href: "/virtual-assistant-canada/", label: "Canada" },
+  { href: "/virtual-assistant-kenya/", label: "Why Kenya" },
 ];
 
 export function Header() {
@@ -59,7 +59,7 @@ export function Header() {
         aria-expanded={menu === m}
         aria-haspopup="true"
         onClick={() => setMenu(menu === m ? null : m)}
-        className={cn("flex items-center gap-1 rounded-full px-3.5 py-2 text-[15px] font-semibold transition hover:text-teal", isActive(base) || menu === m ? "text-teal" : "text-ink")}
+        className={cn("flex items-center gap-1 whitespace-nowrap rounded-full px-2.5 py-2 text-[15px] xl:px-3.5 font-semibold transition hover:text-teal", isActive(base) || menu === m ? "text-teal" : "text-ink")}
       >
         {label}
         <Icon name="chevronDown" className={cn("h-4 w-4 transition", menu === m && "rotate-180")} />
@@ -72,7 +72,7 @@ export function Header() {
       <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-3 focus:z-[60] focus:rounded-full focus:bg-orange focus:px-4 focus:py-2 focus:font-bold focus:text-teal">Skip to content</a>
       <div className="hidden bg-teal text-white/85 lg:block">
         <div className="container-x flex h-9 items-center justify-between text-[13px]">
-          <p>Based in Nairobi, Kenya | Supporting businesses across the USA, UK &amp; Australia</p>
+          <p>Based in Nairobi, Kenya | Supporting businesses across the USA, UK, Australia &amp; Canada</p>
           <div className="flex items-center gap-5">
             <a href={site.phoneHref} className="flex items-center gap-1.5 hover:text-aqua"><Icon name="phone" className="h-3.5 w-3.5" />{site.phone}</a>
             <a href={site.emailHref} className="flex items-center gap-1.5 hover:text-aqua"><Icon name="mail" className="h-3.5 w-3.5" />{site.email}</a>
@@ -88,16 +88,16 @@ export function Header() {
           <ul className="flex items-center">
             {trigger("services", "Services", "/services")}
             {trigger("industries", "Industries", "/industries")}
-            <li><Link href="/how-it-works/" className={cn("rounded-full px-3.5 py-2 text-[15px] font-semibold hover:text-teal", isActive("/how-it-works") && "text-teal")}>How It Works</Link></li>
-            <li><Link href="/pricing/" className={cn("rounded-full px-3.5 py-2 text-[15px] font-semibold hover:text-teal", isActive("/pricing") && "text-teal")}>Pricing</Link></li>
+            <li><Link href="/how-it-works/" className={cn("whitespace-nowrap rounded-full px-2.5 py-2 text-[15px] xl:px-3.5 font-semibold hover:text-teal", isActive("/how-it-works") && "text-teal")}>How It Works</Link></li>
+            <li><Link href="/pricing/" className={cn("whitespace-nowrap rounded-full px-2.5 py-2 text-[15px] xl:px-3.5 font-semibold hover:text-teal", isActive("/pricing") && "text-teal")}>Pricing</Link></li>
             {trigger("company", "Company", "/about")}
-            <li><Link href="/blog/" className={cn("rounded-full px-3.5 py-2 text-[15px] font-semibold hover:text-teal", isActive("/blog") && "text-teal")}>Blog</Link></li>
+            <li><Link href="/blog/" className={cn("whitespace-nowrap rounded-full px-2.5 py-2 text-[15px] xl:px-3.5 font-semibold hover:text-teal", isActive("/blog") && "text-teal")}>Blog</Link></li>
           </ul>
         </nav>
 
         <div className="flex items-center gap-2">
-          <Link href="/contact/" className="hidden rounded-full px-4 py-2 text-[15px] font-semibold text-ink hover:text-teal xl:block">Contact</Link>
-          <BookCallButton className="hidden px-5 py-3 text-sm sm:inline-flex" source="header">Book a Free Call</BookCallButton>
+          <Link href="/contact/" className="hidden rounded-full px-4 py-2 text-[15px] font-semibold text-ink hover:text-teal 2xl:block">Contact</Link>
+          <BookCallButton className="hidden px-5 py-3 text-sm sm:inline-flex" source="header" arrow={false}><span className="lg:hidden xl:inline">Book a Free Consultation</span><span className="hidden lg:inline xl:hidden">Free Consultation</span></BookCallButton>
           <button className="grid h-11 w-11 place-items-center rounded-full bg-aqua-pale text-teal lg:hidden" aria-label={mobile ? "Close menu" : "Open menu"} aria-expanded={mobile} onClick={() => setMobile(!mobile)}>
             <Icon name={mobile ? "x" : "menu"} className="h-5 w-5" />
           </button>
@@ -127,7 +127,7 @@ export function Header() {
                       <p className="mt-2 text-sm text-white/75">Tell us what&apos;s eating your week. We&apos;ll suggest where support makes the biggest difference.</p>
                     </div>
                     <div className="mt-5 space-y-2">
-                      <BookCallButton variant="orange" className="w-full px-4 py-2.5 text-sm" source="mega_services">Book a Free Call</BookCallButton>
+                      <BookCallButton variant="orange" className="w-full px-4 py-2.5 text-sm" source="mega_services">Book a Free Consultation</BookCallButton>
                       <Link href="/services/" className="block text-center text-sm font-semibold text-aqua hover:underline">View all services</Link>
                     </div>
                   </div>

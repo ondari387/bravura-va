@@ -18,7 +18,7 @@ export function ContactSection({
             <p className="font-heading text-xs font-extrabold uppercase tracking-[0.16em] text-teal">Ready to get started?</p>
             <h2 className="mt-4 font-heading text-3xl font-extrabold leading-tight text-teal sm:text-4xl">Let&apos;s Get Some Work Off Your Plate.</h2>
             <p className="mt-4 text-lg leading-relaxed text-teal/85">Tell us what is taking up your time. We&apos;ll help you explore a practical support solution.</p>
-            <BookCallButton variant="dark" className="mt-8" source="contact_card">Book a Free Call</BookCallButton>
+            <BookCallButton variant="dark" className="mt-8" source="contact_card">Book a Free Consultation</BookCallButton>
             <ul className="mt-10 space-y-4">
               <li>
                 <a href={site.phoneHref} className="flex items-center gap-4 font-semibold hover:underline">

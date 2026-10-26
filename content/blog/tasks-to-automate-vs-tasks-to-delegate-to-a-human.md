@@ -2,7 +2,7 @@
 title: "Tasks to Automate vs Tasks to Delegate to a Human"
 description: "A practical framework for deciding which business tasks to automate, which to delegate to a human assistant, and which to combine, with examples across admin, customer service, sales and finance."
 category: "AI & Human Support"
-date: 2026-08-26
+date: 2026-10-23
 image: womanFocused
 keywords: ["what to automate vs delegate", "automation vs virtual assistant", "human vs automation tasks", "delegation framework"]
 related: ["will-ai-replace-virtual-assistants", "tasks-small-business-owners-can-delegate-to-virtual-assistants", "how-virtual-assistants-can-use-ai-to-improve-productivity"]
@@ -99,4 +99,4 @@ The best virtual assistants today don't just do tasks, they help businesses deci
 
 Automate what's predictable, repetitive and low-risk. Delegate what involves relationships, judgment and accountability. Combine the two for everything in between. The result is a business that runs efficiently without losing the human touch.
 
-Want help mapping your tasks? [Book a free discovery call](/book-a-call/) and we'll go through it with you.
+Want help mapping your tasks? [Book a free consultation](/book-a-call/) and we'll go through it with you.

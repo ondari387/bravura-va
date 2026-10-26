@@ -2,7 +2,7 @@
 title: "How to Build a Remote Support Team for Your Business"
 description: "A step-by-step guide to building a remote support team: defining roles, choosing hiring models, documenting processes, tools, communication rhythms, security, quality and scaling."
 category: "International Business"
-date: 2026-08-06
+date: 2026-10-23
 image: teamTableLaptops
 keywords: ["build a remote support team", "remote team", "virtual assistant team", "outsourced business support"]
 related: ["managing-virtual-assistants-across-time-zones", "virtual-assistant-vs-full-time-employee", "how-marketing-agencies-can-scale-with-remote-assistants"]
@@ -134,4 +134,4 @@ When volume grows:
 
 A remote support team can give your business flexible capacity, broader skills and more time for your core team. Build it on clear roles, strong documentation, simple tools, good communication and solid security, and grow it deliberately.
 
-Many businesses start with a single assistant. If you'd like to explore that first step, [book a free discovery call](/book-a-call/).
+Many businesses start with a single assistant. If you'd like to explore that first step, [book a free consultation](/book-a-call/).

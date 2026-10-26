@@ -2,7 +2,7 @@ This Privacy Policy explains how **Bravura VA** ("Bravura VA", "we", "us", "our"
 
 ## Who we are
 
-Bravura VA provides virtual assistant and remote business support services to businesses, primarily in the United States, United Kingdom and Australia.
+Bravura VA provides virtual assistant and remote business support services to businesses, primarily in the United States, United Kingdom, Australia and Canada.
 
 - **Contact:** va@bravura.co.ke | +254 714 089 042
 - **Location:** Nairobi, Kenya
@@ -18,11 +18,11 @@ Bravura VA provides virtual assistant and remote business support services to bu
 
 **Information collected automatically**, such as basic technical data (browser type, pages visited and approximate location derived from IP address). Optional analytics cookies are only used if you consent, see our [Cookie Policy](/cookie-policy/).
 
-**Information from third parties**, such as our booking provider when you schedule a discovery call.
+**Information from third parties**, such as our booking provider when you schedule a consultation.
 
 ## How we use your information
 
-- To respond to your enquiry and arrange discovery calls
+- To respond to your enquiry and arrange consultations
 - To prepare proposals and provide our services
 - To send our newsletter, if you subscribe (you can unsubscribe at any time)
 - To maintain website security, prevent spam and improve our website

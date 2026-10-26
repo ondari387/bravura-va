@@ -2,10 +2,10 @@ import { BookCallButton } from "@/components/layout/Booking";
 import { ButtonLink } from "@/components/ui/Button";
 
 export function CTABand({
-  title = "Your Business Won't Grow Faster Because You're Doing Everything Yourself.",
-  description = "The right support can give you more time for the work that matters. Tell us what's slowing you down and let's explore what you can delegate.",
-  secondary = { href: "/contact/", label: "Send an Enquiry" },
-}: { title?: string; description?: string; secondary?: { href: string; label: string } | null }) {
+  title = "Ready to Get Hours Back in Your Week?",
+  description = "Tell us what is taking up your time. We'll help you explore a practical virtual assistant arrangement for your business.",
+  secondary = { href: "/pricing/#quote", label: "Request a Quote" }, ctaLabel = "Book Your Free Consultation",
+}: { title?: string; description?: string; secondary?: { href: string; label: string } | null; ctaLabel?: string }) {
   return (
     <section className="relative overflow-hidden bg-teal py-20 text-white sm:py-24">
       <div aria-hidden="true" className="absolute -left-16 top-10 h-56 w-56 rounded-full border-[28px] border-aqua/20" />
@@ -17,7 +17,7 @@ export function CTABand({
           <h2 className="h-section mt-4 text-white">{title}</h2>
           <p className="mt-5 text-lg leading-relaxed text-white/75">{description}</p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <BookCallButton source="cta_band" />
+            <BookCallButton source="cta_band">{ctaLabel}</BookCallButton>
             {secondary && <ButtonLink href={secondary.href} variant="outlineLight">{secondary.label}</ButtonLink>}
           </div>
         </div>

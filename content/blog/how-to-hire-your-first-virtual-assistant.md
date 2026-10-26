@@ -2,7 +2,7 @@
 title: "How to Hire Your First Virtual Assistant"
 description: "A beginner-friendly guide to hiring your first virtual assistant: recognizing you're ready, choosing what to delegate, finding the right person, and making the first 30 days a success."
 category: "Hiring Guides"
-date: 2026-09-28
+date: 2026-10-23
 image: womanLaptopLap
 keywords: ["hire first virtual assistant", "first VA", "how to start with a virtual assistant", "delegation for beginners"]
 related: ["tasks-small-business-owners-can-delegate-to-virtual-assistants", "how-to-hire-a-virtual-assistant-in-the-usa", "virtual-assistant-agency-vs-freelancer"]
@@ -128,4 +128,4 @@ Notice the pattern: start with review, build confidence, then reduce oversight. 
 
 Your first virtual assistant is an investment in a new way of working. Start small, prepare well, communicate clearly and give it a few weeks. Most owners wish they'd done it sooner.
 
-If you'd like help planning your first delegation steps, [book a free discovery call](/book-a-call/).
+If you'd like help planning your first delegation steps, [book a free consultation](/book-a-call/).

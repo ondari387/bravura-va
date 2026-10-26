@@ -5,6 +5,8 @@ import { Footer } from "@/components/layout/Footer";
 import { BookingProvider } from "@/components/layout/Booking";
 import { WhatsAppFloat } from "@/components/layout/WhatsAppFloat";
 import { CookieConsent } from "@/components/layout/CookieConsent";
+import { Tracking } from "@/components/layout/Tracking";
+import { MobileCTA } from "@/components/layout/MobileCTA";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { orgSchema, websiteSchema } from "@/lib/seo";
 import { site } from "@/lib/site";
@@ -33,7 +35,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main id="main">{children}</main>
           <Footer />
           <WhatsAppFloat />
+          <MobileCTA />
           <CookieConsent />
+          <Tracking />
         </BookingProvider>
         <JsonLd data={[orgSchema, websiteSchema]} />
       </body>

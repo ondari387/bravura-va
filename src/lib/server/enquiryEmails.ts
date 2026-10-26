@@ -3,6 +3,7 @@ import { esc } from "./resend";
 type Rec = {
   formType: string; name: string; email: string; phone: string; company: string; country: string; service: string;
   message: string; tasks: string[]; hours: string; overlap: string; start: string; page: string; submittedAt: string;
+  budget?: string; contactMethod?: string; utm?: Record<string, string>;
 };
 
 const labels: Record<string, string> = { contact: "Contact form", quote: "Quote request", service: "Service enquiry", general: "General enquiry" };
@@ -11,7 +12,9 @@ export function notificationEmail(r: Rec) {
   const rows: [string, string][] = [
     ["Name", r.name], ["Email", r.email], ["Phone", r.phone], ["Company", r.company], ["Country", r.country],
     ["Service", r.service], ["Tasks to delegate", r.tasks.join(", ")], ["Support needed", r.hours],
-    ["Working-hour overlap", r.overlap], ["Start", r.start], ["Submitted from", r.page], ["Submitted at", r.submittedAt],
+    ["Working-hour overlap", r.overlap], ["Start", r.start], ["Monthly budget", r.budget || ""], ["Preferred contact", r.contactMethod || ""],
+    ["Source", r.utm ? [r.utm.utm_source, r.utm.utm_medium, r.utm.utm_campaign].filter(Boolean).join(" / ") || r.utm.referrer || "" : ""],
+    ["Landing page", r.utm?.landing_page || ""], ["Submitted from", r.page], ["Submitted at", r.submittedAt],
   ].filter(([, v]) => v) as [string, string][];
   const subject = `New ${labels[r.formType] || "enquiry"} from ${r.name}${r.company ? ` (${r.company})` : ""}`;
   const html = `

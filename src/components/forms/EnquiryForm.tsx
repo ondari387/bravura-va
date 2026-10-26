@@ -2,7 +2,9 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { services } from "@/content/catalog";
-import { countries, hoursOptions, overlapOptions, startOptions, validateEnquiry, type EnquiryPayload } from "@/lib/forms";
+import { countries, hoursOptions, overlapOptions, startOptions, budgetOptions, contactMethodOptions, validateEnquiry, type EnquiryPayload } from "@/lib/forms";
+import { getAttribution } from "@/lib/attribution";
+import { monthlyPackages, hourly } from "@/content/pricing";
 import { Icon } from "@/components/ui/Icon";
 import { buttonClass } from "@/components/ui/Button";
 import { cn } from "@/lib/cn";
@@ -19,7 +21,8 @@ type Props = {
 export const TASKS_STORAGE_KEY = "bva-delegate-tasks";
 
 export function EnquiryForm({ formType = "contact", defaultService = "", submitLabel = "Let's Talk About Your Business", tone = "white" }: Props) {
-  const [values, setValues] = useState({ name: "", email: "", phone: "", company: "", country: "", service: defaultService, message: "", hours: "", overlap: "", start: "", website: "" });
+  const [values, setValues] = useState({ name: "", email: "", phone: "", company: "", country: "", service: defaultService, message: "", hours: "", overlap: "", start: "", budget: "", contactMethod: "", website: "" });
+  const [moreOpen, setMoreOpen] = useState(formType === "quote");
   const [consent, setConsent] = useState(false);
   const [tasks, setTasks] = useState<string[]>([]);
   const [errors, setErrors] = useState<Record<string, string>>({});
@@ -36,6 +39,9 @@ export function EnquiryForm({ formType = "contact", defaultService = "", submitL
         setTasks(list.slice(0, 20));
         setValues((v) => (v.message ? v : { ...v, message: `I'd like help with: ${list.join(", ")}.\n\n` }));
       }
+      const plan = new URLSearchParams(window.location.search).get("plan");
+      const planName = plan === "hourly" ? hourly.name : monthlyPackages.find((p) => p.id === plan)?.name;
+      if (planName) setValues((v) => (v.message.includes(planName) ? v : { ...v, message: v.message ? `I'm interested in ${planName}. ${v.message}` : `I'm interested in ${planName}. ` }));
       const svc = new URLSearchParams(window.location.search).get("service");
       if (svc && services.some((s) => s.name === svc)) setValues((v) => ({ ...v, service: svc }));
     } catch { /* ignore */ }
@@ -48,10 +54,11 @@ export function EnquiryForm({ formType = "contact", defaultService = "", submitL
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
-    const payload: EnquiryPayload = { ...values, formType, tasks, consent, page: window.location.pathname, elapsedMs: Date.now() - started.current };
+    const payload: EnquiryPayload = { ...values, formType, tasks, consent, page: window.location.pathname, utm: getAttribution(), elapsedMs: Date.now() - started.current };
     const errs = validateEnquiry(payload);
     setErrors(errs);
     if (Object.keys(errs).length) {
+      if (errs.phone) setMoreOpen(true);
       const first = Object.keys(errs)[0];
       document.getElementById(`f-${formType}-${first}`)?.focus();
       return;
@@ -62,7 +69,8 @@ export function EnquiryForm({ formType = "contact", defaultService = "", submitL
       const data = await r.json().catch(() => ({}));
       if (r.ok && data.ok) {
         setStatus("success");
-        track("generate_lead", { form_type: formType, service: values.service || "unspecified" });
+        track("form_submit", { form_type: formType });
+        track("generate_lead", { form_type: formType, service: values.service || "unspecified", country: values.country || "unspecified" });
         try { sessionStorage.removeItem(TASKS_STORAGE_KEY); } catch { /* ignore */ }
       } else {
         if (data.errors) setErrors(data.errors);
@@ -119,17 +127,9 @@ export function EnquiryForm({ formType = "contact", defaultService = "", submitL
       <div className="grid gap-4 sm:grid-cols-2">
         {field("name", "Full Name", { required: true, autoComplete: "name" })}
         {field("email", "Business Email", { type: "email", required: true, autoComplete: "email" })}
-        {field("phone", "Phone", { type: "tel", autoComplete: "tel", placeholder: "Include country code" })}
-        {field("company", "Company", { autoComplete: "organization" })}
+        {field("company", "Company Name", { autoComplete: "organization" })}
         {select("country", "Country", countries)}
-        {select("service", "Service Required", [...services.map((s) => s.name), "Not sure yet"])}
-        {formType === "quote" && (
-          <>
-            {select("hours", "Estimated support needed", hoursOptions)}
-            {select("overlap", "Preferred working-hour overlap", overlapOptions)}
-            {select("start", "When would you like to start?", startOptions)}
-          </>
-        )}
+        <div className="sm:col-span-2">{select("service", "Service Required", [...services.map((s) => s.name), "Not sure yet"])}</div>
       </div>
       {tasks.length > 0 && (
         <div className="rounded-2xl bg-white/70 p-4 ring-1 ring-teal/10">
@@ -153,6 +153,26 @@ export function EnquiryForm({ formType = "contact", defaultService = "", submitL
           className={cn("input resize-y", errors.message && "border-orange ring-2 ring-orange/30")}
         />
         {errors.message && <p id={`f-${formType}-message-err`} className="mt-1.5 text-sm font-medium text-ink">⚠ {errors.message}</p>}
+      </div>
+      <div className="rounded-2xl bg-white/60 ring-1 ring-teal/10">
+        <button type="button" onClick={() => setMoreOpen(!moreOpen)} aria-expanded={moreOpen} className="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-semibold text-ink">
+          Add more detail (optional)
+          <Icon name="chevronDown" className={cn("h-4 w-4 transition", moreOpen && "rotate-180")} />
+        </button>
+        {moreOpen && (
+          <div className="grid gap-4 px-4 pb-4 sm:grid-cols-2">
+            {field("phone", "Phone / WhatsApp", { type: "tel", autoComplete: "tel", placeholder: "Include country code" })}
+            {select("contactMethod", "Preferred contact method", contactMethodOptions)}
+            {select("hours", "Estimated hours needed", hoursOptions)}
+            {select("budget", "Monthly budget (your currency)", budgetOptions)}
+            {formType === "quote" && (
+              <>
+                {select("overlap", "Preferred working-hour overlap", overlapOptions)}
+                {select("start", "When would you like to start?", startOptions)}
+              </>
+            )}
+          </div>
+        )}
       </div>
       {/* Honeypot: hidden from people, tempting for bots */}
       <div aria-hidden="true" className="absolute -left-[9999px] h-0 w-0 overflow-hidden">

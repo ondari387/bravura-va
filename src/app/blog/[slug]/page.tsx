@@ -72,7 +72,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             <div className="mt-14 overflow-hidden rounded-[2rem] bg-teal p-8 text-white sm:p-10">
               <p className="eyebrow text-white">Ready to delegate?</p>
               <h2 className="mt-3 font-heading text-2xl font-extrabold text-white sm:text-3xl">{p.cta || "Get dependable, human-led support for the work that slows you down."}</h2>
-              <p className="mt-3 text-white/75">Book a free discovery call with Bravura VA. We&apos;ll talk through your workload and show you what you could hand over first.</p>
+              <p className="mt-3 text-white/75">Book a free consultation with Bravura VA. We&apos;ll talk through your workload and show you what you could hand over first.</p>
               <div className="mt-6 flex flex-col gap-3 sm:flex-row">
                 <BookCallButton source={`blog_${slug}`} />
                 <ButtonLink href="/services/" variant="outlineLight">Explore Services</ButtonLink>

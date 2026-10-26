@@ -3,10 +3,10 @@ import type { ServiceContent } from "./types";
 export const adminServices: ServiceContent[] = [
   {
     slug: "administrative-support",
-    metaTitle: "Administrative Virtual Assistant Services | Remote Admin Support | Bravura VA",
-    metaDescription: "Hire an administrative virtual assistant for email, scheduling, data entry, documents, spreadsheets and reports. Human-led remote admin support from Nairobi for US, UK and Australian businesses.",
+    metaTitle: "Admin & Executive Virtual Assistant Services | Remote Administrative Support | Bravura VA",
+    metaDescription: "Hire an administrative or executive virtual assistant for inbox and calendar management, meeting coordination, travel, documents, CRM updates and follow-ups. Human-led support from Nairobi for US, UK, Australian and Canadian businesses.",
     hero: {
-      eyebrow: "Administrative Support",
+      eyebrow: "Admin & Executive Support",
       headline: "Stop Spending Your Best Hours on Admin.",
       intro: "Inboxes, spreadsheets, meeting notes, file clean-ups, reports: the admin never ends, and it always lands on the busiest person. Bravura VA gives you a dependable administrative virtual assistant who keeps the routine work moving so you can focus on customers, decisions and growth.",
     },
@@ -16,10 +16,10 @@ export const adminServices: ServiceContent[] = [
       "Most clients start with a handful of tasks that are clearly eating their week. As trust builds and your assistant learns your business, the scope usually grows naturally: from inbox triage to document preparation, from data entry to weekly reporting. The aim is simple: fewer things on your plate, and more confidence that nothing important is slipping.",
     ],
     taskGroups: [
-      { title: "Email & scheduling", items: ["Inbox triage, labelling and filtering", "Drafting routine replies for your approval", "Scheduling meetings and sending invites", "Managing reminders and follow-ups"] },
+      { title: "Email, calendar & travel", items: ["Inbox triage, labelling and filtering", "Calendar scheduling and meeting coordination", "Travel planning and itineraries", "Reminders and follow-ups"] },
       { title: "Documents & files", items: ["Document preparation and formatting", "Templates for proposals, letters and SOPs", "Shared drive and file organization", "Converting, merging and tidying PDFs"] },
       { title: "Data & reporting", items: ["Data entry and record updates", "Spreadsheet management and clean-up", "Weekly and monthly report preparation", "Basic research and fact-finding"] },
-      { title: "Coordination", items: ["Meeting notes and action-point tracking", "Supplier and client correspondence", "Routine order and booking admin", "Keeping task lists and trackers current"] },
+      { title: "Coordination & CRM", items: ["Meeting notes and action-point tracking", "CRM updates after calls and meetings", "Supplier and client correspondence", "Keeping task lists and trackers current"] },
     ],
     audience: [
       { title: "Founders and business owners", text: "You're the bottleneck for small decisions and routine tasks. A virtual assistant takes the repeatable work so you're only pulled in when your input truly matters." },
@@ -39,7 +39,7 @@ export const adminServices: ServiceContent[] = [
     ],
     software: ["Google Workspace", "Microsoft 365", "Slack", "Microsoft Teams", "Zoom", "Calendly", "Dropbox", "Notion", "Asana", "Trello", "ClickUp", "DocuSign", "Adobe Acrobat", "Loom"],
     support: [
-      "We start by understanding where your time goes. On a discovery call we'll talk through a typical week and identify the admin tasks that are frequent, predictable and safe to hand over first. From there we agree a clear scope, the tools your assistant will use and how you'd like to receive updates.",
+      "We start by understanding where your time goes. During a free consultation we'll talk through a typical week and identify the admin tasks that are frequent, predictable and safe to hand over first. From there we agree a clear scope, the tools your assistant will use and how you'd like to receive updates.",
       "During onboarding, your assistant documents each recurring task as a short checklist, often from a quick screen recording you make once. That documentation belongs to you, keeps quality consistent and makes it easy to adjust the process later. You'll have a regular check-in to review priorities, and you can add or change tasks as your needs evolve.",
     ],
     humanAi: "AI tools can tidy up a draft, summarize a long email thread or suggest a spreadsheet formula, and where you approve it your assistant may use them to work faster. But administration is full of small judgment calls: which email is genuinely urgent, which supplier needs a polite nudge, which number in a report doesn't look right. A person stays responsible for checking every output and deciding what happens next, and nothing confidential goes into an AI tool you haven't cleared.",
@@ -101,7 +101,7 @@ export const adminServices: ServiceContent[] = [
     humanAi: "Email clients increasingly offer AI summaries and suggested replies, and those features can be helpful. What they can't do is know that a particular client is unhappy, that a certain partner always needs a call rather than an email, or that your Thursday afternoons are sacred. Your assistant uses approved tools to save time where it makes sense, but a person reads, decides and follows through, and your messages always sound like you, not like a template.",
     why: [
       "Clear rules agreed with you before your assistant touches your inbox",
-      "Experience coordinating meetings across US, UK and Australian time zones",
+      "Experience coordinating meetings across US, UK, Australian and Canadian time zones",
       "Discreet handling of confidential correspondence",
       "Daily summaries that keep you informed without overwhelming you",
     ],
@@ -159,7 +159,7 @@ export const adminServices: ServiceContent[] = [
       "Careful matching based on experience and communication style",
       "Confidentiality agreed in writing before any access is granted",
       "Proactive, not reactive: your assistant learns to anticipate",
-      "Experience coordinating across US, UK and Australian time zones",
+      "Experience coordinating across US, UK, Australian and Canadian time zones",
     ],
     faqs: [
       { q: "What's the difference between an executive assistant and an administrative assistant?", a: "An administrative assistant handles general business admin. An executive assistant supports one leader closely: managing their calendar, travel, correspondence and meeting preparation, with a higher level of discretion and anticipation." },
@@ -228,7 +228,7 @@ export const adminServices: ServiceContent[] = [
   {
     slug: "data-entry-research",
     metaTitle: "Data Entry & Research Virtual Assistant Services | Bravura VA",
-    metaDescription: "Accurate data entry, CRM updates, list building, market and competitor research, and spreadsheet clean-up by human virtual assistants in Nairobi, Kenya for US, UK and Australian businesses.",
+    metaDescription: "Accurate data entry, CRM updates, list building, market and competitor research, and spreadsheet clean-up by human virtual assistants in Nairobi, Kenya for US, UK, Australian and Canadian businesses.",
     hero: {
       eyebrow: "Data Entry & Research",
       headline: "Clean Data. Useful Research. Without the Late Nights.",

@@ -2,7 +2,7 @@
 title: "How Construction Companies Can Use Virtual Assistants"
 description: "Practical ways construction companies and contractors use remote assistants: document control, bid and estimate admin, subcontractor scheduling, compliance tracking, client updates and invoicing."
 category: "Industry Guides"
-date: 2026-08-28
+date: 2026-10-23
 image: teamDiscussion
 keywords: ["virtual assistant for construction companies", "construction admin support", "contractor virtual assistant", "construction document control"]
 related: ["tasks-small-business-owners-can-delegate-to-virtual-assistants", "how-to-build-a-remote-support-team", "virtual-assistant-vs-full-time-employee"]

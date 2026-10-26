@@ -1,10 +1,7 @@
-import { countries } from "./countries";
-import { statePages, allStates } from "./states";
-import { cityPages } from "./cities";
+import { marketPages } from "./markets";
+import { originPages } from "./countries";
 export type { LocationPage } from "./types";
-export { countries, statePages, allStates, cityPages };
+export { marketPages, originPages };
 
-export const subPages = [...statePages, ...cityPages];
-export const getCountry = (slug: string) => countries.find((c) => c.slug === slug);
-export const getSubPage = (country: string, slug: string) => subPages.find((p) => p.parent === country && p.slug === slug);
-export const childrenOf = (country: string) => subPages.filter((p) => p.parent === country);
+export const locationPages = [...marketPages, ...originPages];
+export const getLocation = (slug: string) => locationPages.find((p) => p.slug === slug)!;

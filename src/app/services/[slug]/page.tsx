@@ -3,7 +3,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { serviceContent, getServiceContent } from "@/content/services";
-import { serviceBySlug, serviceCategories } from "@/content/catalog";
+import { serviceBySlug, serviceCategories, markets, industries } from "@/content/catalog";
+import { industryContent } from "@/content/industries";
+import { getAllPosts } from "@/lib/blog";
+import { PostCard } from "@/components/sections/BlogPreview";
+import { CTABand } from "@/components/sections/CTABand";
 import { img } from "@/content/images";
 import { PageHero } from "@/components/sections/PageHero";
 import { Section, SectionHeading } from "@/components/ui/Section";
@@ -33,6 +37,8 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   const meta = serviceBySlug(slug);
   if (!s || !meta) notFound();
   const cat = serviceCategories.find((c) => c.id === meta.category)!;
+  const relatedIndustries = industryContent.filter((i) => i.services.includes(slug)).slice(0, 4).map((i) => industries.find((x) => x.slug === i.slug)!).filter(Boolean);
+  const articles = getAllPosts().filter((pst) => pst.html.includes(`/services/${slug}/`)).slice(0, 3);
   const related = s.related.map(serviceBySlug).filter(Boolean) as NonNullable<ReturnType<typeof serviceBySlug>>[];
 
   return (
@@ -62,7 +68,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                 <li key={w} className="flex gap-3 text-[15px] text-ink"><span className="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-orange text-teal"><Icon name="check" className="h-3 w-3" /></span>{w}</li>
               ))}
             </ul>
-            <BookCallButton className="mt-7 w-full" source={`service_${slug}`}>Book a Free Call</BookCallButton>
+            <BookCallButton className="mt-7 w-full" source={`service_${slug}`}>Book a Free Consultation</BookCallButton>
           </aside>
         </div>
       </Section>
@@ -174,6 +180,33 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
 
       <HowItWorks tone="off" cta={false} />
 
+      {/* Pricing enquiry + countries */}
+      <Section tone="white">
+        <div className="grid gap-6 lg:grid-cols-2">
+          <div className="rounded-[2rem] bg-teal p-8 text-white sm:p-10">
+            <p className="eyebrow text-white">Pricing</p>
+            <h2 className="mt-3 font-heading text-2xl font-extrabold text-white sm:text-3xl">Hourly or monthly. Quoted in your currency.</h2>
+            <p className="mt-3 text-white/75">The cost of {meta.name.toLowerCase()} depends on hours, complexity and the working-hour overlap you need. Tell us about your workload and we&apos;ll send a clear written quote in US dollars, pounds, Australian or Canadian dollars.</p>
+            <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+              <Link href={`/pricing/?plan=growth#quote`} className="inline-flex items-center justify-center rounded-full bg-orange px-6 py-3.5 font-heading text-[15px] font-bold text-teal hover:bg-aqua">Request a Quote</Link>
+              <Link href="/pricing/" className="inline-flex items-center justify-center rounded-full px-6 py-3.5 font-heading text-[15px] font-bold text-white ring-1 ring-white/40 hover:bg-white hover:text-teal">How Pricing Works</Link>
+            </div>
+          </div>
+          <div className="rounded-[2rem] bg-offwhite p-8 sm:p-10">
+            <p className="eyebrow">Where we support</p>
+            <h2 className="mt-3 font-heading text-2xl font-extrabold sm:text-3xl">{meta.name} for international businesses</h2>
+            <ul className="mt-6 grid gap-3 sm:grid-cols-2">
+              {markets.map((m) => (
+                <li key={m.slug}><Link href={m.href} className="flex items-center justify-between rounded-2xl bg-white px-4 py-3 font-semibold text-ink shadow-card hover:text-teal">{m.name}<Icon name="arrowRight" className="h-4 w-4" /></Link></li>
+              ))}
+            </ul>
+            {relatedIndustries.length > 0 && (
+              <p className="mt-6 text-sm text-ink-muted">Popular with: {relatedIndustries.map((i, k) => <span key={i.slug}><Link href={`/industries/${i.slug}/`} className="font-semibold text-teal underline">{i.name}</Link>{k < relatedIndustries.length - 1 ? ", " : ""}</span>)}</p>
+            )}
+          </div>
+        </div>
+      </Section>
+
       <FAQSection faqs={s.faqs} title={`${meta.name} FAQs`} tone="white" description={`Common questions about delegating ${meta.name.toLowerCase()} to a remote assistant.`} />
 
       {/* Related */}
@@ -191,6 +224,14 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         </div>
       </Section>
 
+      {articles.length > 0 && (
+        <Section tone="white">
+          <SectionHeading eyebrow="Guides" title="Helpful Reading" />
+          <div className="mt-12 grid gap-6 md:grid-cols-3">{articles.map(({ html: _h, headings: _hd, ...m }) => <PostCard key={m.slug} p={m} />)}</div>
+        </Section>
+      )}
+
+      <CTABand />
       <ContactSection formType="service" defaultService={meta.name} title={`Ask About ${meta.name}`} />
       <JsonLd data={serviceSchema({ name: meta.name, description: s.metaDescription, path: `/services/${slug}/` })} />
     </>

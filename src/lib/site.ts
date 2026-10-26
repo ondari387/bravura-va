@@ -2,9 +2,9 @@ export const site = {
   name: "Bravura VA",
   legalName: "Bravura VA",
   tagline: "Less Admin. More Growth. Real Human Support.",
-  url: (process.env.NEXT_PUBLIC_SITE_URL || "https://bravura.co.ke").replace(/\/$/, ""),
+  url: (process.env.NEXT_PUBLIC_SITE_URL || "https://va.bravura.co.ke").replace(/\/$/, ""),
   description:
-    "Human-led virtual assistant and remote business support from Nairobi, Kenya, for startups, entrepreneurs and growing businesses across the USA, UK and Australia.",
+    "Human-led virtual assistant and remote business support from Nairobi, Kenya, for startups, entrepreneurs and growing businesses across the USA, UK, Australia and Canada.",
   phone: "+254 714 089 042",
   phoneHref: "tel:+254714089042",
   email: "va@bravura.co.ke",

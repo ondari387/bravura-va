@@ -13,8 +13,8 @@ import { services } from "@/content/catalog";
 import { absoluteUrl } from "@/lib/site";
 
 export const metadata: Metadata = pageMeta({
-  title: "Virtual Assistant Services | Admin, Customer, Operations & Creative Support",
-  description: "Explore Bravura VA's virtual assistant services: administrative and executive support, customer and sales support, e-commerce, real estate and recruitment operations, and creative and technical support.",
+  title: "Virtual Assistant Services: Admin, Support, Shopify & More",
+  description: "Explore 19 human-led virtual assistant services, from admin and executive support to customer service, Shopify, lead generation, bookkeeping and WordPress.",
   path: "/services/",
 });
 

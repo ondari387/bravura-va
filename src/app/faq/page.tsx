@@ -34,7 +34,7 @@ export default function FAQPage() {
           </div>
         </div>
       </Section>
-      <CTABand title="Still Have Questions?" description="Book a free discovery call or send us a message. We'll give you honest answers, even if the answer is that we're not the right fit." />
+      <CTABand title="Still Have Questions?" description="Book a free consultation or send us a message. We'll give you honest answers, even if the answer is that we're not the right fit." />
       <JsonLd data={faqSchema(allFaqs)} />
     </>
   );

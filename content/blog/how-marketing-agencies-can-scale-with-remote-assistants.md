@@ -2,7 +2,7 @@
 title: "How Marketing Agencies Can Scale With Remote Assistants"
 description: "How marketing and creative agencies use remote assistants to scale delivery without burning out their teams: project coordination, reporting, content production, social scheduling, client admin and white-label support."
 category: "Industry Guides"
-date: 2026-09-08
+date: 2026-10-23
 image: teamCouch
 keywords: ["virtual assistant for marketing agency", "agency virtual assistant", "white label virtual assistant", "scale marketing agency"]
 related: ["how-to-build-a-remote-support-team", "how-virtual-assistants-can-use-ai-to-improve-productivity", "virtual-assistant-agency-vs-freelancer"]
@@ -102,4 +102,4 @@ Assistants in a different time zone can complete production work overnight. UK a
 
 Remote assistants let agencies scale delivery without overloading senior staff or committing to permanent headcount for every new account. Start with your biggest time sink, document your processes and grow support in step with your client roster.
 
-Learn how we support [marketing agencies](/industries/marketing-agencies/) or [book a free discovery call](/book-a-call/).
+Learn how we support [marketing agencies](/industries/marketing-agencies/) or [book a free consultation](/book-a-call/).

@@ -3,8 +3,8 @@ import type { ServiceContent } from "./types";
 export const customerServices: ServiceContent[] = [
   {
     slug: "customer-support",
-    metaTitle: "Customer Support Virtual Assistant | Email, Chat & Phone Support | Bravura VA",
-    metaDescription: "Outsourced customer support from human virtual assistants in Nairobi: email support, live chat, phone support, ticket management, order enquiries and escalations for US, UK and Australian businesses.",
+    metaTitle: "Customer Support Virtual Assistant | Outsourced Email & Live Chat Support | Bravura VA",
+    metaDescription: "Outsourced customer support from human virtual assistants in Nairobi: email support, live chat, phone support, ticket management, order enquiries and escalations for US, UK, Australian and Canadian businesses.",
     hero: {
       eyebrow: "Customer Support",
       headline: "Still Answering Customer Emails After Hours?",
@@ -18,7 +18,7 @@ export const customerServices: ServiceContent[] = [
     taskGroups: [
       { title: "Email support", items: ["Answering enquiries using your knowledge base", "Personalized replies in your brand voice", "Order status and delivery updates", "Customer follow-ups after resolution"] },
       { title: "Live chat & messaging", items: ["Website live chat during agreed hours", "Social media and WhatsApp messages", "Pre-sale product questions", "Handing conversations to sales when relevant"] },
-      { title: "Phone support", items: ["Answering and returning customer calls", "Logging call notes in your helpdesk", "Taking messages and booking callbacks", "Polite handling of difficult conversations"] },
+      { title: "Phone support (where agreed)", items: ["Returning customer calls during agreed hours", "Logging call notes in your helpdesk", "Taking messages and booking callbacks", "Polite handling of difficult conversations"] },
       { title: "Tickets & escalations", items: ["Ticket triage, tagging and prioritization", "Complaint escalation with full context", "Returns and refund requests per policy", "Updating FAQs and saved replies"] },
     ],
     audience: [
@@ -50,9 +50,10 @@ export const customerServices: ServiceContent[] = [
       "Regular insight reports on what your customers are asking",
     ],
     faqs: [
-      { q: "Can your team support customers in US, UK and Australian time zones?", a: "Working hours are agreed with you. Nairobi's time zone (UTC+3) gives natural overlap with the UK and early overlap with US mornings and Australian afternoons, and other hours can be discussed depending on your needs." },
+      { q: "Can your team support customers in US, UK, Australian and Canadian time zones?", a: "Working hours are agreed with you. Nairobi's time zone (UTC+3) gives natural overlap with the UK and early overlap with US mornings and Australian afternoons, and other hours can be discussed depending on your needs." },
       { q: "Do you provide 24/7 customer support?", a: "We don't promise 24/7 cover by default. We'll discuss your volumes and expectations and recommend a realistic arrangement." },
       { q: "Will customers know they're talking to an outsourced team?", a: "That's your choice. Most clients have their assistant work under the company name as part of the team. We'll never misrepresent anything about your business to customers." },
+      { q: "Do you offer phone support or guaranteed response times?", a: "Phone support and response-time targets are only offered where we have agreed them with you in writing, based on your volumes and the hours we can realistically cover. Email and chat support are the most common starting points." },
       { q: "Can you process refunds?", a: "Your assistant can process refunds and returns within the rules and permissions you set, and escalate anything outside them." },
     ],
     related: ["virtual-receptionist", "ecommerce-virtual-assistant", "sales-support"],
@@ -162,7 +163,7 @@ export const customerServices: ServiceContent[] = [
       "Seamless handover into your existing CRM and tools",
     ],
     faqs: [
-      { q: "Do you send cold emails on our behalf?", a: "Your assistant can prepare and load outreach in your tools and manage replies. Sending strategy, messaging approval and compliance with laws in your market (such as CAN-SPAM, PECR/UK GDPR or Australia's Spam Act) remain your decision, and we'll follow the rules you set." },
+      { q: "Do you send cold emails on our behalf?", a: "Your assistant can prepare and load outreach in your tools and manage replies. Sending strategy, messaging approval and compliance with laws in your market (such as CAN-SPAM in the US, PECR and UK GDPR, Australia's Spam Act or Canada's CASL) remain your decision, and we'll follow the rules you set." },
       { q: "Where does the data come from?", a: "From publicly available business sources and the prospecting tools you subscribe to. We don't scrape in breach of site terms or buy questionable lists." },
       { q: "How many leads can an assistant produce?", a: "It depends on how niche your market is and how much research each record needs. We'll agree realistic targets after a short pilot rather than promising a number upfront." },
       { q: "Can you qualify leads by phone?", a: "Yes, if agreed. Your assistant can make qualification calls using an agreed script and book meetings for your sales team." },

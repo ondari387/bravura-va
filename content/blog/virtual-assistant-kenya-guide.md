@@ -2,7 +2,7 @@
 title: "Virtual Assistant Kenya: Services, Skills and Hiring Considerations"
 description: "A practical guide to hiring a virtual assistant in Kenya: the services Kenyan VAs commonly provide, the skills to look for, how to assess candidates, time zones, data protection and working arrangements."
 category: "Kenya & Africa Outsourcing"
-date: 2026-09-18
+date: 2026-10-23
 image: womanOfficeLaptop2
 keywords: ["virtual assistant Kenya", "Kenyan virtual assistant", "virtual assistant Nairobi", "virtual assistant agency Kenya"]
 related: ["why-us-businesses-are-considering-virtual-assistants-from-kenya", "why-nairobi-is-emerging-as-a-remote-business-support-destination", "how-to-manage-a-kenya-based-virtual-assistant-from-the-usa"]
@@ -112,4 +112,4 @@ If you choose an agency, check that it's transparent about where it's based, how
 
 Kenyan virtual assistants offer international businesses strong English, a broad range of skills and a time zone that works well with the UK, the US East Coast and Australia. Hire thoughtfully, focus on communication, reliability and judgment, and set clear expectations from day one.
 
-[Bravura VA](/virtual-assistants/kenya/) is a Nairobi-based company providing human-led virtual assistance to businesses in the USA, UK and Australia. If you're considering a Kenyan VA, we'd be glad to help.
+[Bravura VA](/virtual-assistant-kenya/) is a Nairobi-based company providing human-led virtual assistance to businesses in the USA, UK and Australia. If you're considering a Kenyan VA, we'd be glad to help.

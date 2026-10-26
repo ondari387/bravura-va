@@ -7,11 +7,25 @@ import { img } from "@/content/images";
 import { Icon } from "@/components/ui/Icon";
 import { cn } from "@/lib/cn";
 
-export function IndustryGrid({ filter = false, limit }: { filter?: boolean; limit?: number }) {
+export function IndustryGrid({ filter = false, limit, slugs, compact = false }: { filter?: boolean; limit?: number; slugs?: string[]; compact?: boolean }) {
   const [group, setGroup] = useState<IndustryGroup | "all">("all");
   const [q, setQ] = useState("");
   let list = industries.filter((i) => (group === "all" || i.group === group) && (!q || `${i.name} ${i.problem} ${i.solution}`.toLowerCase().includes(q.toLowerCase())));
+  if (slugs) list = slugs.map((sl) => list.find((i) => i.slug === sl)).filter(Boolean) as typeof list;
   if (limit) list = list.slice(0, limit);
+  if (compact) {
+    return (
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+        {list.map((i) => (
+          <Link key={i.slug} href={`/industries/${i.slug}/`} className="group rounded-3xl bg-white p-5 shadow-card ring-1 ring-teal/5 transition hover:-translate-y-1 hover:shadow-lift">
+            <span className="grid h-11 w-11 place-items-center rounded-2xl bg-orange text-teal"><Icon name={i.icon} className="h-5 w-5" /></span>
+            <h3 className="mt-4 font-heading text-base font-extrabold">{i.name}</h3>
+            <p className="mt-1 text-sm leading-relaxed text-ink-muted">{i.solution}</p>
+          </Link>
+        ))}
+      </div>
+    );
+  }
   return (
     <div>
       {filter && (

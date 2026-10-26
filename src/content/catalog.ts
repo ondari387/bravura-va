@@ -24,16 +24,16 @@ export const services: ServiceSummary[] = [
   { slug: "virtual-receptionist", name: "Virtual Receptionist", category: "customer", icon: "phoneCall", image: "womanHeadsetDesk", summary: "Professional call handling, message taking and appointment booking so no enquiry slips through." },
   { slug: "lead-generation", name: "Lead Generation", category: "customer", icon: "target", image: "manLaptop", summary: "Prospect research, list building and lead qualification that feed your sales pipeline." },
   { slug: "sales-support", name: "Sales Support", category: "customer", icon: "trendingUp", image: "teamTableLaptops", summary: "CRM updates, follow-ups, appointment setting and pipeline admin that free your sellers to sell." },
-  { slug: "ecommerce-virtual-assistant", name: "E-commerce Virtual Assistant", category: "operations", icon: "cart", image: "womanDeskYellow", summary: "Shopify and Amazon admin, product listings, order enquiries and returns coordination." },
+  { slug: "ecommerce-virtual-assistant", name: "E-commerce & Shopify Virtual Assistant", category: "operations", icon: "cart", image: "womanDeskYellow", summary: "Shopify product uploads, store updates, order admin, customer enquiries and returns coordination." },
   { slug: "real-estate-virtual-assistant", name: "Real Estate Virtual Assistant", category: "operations", icon: "home", image: "womanSmiling", summary: "Listing admin, lead follow-up, showing coordination and transaction paperwork organization." },
   { slug: "recruitment-virtual-assistant", name: "Recruitment Virtual Assistant", category: "operations", icon: "userPlus", image: "twoWomenTalking", summary: "Candidate sourcing research, interview scheduling, ATS updates and candidate communication." },
-  { slug: "bookkeeping-administration", name: "Bookkeeping Administration", category: "operations", icon: "calculator", image: "womanDeskNotebook", summary: "Receipt capture, invoice admin and record organization that keep your books ready for your accountant." },
+  { slug: "bookkeeping-virtual-assistant", name: "Bookkeeping Support", category: "operations", icon: "calculator", image: "womanDeskNotebook", summary: "Receipt capture, invoice admin and record organization that keep your books ready for your accountant." },
   { slug: "project-management-support", name: "Project Management Support", category: "operations", icon: "listChecks", image: "teamWhiteTable", summary: "Task tracking, meeting notes, status updates and deadline follow-ups across your projects." },
   { slug: "operations-support", name: "Operations Support", category: "operations", icon: "settings", image: "teamDiscussion", summary: "Process documentation, vendor coordination and the operational glue that holds a growing team together." },
   { slug: "content-writing", name: "Content Writing", category: "creative", icon: "pen", image: "womanCafe", summary: "Blog posts, newsletters, product descriptions and website copy written for real readers." },
   { slug: "graphic-design", name: "Graphic Design", category: "creative", icon: "palette", image: "womanOrange", summary: "Social graphics, presentations, documents and marketing materials that look on-brand." },
-  { slug: "social-media-management", name: "Social Media Management", category: "creative", icon: "share", image: "teamCouch", summary: "Content calendars, scheduling, community replies and reporting for your social channels." },
-  { slug: "website-technical-support", name: "Website & Technical Support", category: "creative", icon: "monitor", image: "manHeadset2", summary: "WordPress and Shopify updates, content changes, plugin housekeeping and tool administration." },
+  { slug: "social-media-management", name: "Social Media Support", category: "creative", icon: "share", image: "teamCouch", summary: "Content calendars, scheduling, community replies and reporting for your social channels." },
+  { slug: "wordpress-virtual-assistant", name: "WordPress Virtual Assistant", category: "creative", icon: "monitor", image: "manHeadset2", summary: "WordPress content uploads, page updates, blog publishing, image optimisation and routine site admin." },
 ];
 
 export const serviceBySlug = (slug: string) => services.find((s) => s.slug === slug);
@@ -70,16 +70,16 @@ export const categoryServiceLinks: Record<ServiceCategoryId, { label: string; sl
     { label: "Property Management", slug: "real-estate-virtual-assistant" },
     { label: "Recruitment Support", slug: "recruitment-virtual-assistant" },
     { label: "Project Coordination", slug: "project-management-support" },
-    { label: "Bookkeeping Administration", slug: "bookkeeping-administration" },
+    { label: "Bookkeeping Administration", slug: "bookkeeping-virtual-assistant" },
     { label: "Operations Support", slug: "operations-support" },
   ],
   creative: [
     { label: "Content Writing", slug: "content-writing" },
     { label: "Graphic Design", slug: "graphic-design" },
     { label: "Social Media Management", slug: "social-media-management" },
-    { label: "Website Updates", slug: "website-technical-support" },
-    { label: "WordPress Support", slug: "website-technical-support" },
-    { label: "Shopify Website Support", slug: "website-technical-support" },
+    { label: "Website Updates", slug: "wordpress-virtual-assistant" },
+    { label: "WordPress Support", slug: "wordpress-virtual-assistant" },
+    { label: "Shopify Website Support", slug: "wordpress-virtual-assistant" },
     { label: "Presentation Design", slug: "graphic-design" },
     { label: "Marketing Administration", slug: "social-media-management" },
   ],
@@ -120,3 +120,28 @@ export const industries: IndustrySummary[] = [
 ];
 
 export const industryBySlug = (slug: string) => industries.find((s) => s.slug === slug);
+
+/** The ten primary service categories featured on the homepage and in navigation. */
+export const primaryServices: { slug: string; label: string; text: string }[] = [
+  { slug: "administrative-support", label: "Admin & Executive Support", text: "Inbox, calendar, travel, documents, research and follow-ups." },
+  { slug: "customer-support", label: "Customer Support", text: "Email and chat enquiries, helpdesk tickets and clear escalations." },
+  { slug: "ecommerce-virtual-assistant", label: "E-commerce & Shopify", text: "Product uploads, inventory updates, orders, returns and store upkeep." },
+  { slug: "lead-generation", label: "Lead Generation", text: "Prospect research, lead lists, CRM enrichment and follow-up admin." },
+  { slug: "social-media-management", label: "Social Media Support", text: "Content calendars, scheduling, caption drafts and comment monitoring." },
+  { slug: "real-estate-virtual-assistant", label: "Real Estate Support", text: "CRM admin, viewings, listing updates and enquiry follow-up." },
+  { slug: "wordpress-virtual-assistant", label: "WordPress Support", text: "Content uploads, page updates, blog publishing and routine site admin." },
+  { slug: "recruitment-virtual-assistant", label: "Recruitment Support", text: "Candidate research, interview scheduling and ATS updates." },
+  { slug: "data-entry-research", label: "Data Entry & Research", text: "Spreadsheets, data cleaning, CRM entry, research and reports." },
+  { slug: "bookkeeping-virtual-assistant", label: "Bookkeeping Support", text: "Invoices, receipts, expense categorisation and payment follow-ups." },
+];
+
+/** Priority industries featured on the homepage. */
+export const priorityIndustries = ["startups", "small-businesses", "ecommerce", "real-estate", "marketing-agencies", "recruitment-staffing", "consulting", "technology-saas", "property-management", "legal-services"];
+
+/** International markets with dedicated pages. */
+export const markets: { slug: string; name: string; href: string; flag: string; tz: string; currency: string }[] = [
+  { slug: "usa", name: "United States", href: "/virtual-assistant-usa/", flag: "US", tz: "Nairobi is 7-11 hours ahead of mainland US time", currency: "USD" },
+  { slug: "uk", name: "United Kingdom", href: "/virtual-assistant-uk/", flag: "UK", tz: "Nairobi is 2-3 hours ahead of UK time", currency: "GBP" },
+  { slug: "australia", name: "Australia", href: "/virtual-assistant-australia/", flag: "AU", tz: "Nairobi is 5-8 hours behind Australian time", currency: "AUD" },
+  { slug: "canada", name: "Canada", href: "/virtual-assistant-canada/", flag: "CA", tz: "Nairobi is 6-11 hours ahead of most of Canada", currency: "CAD" },
+];

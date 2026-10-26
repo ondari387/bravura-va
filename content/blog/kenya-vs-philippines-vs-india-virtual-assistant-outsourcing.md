@@ -2,7 +2,7 @@
 title: "Kenya vs Philippines vs India: Comparing Virtual Assistant Outsourcing"
 description: "A balanced comparison of three virtual assistant outsourcing destinations, Kenya, the Philippines and India, covering time zones, language, industry maturity, skills and how to choose for your business."
 category: "Kenya & Africa Outsourcing"
-date: 2026-09-12
+date: 2026-10-23
 image: teamWhiteTable
 keywords: ["Kenya vs Philippines virtual assistant", "virtual assistant outsourcing comparison", "outsourcing to Kenya", "Philippines vs India VA"]
 related: ["why-us-businesses-are-considering-virtual-assistants-from-kenya", "hiring-virtual-assistants-in-africa", "what-to-look-for-in-an-international-virtual-assistant-agency"]

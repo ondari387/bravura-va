@@ -6,7 +6,7 @@ import { ButtonLink } from "@/components/ui/Button";
 import { cn } from "@/lib/cn";
 
 export function PageHero({
-  eyebrow, title, description, crumbs, image, primaryLabel = "Book a Free Discovery Call", secondary, children, compact,
+  eyebrow, title, description, crumbs, image, primaryLabel = "Book a Free Consultation", secondary, children, compact,
 }: {
   eyebrow?: string; title: React.ReactNode; description?: React.ReactNode; crumbs: Crumb[]; image?: ImageKey;
   primaryLabel?: string | null; secondary?: { href: string; label: string }; children?: React.ReactNode; compact?: boolean;

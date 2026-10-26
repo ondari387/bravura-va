@@ -2,7 +2,7 @@
 title: "Virtual Assistant Services for Startup Founders"
 description: "How startup founders use virtual assistants to protect their time: inbox and calendar, investor admin, hiring coordination, customer support, research and operations, and when to bring one on."
 category: "Industry Guides"
-date: 2026-09-14
+date: 2026-10-23
 image: teamStanding
 keywords: ["virtual assistant for startup founders", "startup virtual assistant", "founder executive assistant", "virtual assistant for US startups"]
 related: ["best-virtual-assistant-services-for-us-startups", "how-to-build-a-remote-support-team", "virtual-assistant-vs-full-time-employee"]
@@ -97,4 +97,4 @@ A remote assistant in a different time zone can work while you sleep. Founders w
 
 A virtual assistant helps founders protect their most valuable resource: time and focus. Start with inbox and calendar, add investor admin, hiring coordination and support as you grow, and keep your energy for the work only you can do.
 
-See how we support [startups](/industries/startups/) or [book a free discovery call](/book-a-call/).
+See how we support [startups](/industries/startups/) or [book a free consultation](/book-a-call/).

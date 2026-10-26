@@ -71,7 +71,7 @@ export default function CaseStudiesPage() {
           ))}
         </div>
       </Section>
-      <CTABand title="Want to Map Out Your Own Use Case?" description="On a free discovery call we'll sketch what support could look like for your business: the tasks, the workflow and the first month." />
+      <CTABand title="Want to Map Out Your Own Use Case?" description="On a free consultation we'll sketch what support could look like for your business: the tasks, the workflow and the first month." />
     </>
   );
 }

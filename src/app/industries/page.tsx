@@ -30,7 +30,7 @@ export default function IndustriesPage() {
         <div className="grid gap-8 rounded-[2rem] bg-aqua-pale p-8 sm:p-12 lg:grid-cols-[auto_1fr] lg:items-center">
           <span className="grid h-16 w-16 place-items-center rounded-2xl bg-orange text-teal"><Icon name="shield" className="h-8 w-8" /></span>
           <div>
-            <SectionHeading align="left" title="Working in a Regulated Sector?" description="For healthcare, legal and financial services, we provide administrative support only, never clinical, legal or financial advice. Specialist regulatory obligations, such as HIPAA in US healthcare or professional conduct and outsourcing rules in law and finance, must be assessed before work begins. We'll talk through those requirements openly on your discovery call." />
+            <SectionHeading align="left" title="Working in a Regulated Sector?" description="For healthcare, legal and financial services, we provide administrative support only, never clinical, legal or financial advice. Specialist regulatory obligations, such as HIPAA in US healthcare or professional conduct and outsourcing rules in law and finance, must be assessed before work begins. We'll talk through those requirements openly on your consultation." />
           </div>
         </div>
       </Section>

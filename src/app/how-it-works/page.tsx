@@ -11,12 +11,12 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "How It Works | Hiring a Virtual Assistant With Bravura VA",
-  description: "How Bravura VA works: a free discovery call, a tailored support plan, careful matching, structured onboarding and ongoing check-ins. Simple, transparent steps to start delegating.",
+  description: "How Bravura VA works: a free consultation, a tailored support plan, careful matching, structured onboarding and ongoing check-ins. Simple, transparent steps to start delegating.",
   path: "/how-it-works/",
 });
 
 const detail: { t: string; d: string; points: string[]; i: IconName }[] = [
-  { t: "Free discovery call", i: "phoneCall", d: "A short, relaxed conversation about your business, the tasks eating your time and what success would look like.", points: ["Walk through a typical week", "Identify tasks that are ready to delegate", "Discuss tools, time zones and communication", "Ask us anything, no obligation"] },
+  { t: "Free consultation", i: "phoneCall", d: "A short, relaxed conversation about your business, the tasks eating your time and what success would look like.", points: ["Walk through a typical week", "Identify tasks that are ready to delegate", "Discuss tools, time zones and communication", "Ask us anything, no obligation"] },
   { t: "Your support plan & proposal", i: "clipboard", d: "We summarise what we heard and recommend an arrangement that fits: part-time, dedicated or specialist.", points: ["Clear scope of tasks", "Recommended hours and working-hour overlap", "Transparent quote", "Confidentiality and access approach"] },
   { t: "Matching", i: "userCheck", d: "We match you with an assistant whose skills, tool experience and communication style suit your work.", points: ["Relevant skills and experience", "Familiarity with your key tools", "Availability that fits your hours", "An introduction call before you start, where possible"] },
   { t: "Onboarding", i: "key", d: "A structured start that sets your assistant up to succeed, without eating your whole week.", points: ["Secure, role-based access to your tools", "Process walkthroughs and checklists", "Communication channels and response expectations", "First tasks with close feedback"] },

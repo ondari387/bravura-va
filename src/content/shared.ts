@@ -1,10 +1,14 @@
 import type { IconName } from "@/components/ui/Icon";
 
 export const problems: { title: string; text: string; icon: IconName }[] = [
-  { title: "Endless Admin", text: "Your day disappears into emails, spreadsheets, scheduling and routine tasks.", icon: "hourglass" },
-  { title: "Missed Opportunities", text: "Slow customer responses and forgotten follow-ups can cost your business valuable opportunities.", icon: "alert" },
-  { title: "Hiring Pressure", text: "You need extra support, but a full-time employee may not be the right fit yet.", icon: "users" },
-  { title: "No Time to Grow", text: "You're too busy managing the daily workload to focus on strategy, customers and revenue.", icon: "timerOff" },
+  { title: "Overloaded inboxes", text: "Important messages get buried under newsletters, notifications and routine requests.", icon: "inbox" },
+  { title: "Missed customer enquiries", text: "Questions wait hours or days for a reply, and some customers simply move on.", icon: "alert" },
+  { title: "Scheduling conflicts", text: "Back-and-forth emails, double bookings and meetings that eat the whole day.", icon: "calendar" },
+  { title: "Out-of-date CRM records", text: "Notes never get logged, so pipeline reports stop telling the truth.", icon: "database" },
+  { title: "Delayed follow-ups", text: "Quotes, proposals and invoices go unchased while you deal with today's fires.", icon: "repeat" },
+  { title: "Repetitive store admin", text: "Product listings, order checks and returns take hours every week.", icon: "cart" },
+  { title: "Admin backlogs", text: "Filing, data entry and paperwork pile up until a weekend disappears.", icon: "hourglass" },
+  { title: "No time to grow", text: "Strategy, sales and customers get whatever time is left over, which is rarely enough.", icon: "timerOff" },
 ];
 
 export const humanAiCards: { title: string; text: string; icon: IconName }[] = [
@@ -15,39 +19,21 @@ export const humanAiCards: { title: string; text: string; icon: IconName }[] = [
 ];
 
 export const whyBenefits: { title: string; text: string; icon: IconName }[] = [
-  { title: "Professional African Talent", text: "Our assistants are Nairobi-based professionals who communicate fluently in English, understand international business etiquette and are comfortable with the cloud tools your team already uses.", icon: "userCheck" },
-  { title: "Cost-Conscious Business Support", text: "Get dependable help without automatically taking on the recruitment costs, office space and overheads that come with a local hire. You pay for the support you need, scoped clearly up front.", icon: "coins" },
-  { title: "Flexible Working Arrangements", text: "Start part-time, move to dedicated support, or add specialist help for a project. Arrangements are reviewed as your workload changes rather than locked into a one-size-fits-all package.", icon: "shuffle" },
-  { title: "Clear Communication", text: "Agreed channels, response expectations and regular check-ins from day one. You'll know what's in progress, what's done and what needs your input, without chasing.", icon: "message" },
-  { title: "Human-Led Assistance", text: "Real people who understand context, notice when something looks wrong, escalate the right issues and take responsibility for getting things finished, using AI only where it genuinely helps.", icon: "heartHandshake" },
-  { title: "Support Built Around Your Business", text: "We learn your tools, your tone of voice and your priorities, then document how you like things done so support gets more useful over time instead of starting from scratch each week.", icon: "layers" },
+  { title: "Human-led support", text: "Real people who understand context, notice when something looks wrong and take responsibility for finishing the job.", icon: "heartHandshake" },
+  { title: "Flexible arrangements", text: "Hourly help, a monthly package or a dedicated assistant. Support is reviewed as your workload changes.", icon: "shuffle" },
+  { title: "Skilled assistance", text: "Nairobi-based professionals with strong written English who are comfortable in the cloud tools your team already uses.", icon: "userCheck" },
+  { title: "Clear communication", text: "Agreed channels, response expectations and regular check-ins, so you always know what is done and what needs you.", icon: "message" },
+  { title: "Agreed working-hour overlap", text: "We agree the hours that overlap with your day before work starts. No vague promises of round-the-clock cover.", icon: "clock" },
+  { title: "Practical onboarding", text: "We document how you like things done as we go, so support improves every week instead of starting from scratch.", icon: "clipboard" },
+  { title: "Responsible AI use", text: "AI tools only where you approve them, with a person checking every output and no confidential data in unapproved tools.", icon: "bot" },
+  { title: "Cost-conscious outsourcing", text: "Add capable support without the recruitment, payroll and office overheads that come with a local hire.", icon: "coins" },
 ];
 
 export const steps: { n: string; title: string; text: string; icon: IconName }[] = [
-  { n: "01", title: "Tell Us What You Need", text: "Book a free discovery call and explain the tasks taking up your time.", icon: "phoneCall" },
-  { n: "02", title: "Build Your Support Plan", text: "We discuss your workload, priorities, tools, communication requirements and suitable support arrangement.", icon: "clipboard" },
-  { n: "03", title: "Delegate and Focus on Growth", text: "Once your engagement is agreed and onboarding is complete, start delegating tasks and tracking progress.", icon: "rocket" },
-];
-
-export const pricingModels: { id: string; name: string; text: string; bestFor: string[]; icon: IconName; featured?: boolean; price: string }[] = [
-  {
-    id: "part-time", name: "Part-Time Support", icon: "clock3",
-    text: "For businesses with recurring tasks and limited weekly support requirements.",
-    bestFor: ["Founders testing delegation for the first time", "Regular inbox, calendar and admin tasks", "A set number of hours each week", "Room to scale up when you're ready"],
-    price: "Custom quote", // EDIT: replace with confirmed pricing, e.g. "From $X / month"
-  },
-  {
-    id: "dedicated", name: "Dedicated Support", icon: "userCheck", featured: true,
-    text: "For businesses that need consistent ongoing assistance.",
-    bestFor: ["A consistent assistant who learns your business", "Agreed working-hour overlap with your team", "Daily customer, admin or operations support", "Regular reporting and check-ins"],
-    price: "Custom quote",
-  },
-  {
-    id: "specialist", name: "Specialist Support", icon: "sparkles",
-    text: "For creative, technical or industry-specific tasks.",
-    bestFor: ["Graphic design, content and social media", "WordPress and Shopify website updates", "E-commerce, real estate or recruitment workflows", "Project-based or ongoing specialist work"],
-    price: "Custom quote",
-  },
+  { n: "01", title: "Tell us what you need", text: "Book a free consultation or send an enquiry, and tell us which tasks are taking up your time.", icon: "phoneCall" },
+  { n: "02", title: "Discuss your workflow", text: "We talk through your tools, processes, priorities, communication preferences and the working-hour overlap you need.", icon: "workflow" },
+  { n: "03", title: "Agree scope and pricing", text: "You receive a clear written proposal covering tasks, availability, hours and price, with no obligation.", icon: "clipboard" },
+  { n: "04", title: "Onboard and delegate", text: "We set up secure access, document your first processes and you start handing work over, with regular check-ins.", icon: "rocket" },
 ];
 
 export const pricingFactors: { title: string; text: string; icon: IconName }[] = [
@@ -74,6 +60,7 @@ export const delegateTasks = [
 ];
 
 /** Trust & security commitments (no certification claims). */
+
 export const trustPoints: { title: string; text: string; icon: IconName }[] = [
   { title: "Transparent onboarding", text: "A clear, written scope of work, agreed tools and channels, and a named point of contact before any work begins.", icon: "clipboard" },
   { title: "Confidentiality by default", text: "Confidentiality expectations in writing, NDAs signed on request, and discretion with everything we see in your systems.", icon: "lock" },

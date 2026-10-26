@@ -2,7 +2,7 @@
 title: "What to Look for in an International Virtual Assistant Agency"
 description: "A checklist for choosing an international virtual assistant agency: transparency, talent selection, communication, time zones, security, pricing, contracts, continuity and red flags to avoid."
 category: "International Business"
-date: 2026-08-02
+date: 2026-10-23
 image: womenAtTable
 keywords: ["international virtual assistant agency", "how to choose a VA agency", "virtual assistant company", "outsourcing agency checklist"]
 related: ["virtual-assistant-agency-vs-freelancer", "best-virtual-assistant-services-for-us-startups", "kenya-vs-philippines-vs-india-virtual-assistant-outsourcing"]

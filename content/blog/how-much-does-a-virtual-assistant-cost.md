@@ -2,7 +2,7 @@
 title: "How Much Does a Virtual Assistant Cost in 2027?"
 description: "What actually drives virtual assistant pricing (hours, skills, location, hiring model and hidden costs) and how to compare quotes fairly so you choose support that delivers real value."
 category: "Hiring Guides"
-date: 2026-10-10
+date: 2026-10-23
 image: womanDeskNotebook
 keywords: ["virtual assistant cost", "virtual assistant pricing", "how much does a virtual assistant cost", "VA rates"]
 related: ["virtual-assistant-vs-full-time-employee", "virtual-assistant-agency-vs-freelancer", "how-to-hire-a-virtual-assistant-in-the-usa"]
@@ -105,7 +105,7 @@ Usually, yes. Starting with a part-time arrangement focused on a few clearly def
 
 ## How Bravura VA approaches pricing
 
-We don't publish one-size-fits-all packages because the right support depends on your workload. Instead, we have a short discovery call, understand the hours, skills and working-hour overlap you need, and give you a clear, written quote, with no obligation. You can read more on our [pricing page](/pricing/).
+We don't publish one-size-fits-all packages because the right support depends on your workload. Instead, we have a short consultation, understand the hours, skills and working-hour overlap you need, and give you a clear, written quote, with no obligation. You can read more on our [pricing page](/pricing/).
 
 ## Questions to ask yourself before requesting quotes
 

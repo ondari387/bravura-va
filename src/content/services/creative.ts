@@ -55,7 +55,7 @@ export const creativeServices: ServiceContent[] = [
       { q: "Can you write about technical or specialist topics?", a: "Yes, with input from you. For regulated subjects such as health, legal or financial topics, content should be reviewed by a qualified professional before publication." },
       { q: "Do you guarantee search rankings?", a: "No one can honestly guarantee rankings. We write high-quality, well-structured content that gives you the best chance of being found." },
     ],
-    related: ["social-media-management", "graphic-design", "website-technical-support"],
+    related: ["social-media-management", "graphic-design", "wordpress-virtual-assistant"],
   },
   {
     slug: "graphic-design",
@@ -111,14 +111,14 @@ export const creativeServices: ServiceContent[] = [
       { q: "Do you use Canva or Adobe?", a: "Both, depending on your needs and the tools you use. Many clients prefer Canva so their team can edit templates easily." },
       { q: "How many designs can I get?", a: "It depends on complexity and hours. We'll scope realistic volumes after understanding your typical requests." },
     ],
-    related: ["social-media-management", "content-writing", "website-technical-support"],
+    related: ["social-media-management", "content-writing", "wordpress-virtual-assistant"],
   },
   {
     slug: "social-media-management",
-    metaTitle: "Social Media Management Virtual Assistant | Bravura VA",
+    metaTitle: "Social Media Virtual Assistant | Content Scheduling & Community Support | Bravura VA",
     metaDescription: "Social media management support: content calendars, post creation and scheduling, community management, engagement and monthly reporting across LinkedIn, Instagram, Facebook and more.",
     hero: {
-      eyebrow: "Social Media Management",
+      eyebrow: "Social Media Support",
       headline: "Show Up Consistently on Social, Without Living on Your Phone.",
       intro: "Posting regularly, replying to comments and keeping your profiles active takes more time than most business owners have. Our social media management support plans, creates, schedules and monitors your content so your brand stays visible and responsive.",
     },
@@ -170,12 +170,12 @@ export const creativeServices: ServiceContent[] = [
     related: ["graphic-design", "content-writing", "customer-support"],
   },
   {
-    slug: "website-technical-support",
-    metaTitle: "Website & Technical Support Virtual Assistant | WordPress & Shopify | Bravura VA",
-    metaDescription: "Website and technical support: WordPress and Shopify content updates, plugin and app housekeeping, page building, basic SEO fields, form checks and SaaS tool administration.",
+    slug: "wordpress-virtual-assistant",
+    metaTitle: "WordPress Virtual Assistant | Website Content & Maintenance Support | Bravura VA",
+    metaDescription: "A WordPress virtual assistant for content uploads, blog publishing, page updates, image optimisation, routine plugin admin and backups where supported. Routine website support, not custom development.",
     hero: {
-      eyebrow: "Website & Technical Support",
-      headline: "Keep Your Website Current Without Waiting on a Developer.",
+      eyebrow: "WordPress Virtual Assistant",
+      headline: "Keep Your WordPress Site Current Without Waiting on a Developer.",
       intro: "Small website updates shouldn't take weeks. Our website and technical support assistants handle content changes, page updates, plugin housekeeping and everyday tool administration in WordPress, Shopify and the platforms you use.",
     },
     overview: [
@@ -184,9 +184,9 @@ export const creativeServices: ServiceContent[] = [
       "Our focus is non-developer technical support. For custom code, complex integrations or security incidents, we'll tell you when a developer is needed and can help coordinate with them.",
     ],
     taskGroups: [
-      { title: "WordPress support", items: ["Page and post updates", "Building pages with Elementor, Divi or Gutenberg", "Plugin updates with backups first", "Media library organization"] },
+      { title: "WordPress content", items: ["Blog publishing and formatting", "Page updates in Elementor, Divi or Gutenberg", "Image optimisation and alt text", "Media library organization"] },
       { title: "Shopify website support", items: ["Theme content and section updates", "Navigation and collection pages", "App settings housekeeping", "Banner and announcement updates"] },
-      { title: "Website maintenance", items: ["Broken link and form checks", "Basic on-page SEO fields", "Image compression and alt text", "Uptime and backup checks with your tools"] },
+      { title: "Routine maintenance", items: ["Plugin and theme updates where technically suitable, backup first", "Backups using your host or backup plugin, where supported", "Broken link and form checks", "Basic on-page SEO fields"] },
       { title: "Tool administration", items: ["User and permission management", "Email marketing platform admin", "Form and booking tool setup", "Simple integrations in Zapier or Make"] },
     ],
     audience: [

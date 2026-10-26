@@ -2,7 +2,7 @@
 title: "Managing Virtual Assistants Across International Time Zones"
 description: "How to manage virtual assistants across time zones: choosing a working model, overlap windows, async communication, daily handovers, tools, daylight saving changes and building trust at a distance."
 category: "International Business"
-date: 2026-08-10
+date: 2026-10-23
 image: womanPhoneLaptop
 keywords: ["managing virtual assistants across time zones", "remote team time zones", "async communication", "follow the sun"]
 related: ["how-to-manage-a-kenya-based-virtual-assistant-from-the-usa", "how-to-build-a-remote-support-team", "hiring-a-virtual-assistant-in-australia"]

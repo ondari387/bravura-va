@@ -6,20 +6,24 @@ import { NewsletterForm } from "@/components/forms/NewsletterForm";
 import { CookieSettingsLink } from "./CookieConsent";
 
 const servicesCol = [
-  ["Administrative Support", "/services/administrative-support/"],
-  ["Executive Assistance", "/services/executive-virtual-assistant/"],
+  ["Admin & Executive Support", "/services/administrative-support/"],
   ["Customer Support", "/services/customer-support/"],
-  ["E-commerce Support", "/services/ecommerce-virtual-assistant/"],
+  ["E-commerce & Shopify", "/services/ecommerce-virtual-assistant/"],
+  ["Lead Generation", "/services/lead-generation/"],
+  ["Social Media Support", "/services/social-media-management/"],
   ["Real Estate Support", "/services/real-estate-virtual-assistant/"],
-  ["Creative & Technical Support", "/services/#creative"],
+  ["WordPress Support", "/services/wordpress-virtual-assistant/"],
+  ["Recruitment Support", "/services/recruitment-virtual-assistant/"],
+  ["Data Entry & Research", "/services/data-entry-research/"],
+  ["Bookkeeping Support", "/services/bookkeeping-virtual-assistant/"],
 ];
 const exploreCol = [
-  ["About Us", "/about/"], ["Industries", "/industries/"], ["How It Works", "/how-it-works/"], ["Pricing", "/pricing/"],
+  ["About Us", "/about/"], ["Industries", "/industries/"], ["How It Works", "/how-it-works/"], ["Pricing", "/pricing/"], ["Book a Consultation", "/book-a-call/"],
   ["Case Studies", "/case-studies/"], ["Testimonials", "/testimonials/"], ["Blog", "/blog/"], ["Contact", "/contact/"],
 ];
 const marketsCol = [
-  ["United States", "/virtual-assistants/usa/"], ["United Kingdom", "/virtual-assistants/uk/"], ["Australia", "/virtual-assistants/australia/"],
-  ["Kenya", "/virtual-assistants/kenya/"], ["Africa", "/virtual-assistants/africa/"],
+  ["United States", "/virtual-assistant-usa/"], ["United Kingdom", "/virtual-assistant-uk/"], ["Australia", "/virtual-assistant-australia/"],
+  ["Canada", "/virtual-assistant-canada/"], ["Why Kenya", "/virtual-assistant-kenya/"], ["Africa", "/virtual-assistant-africa/"],
 ];
 const socials: { key: keyof typeof site.social; icon: IconName; label: string }[] = [
   { key: "linkedin", icon: "linkedin", label: "LinkedIn" }, { key: "facebook", icon: "facebook", label: "Facebook" },
@@ -45,7 +49,7 @@ export function Footer() {
           <div>
             <Image src="/images/brand/bravura-va-logo-white.png" alt="Bravura VA" width={900} height={136} className="h-8 w-auto" />
             <p className="mt-5 text-[15px] leading-relaxed text-white/70">
-              Bravura VA provides professional remote business support to entrepreneurs, startups and growing companies across the USA, UK and Australia.
+              Bravura VA provides professional remote business support to entrepreneurs, startups and growing companies across the USA, UK, Australia and Canada.
             </p>
             <p className="mt-3 flex items-center gap-2 text-[15px] font-semibold text-white"><Icon name="mapPin" className="h-4 w-4 text-orange" />Based in Nairobi, Kenya.</p>
             {activeSocials.length > 0 && (

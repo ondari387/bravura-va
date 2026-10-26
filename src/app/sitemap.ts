@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { absoluteUrl } from "@/lib/site";
 import { services } from "@/content/catalog";
 import { industryContent } from "@/content/industries";
-import { countries, subPages } from "@/content/locations";
+import { locationPages } from "@/content/locations";
 import { getPostMetas } from "@/lib/blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -17,8 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...core.map(([p, priority]) => ({ url: absoluteUrl(p), lastModified: now, priority })),
     ...services.map((s) => ({ url: absoluteUrl(`/services/${s.slug}/`), lastModified: now, priority: 0.8 })),
     ...industryContent.map((i) => ({ url: absoluteUrl(`/industries/${i.slug}/`), lastModified: now, priority: 0.7 })),
-    ...countries.map((c) => ({ url: absoluteUrl(`/virtual-assistants/${c.slug}/`), lastModified: now, priority: 0.8 })),
-    ...subPages.map((p) => ({ url: absoluteUrl(`/virtual-assistants/${p.parent}/${p.slug}/`), lastModified: now, priority: 0.6 })),
+    ...locationPages.map((c) => ({ url: absoluteUrl(c.path), lastModified: now, priority: c.currency ? 0.9 : 0.6 })),
     ...getPostMetas().map((p) => ({ url: absoluteUrl(`/blog/${p.slug}/`), lastModified: p.updated || p.date, priority: 0.6 })),
   ];
 }

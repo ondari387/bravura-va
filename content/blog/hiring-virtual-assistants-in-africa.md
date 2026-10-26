@@ -2,7 +2,7 @@
 title: "Hiring Virtual Assistants in Africa: Complete Guide"
 description: "Everything international businesses should know about hiring virtual assistants in Africa: key markets like Kenya, Nigeria, South Africa and Ghana, time zones, language, infrastructure, compliance and choosing a provider."
 category: "Kenya & Africa Outsourcing"
-date: 2026-09-30
+date: 2026-10-23
 image: teamStanding
 keywords: ["hire virtual assistant Africa", "African virtual assistant company", "African virtual assistants", "outsourcing to Africa"]
 related: ["why-us-businesses-are-considering-virtual-assistants-from-kenya", "virtual-assistant-kenya-guide", "kenya-vs-philippines-vs-india-virtual-assistant-outsourcing"]
@@ -102,7 +102,7 @@ Be wary of any provider claiming offices across the continent without clear evid
 
 ## Where Bravura VA fits
 
-[Bravura VA](/virtual-assistants/africa/) is based in Nairobi, Kenya. We focus on doing one thing well: providing professional, human-led virtual assistance from Kenya to businesses in the USA, UK and Australia. We don't claim operations in other African countries, we'd rather be transparent about exactly who you're working with.
+[Bravura VA](/virtual-assistant-africa/) is based in Nairobi, Kenya. We focus on doing one thing well: providing professional, human-led virtual assistance from Kenya to businesses in the USA, UK and Australia. We don't claim operations in other African countries, we'd rather be transparent about exactly who you're working with.
 
 ## In summary
 

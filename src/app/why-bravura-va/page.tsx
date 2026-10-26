@@ -11,7 +11,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "Why Bravura VA | Human-Led Virtual Assistants You Can Rely On",
-  description: "Why businesses in the USA, UK and Australia choose Bravura VA: professional Nairobi-based talent, clear communication, flexible arrangements, human-led support and honest, transparent service.",
+  description: "Why businesses in the USA, UK, Australia and Canada choose Bravura VA: professional Nairobi-based talent, clear communication, flexible arrangements, human-led support and honest, transparent service.",
   path: "/why-bravura-va/",
 });
 
@@ -67,7 +67,7 @@ export default function WhyPage() {
       <HumanAI />
       <Testimonials tone="off" />
       <Section tone="white">
-        <SectionHeading eyebrow="Transparency" title="Where We're Based, and Where We're Not" description="Bravura VA is headquartered in Nairobi, Kenya. We support businesses in the United States, United Kingdom and Australia remotely and do not have offices in those countries. We'd rather you know exactly who you're working with from day one." />
+        <SectionHeading eyebrow="Transparency" title="Where We're Based, and Where We're Not" description="Bravura VA is headquartered in Nairobi, Kenya. We support businesses in the United States, United Kingdom, Australia and Canada remotely and do not have offices in those countries. We'd rather you know exactly who you're working with from day one." />
       </Section>
       <CTABand />
     </>

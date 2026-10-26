@@ -2,7 +2,7 @@
 title: "How to Manage a Kenya-Based Virtual Assistant from the USA"
 description: "Practical routines for US business owners working with a virtual assistant in Kenya: time-zone planning, overlap windows, async communication, handovers, reporting, security and building a strong working relationship."
 category: "Kenya & Africa Outsourcing"
-date: 2026-08-30
+date: 2026-10-23
 image: womanPhoneLaptop
 keywords: ["manage virtual assistant in Kenya", "Kenya virtual assistant US time zone", "managing remote assistant", "async communication"]
 related: ["managing-virtual-assistants-across-time-zones", "why-us-businesses-are-considering-virtual-assistants-from-kenya", "how-to-hire-a-virtual-assistant-in-the-usa"]

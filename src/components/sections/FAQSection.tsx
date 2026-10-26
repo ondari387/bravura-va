@@ -4,7 +4,7 @@ import { JsonLd } from "@/components/ui/JsonLd";
 import { faqSchema } from "@/lib/seo";
 import { ButtonLink } from "@/components/ui/Button";
 
-export function FAQSection({ faqs, title = "Questions Before You Delegate?", eyebrow = "FAQ", tone = "off", description, more = true, schema = true }: {
+export function FAQSection({ faqs, title = "Questions Before You Delegate?", eyebrow = "FAQ", tone = "off", description, more = true, schema = false }: {
   faqs: FAQ[]; title?: string; eyebrow?: string; tone?: "off" | "white" | "pale"; description?: string; more?: boolean; schema?: boolean;
 }) {
   return (

@@ -1,12 +1,15 @@
 export const countries = ["United States", "United Kingdom", "Australia", "Canada", "Kenya", "Other"];
 export const hoursOptions = ["Under 10 hours/week", "10-20 hours/week", "20-30 hours/week", "Full-time (around 40 hours/week)", "Not sure yet"];
-export const overlapOptions = ["US Eastern business hours", "US Central business hours", "US Mountain business hours", "US Pacific business hours", "UK business hours", "Australian business hours", "Flexible / asynchronous", "Not sure yet"];
+export const overlapOptions = ["US Eastern business hours", "US Central business hours", "US Mountain business hours", "US Pacific business hours", "UK business hours", "Australian business hours", "Canadian Eastern business hours", "Canadian Pacific business hours", "Flexible / asynchronous", "Not sure yet"];
+export const budgetOptions = ["Under 500 per month", "500 - 1,000 per month", "1,000 - 2,000 per month", "Over 2,000 per month", "Not sure yet"];
+export const contactMethodOptions = ["Email", "Phone call", "WhatsApp", "Video call"];
 export const startOptions = ["As soon as possible", "Within a month", "In 1-3 months", "Just exploring"];
 
 export type EnquiryPayload = {
   formType: "contact" | "quote" | "service" | "general";
   name: string; email: string; phone?: string; company?: string; country?: string; service?: string;
-  message: string; tasks?: string[]; hours?: string; overlap?: string; start?: string;
+  message: string; tasks?: string[]; hours?: string; overlap?: string; start?: string; budget?: string; contactMethod?: string;
+  utm?: Record<string, string>;
   consent: boolean; page?: string; website?: string; elapsedMs?: number;
 };
 

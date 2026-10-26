@@ -2,7 +2,7 @@
 title: "Virtual Assistant Services for UK Small Businesses"
 description: "A guide for UK small business owners considering a virtual assistant or virtual PA: what to delegate, UK vs overseas options, time zones, UK GDPR considerations and how to get started."
 category: "International Business"
-date: 2026-09-10
+date: 2026-10-23
 image: womanGlasses
 keywords: ["virtual assistant UK", "virtual PA UK", "hire virtual assistant UK", "remote administrative support UK"]
 related: ["how-to-hire-your-first-virtual-assistant", "tasks-small-business-owners-can-delegate-to-virtual-assistants", "managing-virtual-assistants-across-time-zones"]
@@ -118,4 +118,4 @@ Our guide to [hiring your first virtual assistant](/blog/how-to-hire-your-first-
 
 A virtual assistant can give UK small business owners back valuable hours each week, at a fraction of the commitment of a full-time hire. Be clear about the work, plan for data protection, and choose an assistant whose working hours fit yours.
 
-Learn more about our support for [UK businesses](/virtual-assistants/uk/).
+Learn more about our support for [UK businesses](/virtual-assistant-uk/).

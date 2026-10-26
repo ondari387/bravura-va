@@ -5,9 +5,12 @@ export function pageMeta({ title, description, path, image, type = "website", no
   title: string; description: string; path: string; image?: string; type?: "website" | "article"; noindex?: boolean;
 }): Metadata {
   const url = absoluteUrl(path);
+  // Keep titles readable in search results: add the brand only when it fits, drop it from long titles.
+  if (title.endsWith(" | Bravura VA") && title.length > 65) title = title.slice(0, -" | Bravura VA".length);
+  else if (!title.includes("Bravura VA") && title.length <= 52) title = `${title} | Bravura VA`;
   const ogImage = image || site.ogImage;
   return {
-    title,
+    title: { absolute: title },
     description,
     alternates: { canonical: url },
     openGraph: { title, description, url, siteName: site.name, type, locale: "en_US", images: [{ url: ogImage, width: 1200, height: 630, alt: title }] },
@@ -28,7 +31,7 @@ export const orgSchema = {
   telephone: site.phone,
   slogan: site.tagline,
   address: { "@type": "PostalAddress", addressLocality: "Nairobi", addressCountry: "KE" },
-  areaServed: [{ "@type": "Country", name: "United States" }, { "@type": "Country", name: "United Kingdom" }, { "@type": "Country", name: "Australia" }],
+  areaServed: [{ "@type": "Country", name: "United States" }, { "@type": "Country", name: "United Kingdom" }, { "@type": "Country", name: "Australia" }, { "@type": "Country", name: "Canada" }],
   contactPoint: [{ "@type": "ContactPoint", telephone: site.phone, email: site.email, contactType: "sales", availableLanguage: ["English"] }],
   sameAs: Object.values(site.social).filter(Boolean),
 };
@@ -52,7 +55,7 @@ export function serviceSchema({ name, description, path, serviceType }: { name: 
     description,
     url: absoluteUrl(path),
     provider: { "@id": `${site.url}/#organization` },
-    areaServed: ["United States", "United Kingdom", "Australia"],
+    areaServed: ["United States", "United Kingdom", "Australia", "Canada"],
   };
 }
 

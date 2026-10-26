@@ -33,7 +33,7 @@ export function CalendlyEmbed({ height = 680 }: { height?: number }) {
   const src = `${site.calendlyUrl}${site.calendlyUrl.includes("?") ? "&" : "?"}hide_gdpr_banner=1&primary_color=59c4d0`;
   return (
     <iframe
-      title="Book a free discovery call with Bravura VA"
+      title="Book a free consultation with Bravura VA"
       src={src}
       className="w-full rounded-2xl bg-white"
       style={{ height }}
@@ -48,13 +48,13 @@ export function BookingFallback({ compact }: { compact?: boolean }) {
     <div className={cn("rounded-3xl bg-aqua-pale p-6 sm:p-8", compact && "p-5")}>
       <p className="font-heading text-lg font-bold text-ink">Online booking is being set up.</p>
       <p className="mt-2 text-ink-muted">
-        In the meantime, reach us directly and we&apos;ll arrange a discovery call at a time that suits your time zone.
+        In the meantime, reach us directly and we&apos;ll arrange a consultation at a time that suits your time zone.
       </p>
       <div className="mt-5 grid gap-3 sm:grid-cols-3">
-        <a href={site.whatsappWithText("Hi Bravura VA, I'd like to book a free discovery call.")} target="_blank" rel="noopener noreferrer" className={buttonClass("primary", "w-full")} onClick={() => track("whatsapp_click", { source: "booking_fallback" })}>
+        <a href={site.whatsappWithText("Hi Bravura VA, I'd like to book a free consultation.")} target="_blank" rel="noopener noreferrer" className={buttonClass("primary", "w-full")}>
           <Icon name="chat" className="h-4 w-4" /> WhatsApp Us
         </a>
-        <a href={`${site.emailHref}?subject=${encodeURIComponent("Discovery call request")}`} className={buttonClass("secondary", "w-full")}>
+        <a href={`${site.emailHref}?subject=${encodeURIComponent("Consultation request")}`} className={buttonClass("secondary", "w-full")}>
           <Icon name="mail" className="h-4 w-4" /> Email Us
         </a>
         <Link href="/contact/#enquiry" className={buttonClass("dark", "w-full")}>
@@ -94,7 +94,7 @@ function BookingModal({ onClose }: { onClose: () => void }) {
       <div ref={dialogRef} role="dialog" aria-modal="true" aria-labelledby="booking-title" className="relative max-h-[92vh] w-full max-w-3xl overflow-y-auto rounded-t-4xl bg-white p-5 shadow-lift sm:rounded-4xl sm:p-8">
         <div className="mb-5 flex items-start justify-between gap-4">
           <div>
-            <p className="eyebrow">Free discovery call</p>
+            <p className="eyebrow">Free consultation</p>
             <h2 id="booking-title" className="mt-2 font-heading text-2xl font-extrabold sm:text-3xl">Let&apos;s talk about what you can delegate.</h2>
             <p className="mt-2 text-ink-muted">A relaxed conversation about your workload, priorities and whether virtual support is a good fit. No obligation.</p>
           </div>
@@ -109,7 +109,7 @@ function BookingModal({ onClose }: { onClose: () => void }) {
 }
 
 export function BookCallButton({
-  children = "Book a Free Discovery Call", variant = "primary", className, source, arrow = true,
+  children = "Book a Free Consultation", variant = "primary", className, source, arrow = true,
 }: { children?: React.ReactNode; variant?: "primary" | "secondary" | "orange" | "dark" | "outlineLight"; className?: string; source?: string; arrow?: boolean }) {
   const { open } = useBooking();
   return (

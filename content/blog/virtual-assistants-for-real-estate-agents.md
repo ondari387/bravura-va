@@ -2,7 +2,7 @@
 title: "Virtual Assistants for Real Estate Agents: Tasks to Delegate"
 description: "The real estate tasks agents and teams can delegate to a virtual assistant (lead follow-up, listing admin, showing coordination, CRM, transaction paperwork and marketing) plus licensing boundaries to respect."
 category: "Industry Guides"
-date: 2026-09-26
+date: 2026-10-23
 image: womanSmiling
 keywords: ["virtual assistant for real estate agents", "real estate virtual assistant", "real estate VA tasks", "realtor virtual assistant"]
 related: ["tasks-small-business-owners-can-delegate-to-virtual-assistants", "how-to-hire-a-virtual-assistant-in-the-usa", "why-human-customer-support-still-matters"]
