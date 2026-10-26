@@ -1,6 +1,6 @@
 ---
 title: "Virtual Assistant Kenya: Services, Skills and Hiring Considerations"
-description: "A practical guide to hiring a virtual assistant in Kenya: the services Kenyan VAs commonly provide, the skills to look for, how to assess candidates, time zones, data protection and working arrangements."
+description: "Hiring a virtual assistant in Kenya: common services, skills to look for, how to assess candidates, time zones, data protection and working arrangements."
 category: "Kenya & Africa Outsourcing"
 date: 2026-10-23
 image: womanOfficeLaptop2

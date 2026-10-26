@@ -8,7 +8,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "Contact Bravura VA | Talk to Us About Virtual Assistant Support",
-  description: "Contact Bravura VA in Nairobi, Kenya. Phone or WhatsApp +254 714 089 042, email va@bravura.co.ke, or send an enquiry about virtual assistant support for your business.",
+  description: "Contact Bravura VA in Nairobi, Kenya. Call or WhatsApp +254 714 089 042, email va@bravura.co.ke, or send an enquiry about virtual assistant support.",
   path: "/contact/",
 });
 

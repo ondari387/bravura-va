@@ -1,6 +1,6 @@
 ---
 title: "Hiring a Virtual Assistant in Australia: Complete Guide"
-description: "A complete guide for Australian business owners hiring a virtual assistant: what to delegate, local vs offshore options, time zones, the Privacy Act, Spam Act considerations and setting up for success."
+description: "Hiring a virtual assistant in Australia: what to delegate, local vs offshore options, time zones, the Privacy Act and Spam Act, and getting set up."
 category: "International Business"
 date: 2026-10-23
 image: womanLaptopLap

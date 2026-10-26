@@ -34,7 +34,7 @@ export function PageHero({
             <div aria-hidden="true" className="absolute -right-6 -top-6 h-40 w-40 rounded-full bg-orange sm:h-56 sm:w-56" />
             <div aria-hidden="true" className="absolute -bottom-5 -left-5 h-24 w-24 rounded-3xl bg-aqua" />
             <div className="relative aspect-[4/3.4] overflow-hidden rounded-[2.5rem] rounded-tr-[7rem] shadow-lift">
-              <Image src={`${img[image].src}?auto=format&fit=crop&w=1000&q=75`} alt={img[image].alt} fill sizes="(min-width:1024px) 42vw, 90vw" className="object-cover" priority />
+              <Image src={img[image].src} alt={img[image].alt} fill sizes="(min-width:1024px) 42vw, 90vw" className="object-cover" priority />
             </div>
           </div>
         )}

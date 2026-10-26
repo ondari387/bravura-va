@@ -47,7 +47,7 @@ export function Footer() {
 
         <div className="grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1.1fr_1fr]">
           <div>
-            <Image src="/images/brand/bravura-va-logo-white.png" alt="Bravura VA" width={900} height={136} className="h-8 w-auto" />
+            <Image src="/images/brand/bravura-va-logo-white.png" alt="Bravura VA" width={900} height={136} sizes="212px" className="h-8 w-auto" />
             <p className="mt-5 text-[15px] leading-relaxed text-white/70">
               Bravura VA provides professional remote business support to entrepreneurs, startups and growing companies across the USA, UK, Australia and Canada.
             </p>

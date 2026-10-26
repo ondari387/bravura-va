@@ -3,8 +3,8 @@ import type { ServiceContent } from "./types";
 export const customerServices: ServiceContent[] = [
   {
     slug: "customer-support",
-    metaTitle: "Customer Support Virtual Assistant | Outsourced Email & Live Chat Support | Bravura VA",
-    metaDescription: "Outsourced customer support from human virtual assistants in Nairobi: email support, live chat, phone support, ticket management, order enquiries and escalations for US, UK, Australian and Canadian businesses.",
+    metaTitle: "Customer Support Virtual Assistant | Email & Live Chat Support | Bravura VA",
+    metaDescription: "Outsourced customer support virtual assistants for email, live chat, phone (where agreed), tickets, order enquiries and escalations. Human-led, from Nairobi.",
     hero: {
       eyebrow: "Customer Support",
       headline: "Still Answering Customer Emails After Hours?",
@@ -61,7 +61,7 @@ export const customerServices: ServiceContent[] = [
   {
     slug: "virtual-receptionist",
     metaTitle: "Virtual Receptionist Services | Remote Call Answering & Booking | Bravura VA",
-    metaDescription: "A remote virtual receptionist to answer calls, take messages, screen enquiries, book appointments and follow up, so no customer or lead slips through. Human support from Nairobi, Kenya.",
+    metaDescription: "A virtual receptionist to answer calls, take messages, screen enquiries and book appointments, so no customer or lead slips through.",
     hero: {
       eyebrow: "Virtual Receptionist",
       headline: "Never Let Another Enquiry Go to Voicemail.",
@@ -117,7 +117,7 @@ export const customerServices: ServiceContent[] = [
   {
     slug: "lead-generation",
     metaTitle: "Lead Generation Virtual Assistant | Prospect Research & Lists | Bravura VA",
-    metaDescription: "Lead generation virtual assistants for prospect research, targeted list building, contact verification, lead qualification and CRM entry. Human-led B2B lead support from Nairobi, Kenya.",
+    metaDescription: "Lead generation virtual assistants for prospect research, list building, contact verification, lead qualification and CRM entry. Human-led B2B support.",
     hero: {
       eyebrow: "Lead Generation",
       headline: "More Qualified Prospects. Less Time Hunting for Them.",
@@ -173,7 +173,7 @@ export const customerServices: ServiceContent[] = [
   {
     slug: "sales-support",
     metaTitle: "Sales Support Virtual Assistant | CRM, Follow-ups & Appointment Setting | Bravura VA",
-    metaDescription: "Sales support virtual assistants for CRM administration, lead qualification, appointment setting, sales follow-ups, pipeline updates and outreach preparation. Human-led support from Nairobi, Kenya.",
+    metaDescription: "Sales support virtual assistants for CRM admin, lead qualification, appointment setting, follow-ups and pipeline updates, so your sellers can sell.",
     hero: {
       eyebrow: "Sales Support",
       headline: "Let Your Sellers Sell. We'll Handle the Admin Around It.",

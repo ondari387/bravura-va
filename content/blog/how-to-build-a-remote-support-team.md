@@ -1,6 +1,6 @@
 ---
 title: "How to Build a Remote Support Team for Your Business"
-description: "A step-by-step guide to building a remote support team: defining roles, choosing hiring models, documenting processes, tools, communication rhythms, security, quality and scaling."
+description: "How to build a remote support team: defining roles, hiring models, documenting processes, tools, communication rhythms, security and scaling."
 category: "International Business"
 date: 2026-10-23
 image: teamTableLaptops

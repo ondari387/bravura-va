@@ -1,6 +1,6 @@
 ---
 title: "How Marketing Agencies Can Scale With Remote Assistants"
-description: "How marketing and creative agencies use remote assistants to scale delivery without burning out their teams: project coordination, reporting, content production, social scheduling, client admin and white-label support."
+description: "How marketing agencies scale with remote assistants: project coordination, reporting, content production, social scheduling and white-label support."
 category: "Industry Guides"
 date: 2026-10-23
 image: teamCouch

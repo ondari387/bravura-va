@@ -1,6 +1,6 @@
 ---
 title: "How Much Does a Virtual Assistant Cost in 2027?"
-description: "What actually drives virtual assistant pricing (hours, skills, location, hiring model and hidden costs) and how to compare quotes fairly so you choose support that delivers real value."
+description: "How much does a virtual assistant cost? What drives pricing (hours, skills, location, hiring model, hidden costs) and how to compare quotes fairly."
 category: "Hiring Guides"
 date: 2026-10-23
 image: womanDeskNotebook

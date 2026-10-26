@@ -1,6 +1,6 @@
 ---
 title: "How to Hire Your First Virtual Assistant"
-description: "A beginner-friendly guide to hiring your first virtual assistant: recognizing you're ready, choosing what to delegate, finding the right person, and making the first 30 days a success."
+description: "How to hire your first virtual assistant: knowing you're ready, choosing what to delegate, finding the right person and making the first 30 days work."
 category: "Hiring Guides"
 date: 2026-10-23
 image: womanLaptopLap

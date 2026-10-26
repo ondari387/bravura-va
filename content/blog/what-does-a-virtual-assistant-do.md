@@ -1,6 +1,6 @@
 ---
 title: "What Does a Virtual Assistant Do? A Practical Guide for Business Owners"
-description: "A virtual assistant handles recurring business tasks remotely, from inbox and calendar management to customer support, CRM updates and e-commerce admin. Here's what they do, what they don't, and how to decide what to delegate."
+description: "What does a virtual assistant do? Inbox and calendar, customer support, CRM updates, e-commerce admin and more, plus what they don't do and how to decide."
 category: "Hiring Guides"
 date: 2026-10-26
 image: womanDeskNotebook

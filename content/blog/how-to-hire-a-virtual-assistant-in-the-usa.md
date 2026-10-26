@@ -1,6 +1,6 @@
 ---
 title: "How to Hire a Virtual Assistant in the USA: Complete Guide"
-description: "A practical, step-by-step guide for American business owners: deciding what to delegate, choosing between freelancers and agencies, vetting candidates, onboarding and managing a virtual assistant successfully."
+description: "How to hire a virtual assistant in the USA, step by step: what to delegate, freelancer vs agency, vetting candidates, onboarding and management."
 category: "Hiring Guides"
 date: 2026-10-23
 image: womanOfficeLaptop

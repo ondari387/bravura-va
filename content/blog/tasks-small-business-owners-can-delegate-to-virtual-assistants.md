@@ -1,6 +1,6 @@
 ---
 title: "30 Tasks Small Business Owners Can Delegate to Virtual Assistants"
-description: "A practical list of 30 tasks small business owners can hand to a virtual assistant (across admin, customers, sales, finance, marketing and operations) plus how to decide what to delegate first."
+description: "30 tasks small business owners can delegate to a virtual assistant across admin, customers, sales, finance, marketing and operations, and where to start."
 category: "Hiring Guides"
 date: 2026-10-23
 image: womanDeskYellow

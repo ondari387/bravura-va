@@ -14,7 +14,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "About Bravura VA | Human-Led Virtual Assistants From Nairobi, Kenya",
-  description: "Bravura VA is a Nairobi-based virtual assistant company helping startups, entrepreneurs and growing businesses in the USA, UK, Australia and Canada delegate work to dependable, human-led remote support.",
+  description: "Bravura VA is a Nairobi-based virtual assistant company helping businesses in the USA, UK, Australia and Canada delegate to dependable, human-led support.",
   path: "/about/",
 });
 
@@ -104,7 +104,7 @@ export default function AboutPage() {
       <Section tone="pale">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="relative aspect-[4/3.2] overflow-hidden rounded-[2.5rem] shadow-lift">
-            <Image src={`${img.twoWomenTalking.src}?auto=format&fit=crop&w=900&h=720&q=70`} alt={img.twoWomenTalking.alt} fill sizes="(min-width:1024px) 45vw, 90vw" className="object-cover" />
+            <Image src={img.twoWomenTalking.src} alt={img.twoWomenTalking.alt} fill sizes="(min-width:1024px) 45vw, 90vw" className="object-cover" />
           </div>
           <div>
             <p className="eyebrow">Why human-led support matters</p>

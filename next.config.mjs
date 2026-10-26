@@ -2,9 +2,10 @@
 const nextConfig = {
   trailingSlash: true,
   poweredByHeader: false,
+  experimental: { optimizePackageImports: ["lucide-react"] },
   images: {
     formats: ["image/avif", "image/webp"],
-    remotePatterns: [{ protocol: "https", hostname: "images.unsplash.com" }],
+    minimumCacheTTL: 31536000,
   },
   async headers() {
     return [

@@ -1,6 +1,6 @@
 ---
 title: "How Shopify Store Owners Can Use Virtual Assistants"
-description: "Practical ways Shopify store owners use virtual assistants: product listings, order admin, customer service, returns, inventory updates, content and marketing, plus how to grant access safely."
+description: "How Shopify store owners use virtual assistants: product listings, order admin, customer service, returns and inventory, plus how to grant access safely."
 category: "Industry Guides"
 date: 2026-10-23
 image: womanDeskYellow

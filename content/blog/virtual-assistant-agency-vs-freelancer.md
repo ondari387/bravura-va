@@ -1,6 +1,6 @@
 ---
 title: "Virtual Assistant Agency vs Freelancer: What Should You Choose?"
-description: "Should you hire a freelance virtual assistant or work with a VA agency? Compare vetting, cost structure, continuity, quality control, flexibility and accountability to choose the right fit."
+description: "Virtual assistant agency vs freelancer: compare vetting, cost, continuity, quality control, flexibility and accountability to choose the right fit."
 category: "Hiring Guides"
 date: 2026-10-23
 image: twoWomenTalking

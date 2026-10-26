@@ -49,7 +49,7 @@ export function IndustryGrid({ filter = false, limit, slugs, compact = false }: 
         {list.map((i) => (
           <Link key={i.slug} href={`/industries/${i.slug}/`} className="group flex flex-col overflow-hidden rounded-3xl bg-white shadow-card ring-1 ring-teal/5 transition hover:-translate-y-1 hover:shadow-lift">
             <div className="relative h-40 overflow-hidden">
-              <Image src={`${img[i.image].src}?auto=format&fit=crop&w=640&h=320&q=70`} alt="" fill sizes="(min-width:1024px) 30vw, (min-width:640px) 45vw, 92vw" className="object-cover transition duration-500 group-hover:scale-105" />
+              <Image src={img[i.image].src} alt="" fill sizes="(min-width:1024px) 30vw, (min-width:640px) 45vw, 92vw" className="object-cover transition duration-500 group-hover:scale-105" />
             </div>
             <div className="relative flex flex-1 flex-col p-6 pt-9">
               <span className="absolute -top-6 left-6 grid h-12 w-12 place-items-center rounded-2xl bg-orange text-teal shadow-card"><Icon name={i.icon} className="h-6 w-6" /></span>

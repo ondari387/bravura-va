@@ -4,7 +4,7 @@ export const industriesPart1: IndustryContent[] = [
   {
     slug: "startups",
     metaTitle: "Virtual Assistants for Startups | Founder & Startup Support | Bravura VA",
-    metaDescription: "Flexible virtual assistant support for startup founders: inbox and calendar, investor update prep, research, customer support and operations, without adding full-time headcount too early.",
+    metaDescription: "Virtual assistants for startup founders: inbox and calendar, investor update prep, research, customer support and operations, without early full-time hires.",
     eyebrow: "Virtual assistants for startups",
     headline: "Building a Startup? You Don't Have to Build It Alone.",
     intro: "In the early days, founders do everything: product, sales, hiring, fundraising and the admin in between. A startup virtual assistant takes the operational load off the founding team so you can spend your energy on the work that moves the company forward.",
@@ -37,7 +37,7 @@ export const industriesPart1: IndustryContent[] = [
   {
     slug: "small-businesses",
     metaTitle: "Virtual Assistants for Small Businesses & SMEs | Bravura VA",
-    metaDescription: "Affordable, dependable virtual assistant support for small businesses and SMEs in the USA, UK, Australia and Canada: admin, customer replies, scheduling, bookkeeping admin and marketing support.",
+    metaDescription: "Affordable, dependable virtual assistants for small businesses in the USA, UK, Australia and Canada: admin, customer replies, scheduling and bookkeeping admin.",
     eyebrow: "Virtual assistants for small businesses",
     headline: "You're Running a Small Business. You Shouldn't Have to Do Every Job.",
     intro: "Small business owners wear every hat: sales, service, finance, marketing and admin. A virtual assistant gives you an extra pair of skilled hands for the routine work, so you can focus on customers and growth without taking on a full-time hire.",
@@ -70,7 +70,7 @@ export const industriesPart1: IndustryContent[] = [
   {
     slug: "ecommerce",
     metaTitle: "E-commerce Virtual Assistants | Shopify & Amazon Store Support | Bravura VA",
-    metaDescription: "Virtual assistants for e-commerce and online retail: Shopify and Amazon admin, product listings, order and returns support, customer service and inventory data updates.",
+    metaDescription: "Virtual assistants for e-commerce and online retail: Shopify and Amazon admin, product listings, order and returns support, and customer service.",
     eyebrow: "Virtual assistants for e-commerce",
     headline: "More Orders Shouldn't Mean More Admin Headaches.",
     intro: "Online retail never sleeps, and neither does the admin. E-commerce virtual assistants keep your listings accurate, your customers answered and your operations organized, so growth feels exciting rather than exhausting.",
@@ -103,7 +103,7 @@ export const industriesPart1: IndustryContent[] = [
   {
     slug: "real-estate",
     metaTitle: "Real Estate Virtual Assistants for Agents & Brokers | Bravura VA",
-    metaDescription: "Remote administrative support for real estate agents, teams and brokerages: lead follow-up, listing admin, showing coordination, CRM updates and transaction document organization.",
+    metaDescription: "Virtual assistants for real estate agents and brokerages: lead follow-up, listing admin, showing coordination, CRM updates and transaction documents.",
     eyebrow: "Virtual assistants for real estate",
     headline: "Spend More Time With Clients. Less Time Chasing Admin.",
     intro: "Real estate is a relationship business wrapped in paperwork. A real estate virtual assistant takes care of listings, lead follow-up, scheduling and document organization, so agents spend their time with buyers and sellers.",
@@ -137,7 +137,7 @@ export const industriesPart1: IndustryContent[] = [
   {
     slug: "property-management",
     metaTitle: "Virtual Assistants for Property Management Companies | Bravura VA",
-    metaDescription: "Property management virtual assistants for tenant communication, maintenance request logging, vendor scheduling, lease admin support, rent reminders and owner reporting.",
+    metaDescription: "Property management virtual assistants for tenant communication, maintenance logging, vendor scheduling, lease admin, rent reminders and owner reports.",
     eyebrow: "Virtual assistants for property management",
     headline: "Keep Tenants Happy and Properties Running, Without Drowning in Requests.",
     intro: "Property managers juggle tenants, owners, contractors and paperwork across many units. A property management virtual assistant handles the communication and coordination so your team can focus on keeping properties well run.",
@@ -171,7 +171,7 @@ export const industriesPart1: IndustryContent[] = [
   {
     slug: "healthcare-administration",
     metaTitle: "Healthcare Administrative Virtual Assistants (Non-Clinical) | Bravura VA",
-    metaDescription: "Non-clinical administrative virtual assistant support for healthcare and wellness practices: scheduling, reminders, inbox and admin tasks, scoped only after privacy and compliance requirements are assessed.",
+    metaDescription: "Non-clinical admin support for healthcare and wellness practices: scheduling, reminders and inbox tasks, scoped after privacy requirements are assessed.",
     eyebrow: "Healthcare administration support",
     headline: "Less Front-Office Admin. More Time for Patients.",
     intro: "Clinics and wellness practices spend a large share of their day on scheduling, reminders, forms and inboxes. Remote administrative support can lighten that load, provided it's set up carefully around privacy and regulatory requirements.",
@@ -205,7 +205,7 @@ export const industriesPart1: IndustryContent[] = [
   {
     slug: "legal-services",
     metaTitle: "Virtual Assistants for Law Firms & Legal Practices (Admin Only) | Bravura VA",
-    metaDescription: "Administrative virtual assistant support for law firms and solo attorneys: calendar management, client intake admin, document organization, billing admin and correspondence, never legal advice.",
+    metaDescription: "Virtual assistants for law firms and solo attorneys: calendar management, client intake admin, document organisation, billing admin. Never legal advice.",
     eyebrow: "Virtual assistants for legal services",
     headline: "More Billable Hours. Less Administrative Drag.",
     intro: "Lawyers and legal professionals lose valuable time to scheduling, intake forms, document organization and billing admin. Remote administrative support can take that load off, with clear boundaries and careful attention to confidentiality.",
@@ -239,7 +239,7 @@ export const industriesPart1: IndustryContent[] = [
   {
     slug: "marketing-agencies",
     metaTitle: "Virtual Assistants for Marketing Agencies | Bravura VA",
-    metaDescription: "Remote support for marketing and creative agencies: project coordination, client reporting prep, content scheduling, design production, social media admin and white-label support.",
+    metaDescription: "Remote support for marketing agencies: project coordination, client reporting prep, content scheduling, design production and white-label support.",
     eyebrow: "Virtual assistants for marketing agencies",
     headline: "Your Agency Is Growing. So Is the Work Behind the Scenes.",
     intro: "Agencies win clients with strategy and creativity, and keep them with flawless delivery. Agency virtual assistants handle the coordination, reporting and production tasks that keep accounts running smoothly.",
@@ -272,7 +272,7 @@ export const industriesPart1: IndustryContent[] = [
   {
     slug: "recruitment-staffing",
     metaTitle: "Virtual Assistants for Recruitment & Staffing Agencies | Bravura VA",
-    metaDescription: "Recruitment virtual assistants for sourcing research, interview scheduling, ATS and CRM updates, candidate communication, job posting and compliance paperwork admin.",
+    metaDescription: "Virtual assistants for recruitment and staffing firms: sourcing research, interview scheduling, ATS updates, candidate communication and job postings.",
     eyebrow: "Virtual assistants for recruitment & staffing",
     headline: "Spend Time Placing Candidates, Not Updating Systems.",
     intro: "Recruiters are at their best on the phone with clients and candidates. Recruitment virtual assistants take on the research, scheduling and system admin so your consultants can focus on relationships and placements.",

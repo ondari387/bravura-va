@@ -10,23 +10,23 @@ export function HomeHero() {
       <div aria-hidden="true" className="bg-dots absolute left-0 top-0 h-48 w-80 opacity-70" />
       <div className="container-x relative grid items-center gap-10 pb-16 pt-10 sm:pt-14 lg:grid-cols-[1.05fr_0.95fr] lg:gap-6 lg:pb-24 lg:pt-16">
         <div className="relative z-10">
-          <p className="eyebrow animate-fade-up">Human-led virtual assistant services</p>
-          <h1 className="mt-5 animate-fade-up font-heading text-[2.15rem] font-extrabold leading-[1.15] [animation-delay:80ms] sm:text-[2.75rem] sm:leading-[1.13] lg:text-[3.15rem] lg:leading-[1.12]">
+          <p className="eyebrow">The home of human-led virtual assistants</p>
+          <h1 className="mt-5 font-heading text-[2.15rem] font-extrabold leading-[1.15] sm:text-[2.75rem] sm:leading-[1.13] lg:text-[3.15rem] lg:leading-[1.12]">
             <span className="relative text-teal">Reliable Virtual Assistants<svg aria-hidden="true" viewBox="0 0 300 16" className="absolute -bottom-1.5 left-0 h-2.5 w-full" preserveAspectRatio="none"><path d="M3 12C70 4 160 2 297 8" stroke="#FF981F" strokeWidth="6" strokeLinecap="round" fill="none" /></svg></span> for Businesses in the USA, UK, Australia &amp; Canada
           </h1>
-          <p className="lead mt-7 max-w-xl animate-fade-up [animation-delay:160ms]">
+          <p className="lead mt-7 max-w-xl">
             Spend less time on admin and more time growing your business. Bravura VA provides skilled, affordable, human-led virtual assistants from Nairobi, Kenya, helping businesses manage daily operations, customer support, scheduling and more.
           </p>
-          <div className="mt-9 flex animate-fade-up flex-col gap-3 [animation-delay:240ms] sm:flex-row">
+          <div className="mt-9 flex flex-col gap-3 sm:flex-row">
             <BookCallButton source="home_hero">Book a Free Consultation</BookCallButton>
             <ButtonLink href="/pricing/#quote" variant="secondary">Request a Quote</ButtonLink>
           </div>
-          <ul className="mt-8 flex animate-fade-up flex-wrap items-center gap-x-5 gap-y-2 text-sm font-semibold text-ink [animation-delay:320ms]" aria-label="What to expect">
+          <ul className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm font-semibold text-ink" aria-label="What to expect">
             {["Human-led support", "Flexible working arrangements", "Agreed time-zone overlap"].map((t) => (
               <li key={t} className="flex items-center gap-1.5"><Icon name="checkCircle" className="h-4 w-4 text-teal" />{t}</li>
             ))}
           </ul>
-          <p className="mt-3 flex animate-fade-up items-center gap-1.5 text-sm text-ink-muted [animation-delay:360ms]"><Icon name="mapPin" className="h-4 w-4 text-orange" />Based in Nairobi, Kenya. Supporting businesses remotely.</p>
+          <p className="mt-3 flex items-center gap-1.5 text-sm text-ink-muted"><Icon name="mapPin" className="h-4 w-4 text-orange" />Based in Nairobi, Kenya. Supporting businesses remotely.</p>
         </div>
 
         <div className="relative mx-auto h-[420px] w-full max-w-[520px] sm:h-[520px] lg:h-[580px]">
@@ -37,9 +37,9 @@ export function HomeHero() {
           <div aria-hidden="true" className="bg-dots absolute bottom-0 right-4 h-28 w-40" />
           <div className="absolute bottom-0 left-[8%] right-[4%] top-[6%] overflow-hidden rounded-t-[999px] rounded-b-[3rem] shadow-lift">
             <Image
-              src={`${img.heroVA.src}?auto=format&fit=crop&w=1100&h=1300&q=80`}
+              src={img.heroVA.src}
               alt="Smiling remote assistant with headphones at work (illustrative stock photo)"
-              fill priority sizes="(min-width:1024px) 520px, 90vw" className="object-cover object-[50%_20%]"
+              fill priority sizes="(min-width:1024px) 520px, 80vw" className="object-cover object-[50%_20%]"
             />
           </div>
           <div className="absolute -left-2 bottom-16 z-10 w-[230px] animate-float rounded-3xl bg-white p-5 shadow-lift sm:-left-8 sm:w-[260px]">

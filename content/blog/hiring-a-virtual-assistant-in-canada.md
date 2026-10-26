@@ -1,6 +1,6 @@
 ---
 title: "Hiring a Virtual Assistant in Canada: What Canadian Businesses Should Know"
-description: "A practical guide for Canadian business owners hiring a virtual assistant: what to delegate, working across Canadian time zones, PIPEDA and CASL considerations, currency and onboarding."
+description: "Hiring a virtual assistant in Canada: what to delegate, working across Canadian time zones, PIPEDA and CASL considerations, currency and onboarding."
 category: "International Business"
 date: 2026-10-26
 image: womanPortrait

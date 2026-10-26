@@ -3,8 +3,8 @@ import type { ServiceContent } from "./types";
 export const adminServices: ServiceContent[] = [
   {
     slug: "administrative-support",
-    metaTitle: "Admin & Executive Virtual Assistant Services | Remote Administrative Support | Bravura VA",
-    metaDescription: "Hire an administrative or executive virtual assistant for inbox and calendar management, meeting coordination, travel, documents, CRM updates and follow-ups. Human-led support from Nairobi for US, UK, Australian and Canadian businesses.",
+    metaTitle: "Administrative & Executive Virtual Assistant Services | Bravura VA | Bravura VA",
+    metaDescription: "Hire an administrative virtual assistant for inbox, calendar, travel, documents, CRM updates and follow-ups. Human-led support for US, UK, AU and CA firms.",
     hero: {
       eyebrow: "Admin & Executive Support",
       headline: "Stop Spending Your Best Hours on Admin.",
@@ -60,7 +60,7 @@ export const adminServices: ServiceContent[] = [
   {
     slug: "inbox-calendar-management",
     metaTitle: "Inbox & Calendar Management Virtual Assistant | Bravura VA",
-    metaDescription: "Get a virtual assistant to manage your inbox and calendar: email triage, inbox zero systems, meeting scheduling across time zones and follow-ups. Human-led support from Nairobi, Kenya.",
+    metaDescription: "A virtual assistant to manage your inbox and calendar: email triage, inbox systems, scheduling across time zones and follow-ups. Human-led, from Nairobi.",
     hero: {
       eyebrow: "Inbox & Calendar Management",
       headline: "A Calmer Inbox. A Calendar That Works for You.",
@@ -116,7 +116,7 @@ export const adminServices: ServiceContent[] = [
   {
     slug: "executive-virtual-assistant",
     metaTitle: "Executive Virtual Assistant Services for Founders & Leaders | Bravura VA",
-    metaDescription: "An executive virtual assistant for calendar management, travel coordination, meeting preparation, research, stakeholder correspondence and follow-ups. Remote executive support from Nairobi, Kenya.",
+    metaDescription: "An executive virtual assistant for calendar management, travel, meeting prep, research and stakeholder follow-ups. Remote executive support from Nairobi.",
     hero: {
       eyebrow: "Executive Virtual Assistant",
       headline: "Lead the Business. Let Us Handle the Logistics.",
@@ -172,7 +172,7 @@ export const adminServices: ServiceContent[] = [
   {
     slug: "personal-virtual-assistant",
     metaTitle: "Personal Virtual Assistant Services | Life Admin Help | Bravura VA",
-    metaDescription: "A personal virtual assistant to handle errands, appointments, bookings, research and household admin for busy professionals and business owners. Human-led support from Nairobi, Kenya.",
+    metaDescription: "A personal virtual assistant for errands, appointments, bookings, research and household admin, so busy professionals get their time back.",
     hero: {
       eyebrow: "Personal Virtual Assistant",
       headline: "Your Time Is Valuable. Spend Less of It on Life Admin.",
@@ -228,7 +228,7 @@ export const adminServices: ServiceContent[] = [
   {
     slug: "data-entry-research",
     metaTitle: "Data Entry & Research Virtual Assistant Services | Bravura VA",
-    metaDescription: "Accurate data entry, CRM updates, list building, market and competitor research, and spreadsheet clean-up by human virtual assistants in Nairobi, Kenya for US, UK, Australian and Canadian businesses.",
+    metaDescription: "Accurate data entry, CRM updates, list building, market research and spreadsheet clean-up by human virtual assistants in Nairobi, Kenya.",
     hero: {
       eyebrow: "Data Entry & Research",
       headline: "Clean Data. Useful Research. Without the Late Nights.",

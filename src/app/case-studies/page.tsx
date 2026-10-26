@@ -12,7 +12,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "Case Studies & Illustrative Use Cases | Bravura VA",
-  description: "See how Bravura VA structures virtual assistant support for e-commerce, SaaS founders, real estate teams and home service businesses. Illustrative use cases, clearly labeled.",
+  description: "How Bravura VA structures virtual assistant support for e-commerce stores, SaaS founders, real estate teams and home service businesses. Illustrative examples.",
   path: "/case-studies/",
 });
 
@@ -32,7 +32,7 @@ export default function CaseStudiesPage() {
             <article key={c.slug} id={c.slug} className="overflow-hidden rounded-[2.5rem] bg-white shadow-card">
               <div className="grid lg:grid-cols-[0.8fr_1.2fr]">
                 <div className="relative min-h-[260px]">
-                  <Image src={`${img[c.image].src}?auto=format&fit=crop&w=800&h=900&q=70`} alt={img[c.image].alt} fill sizes="(min-width:1024px) 35vw, 100vw" className="object-cover" />
+                  <Image src={img[c.image].src} alt={img[c.image].alt} fill sizes="(min-width:1024px) 35vw, 100vw" className="object-cover" />
                   <span className="absolute left-5 top-5 rounded-full bg-orange px-4 py-1.5 text-xs font-extrabold uppercase tracking-wider text-teal">{c.illustrative ? "Illustrative use case" : "Client case study"}</span>
                 </div>
                 <div className="p-7 sm:p-10">

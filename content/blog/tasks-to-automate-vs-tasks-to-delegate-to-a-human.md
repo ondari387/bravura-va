@@ -1,6 +1,6 @@
 ---
 title: "Tasks to Automate vs Tasks to Delegate to a Human"
-description: "A practical framework for deciding which business tasks to automate, which to delegate to a human assistant, and which to combine, with examples across admin, customer service, sales and finance."
+description: "Which tasks to automate, which to delegate to a human assistant and which to combine, with examples across admin, customer service, sales and finance."
 category: "AI & Human Support"
 date: 2026-10-23
 image: womanFocused

@@ -10,7 +10,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "Human + AI Virtual Assistants | Human-Led, AI-Assisted Support | Bravura VA",
-  description: "Bravura VA combines capable human virtual assistants with responsible, approved AI tools. Learn what to automate, what to delegate to a person, and how we use AI safely.",
+  description: "Capable human virtual assistants using approved AI tools responsibly. Learn what to automate, what to delegate to a person, and how we keep AI use safe.",
   path: "/human-ai-virtual-assistants/",
 });
 

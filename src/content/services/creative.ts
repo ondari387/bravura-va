@@ -4,7 +4,7 @@ export const creativeServices: ServiceContent[] = [
   {
     slug: "content-writing",
     metaTitle: "Content Writing Virtual Assistant | Blogs, Newsletters & Web Copy | Bravura VA",
-    metaDescription: "Content writing support for blog posts, newsletters, product descriptions, website copy and social captions: researched, written for real readers and edited to your brand voice.",
+    metaDescription: "Content writing support for blog posts, newsletters, product descriptions and website copy: researched, written for real readers, edited to your voice.",
     hero: {
       eyebrow: "Content Writing",
       headline: "Consistent, Useful Content, Without Writing It All Yourself.",
@@ -60,7 +60,7 @@ export const creativeServices: ServiceContent[] = [
   {
     slug: "graphic-design",
     metaTitle: "Graphic Design Virtual Assistant | Social Graphics & Presentations | Bravura VA",
-    metaDescription: "Graphic design support for social media graphics, presentations, documents, marketing materials and brand templates: on-brand, quick-turnaround design from a remote assistant.",
+    metaDescription: "Graphic design support for social graphics, presentations, documents and brand templates: on-brand, quick-turnaround design from a remote assistant.",
     hero: {
       eyebrow: "Graphic Design",
       headline: "On-Brand Designs, Without Waiting on an Agency.",
@@ -116,7 +116,7 @@ export const creativeServices: ServiceContent[] = [
   {
     slug: "social-media-management",
     metaTitle: "Social Media Virtual Assistant | Content Scheduling & Community Support | Bravura VA",
-    metaDescription: "Social media management support: content calendars, post creation and scheduling, community management, engagement and monthly reporting across LinkedIn, Instagram, Facebook and more.",
+    metaDescription: "Social media virtual assistants for content calendars, scheduling, community replies and monthly reporting across LinkedIn, Instagram and Facebook.",
     hero: {
       eyebrow: "Social Media Support",
       headline: "Show Up Consistently on Social, Without Living on Your Phone.",
@@ -172,7 +172,7 @@ export const creativeServices: ServiceContent[] = [
   {
     slug: "wordpress-virtual-assistant",
     metaTitle: "WordPress Virtual Assistant | Website Content & Maintenance Support | Bravura VA",
-    metaDescription: "A WordPress virtual assistant for content uploads, blog publishing, page updates, image optimisation, routine plugin admin and backups where supported. Routine website support, not custom development.",
+    metaDescription: "A WordPress virtual assistant for content uploads, blog publishing, page updates, image optimisation and routine plugin admin. Not custom development.",
     hero: {
       eyebrow: "WordPress Virtual Assistant",
       headline: "Keep Your WordPress Site Current Without Waiting on a Developer.",

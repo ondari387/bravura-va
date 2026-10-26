@@ -76,7 +76,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ slug:
       <Section tone="off" id="tasks">
         <div className="grid gap-12 lg:grid-cols-[1fr_1fr] lg:items-center">
           <div className="relative aspect-[4/3.6] overflow-hidden rounded-[2.5rem] shadow-lift">
-            <Image src={`${img[meta.image].src}?auto=format&fit=crop&w=900&h=820&q=70`} alt={img[meta.image].alt} fill sizes="(min-width:1024px) 45vw, 90vw" className="object-cover" />
+            <Image src={img[meta.image].src} alt={img[meta.image].alt} fill sizes="(min-width:1024px) 45vw, 90vw" className="object-cover" />
           </div>
           <div>
             <p className="eyebrow">Tasks to delegate</p>

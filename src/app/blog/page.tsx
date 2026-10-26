@@ -8,7 +8,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "Blog | Virtual Assistant Guides, Delegation & Remote Work Insights",
-  description: "Practical guides on hiring virtual assistants, outsourcing to Kenya and Africa, AI vs human support, industry delegation ideas and managing remote teams across time zones.",
+  description: "Practical guides on hiring virtual assistants, outsourcing to Kenya, AI vs human support, what to delegate and managing remote teams across time zones.",
   path: "/blog/",
 });
 

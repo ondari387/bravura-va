@@ -11,7 +11,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "Why Bravura VA | Human-Led Virtual Assistants You Can Rely On",
-  description: "Why businesses in the USA, UK, Australia and Canada choose Bravura VA: professional Nairobi-based talent, clear communication, flexible arrangements, human-led support and honest, transparent service.",
+  description: "Why businesses in the USA, UK, Australia and Canada choose Bravura VA: skilled Nairobi talent, clear communication, flexible arrangements, honest service.",
   path: "/why-bravura-va/",
 });
 

@@ -1,6 +1,6 @@
 ---
 title: "How Virtual Assistants Can Use AI to Improve Productivity"
-description: "Practical, responsible ways virtual assistants can use AI tools to work faster and better (drafting, summarizing, research, data cleanup and automation) with human review and data safeguards."
+description: "Responsible ways virtual assistants use AI to work faster: drafting, summarising, research, data clean-up and automation, with human review."
 category: "AI & Human Support"
 date: 2026-10-23
 image: womanTyping

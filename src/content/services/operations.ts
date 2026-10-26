@@ -4,7 +4,7 @@ export const operationsServices: ServiceContent[] = [
   {
     slug: "ecommerce-virtual-assistant",
     metaTitle: "Shopify Virtual Assistant & E-commerce VA Services | Bravura VA",
-    metaDescription: "E-commerce virtual assistants for Shopify administration, Amazon seller support, product listings and descriptions, order admin, customer enquiries, returns and inventory updates.",
+    metaDescription: "Shopify and e-commerce virtual assistants for product listings, order admin, customer enquiries, returns and inventory updates. Human-led, from Nairobi.",
     hero: {
       eyebrow: "E-commerce & Shopify Virtual Assistant",
       headline: "More Orders Shouldn't Mean More Admin Headaches.",
@@ -61,7 +61,7 @@ export const operationsServices: ServiceContent[] = [
   {
     slug: "real-estate-virtual-assistant",
     metaTitle: "Real Estate Virtual Assistant | Listing, Lead & Transaction Admin | Bravura VA",
-    metaDescription: "Real estate virtual assistants for listing administration, lead management, showing coordination, CRM updates, property enquiries, agent scheduling and document organization.",
+    metaDescription: "Real estate virtual assistants for listing admin, lead follow-up, showing coordination, CRM updates and transaction paperwork organisation.",
     hero: {
       eyebrow: "Real Estate Virtual Assistant",
       headline: "Spend More Time With Clients. Less Time Chasing Admin.",
@@ -117,7 +117,7 @@ export const operationsServices: ServiceContent[] = [
   {
     slug: "recruitment-virtual-assistant",
     metaTitle: "Recruitment Virtual Assistant | Sourcing, Scheduling & ATS Support | Bravura VA",
-    metaDescription: "Recruitment virtual assistants for candidate sourcing research, interview scheduling, ATS administration, candidate communication, job posting and pipeline updates.",
+    metaDescription: "Recruitment virtual assistants for candidate sourcing research, interview scheduling, ATS admin, candidate communication and job postings.",
     hero: {
       eyebrow: "Recruitment Virtual Assistant",
       headline: "Spend Your Time on People, Not Paperwork.",
@@ -172,8 +172,8 @@ export const operationsServices: ServiceContent[] = [
   },
   {
     slug: "bookkeeping-virtual-assistant",
-    metaTitle: "Bookkeeping Virtual Assistant | Invoice, Receipt & Payables Admin Support | Bravura VA",
-    metaDescription: "Bookkeeping administration support: receipt capture, invoice preparation, bill logging, payment reminders and record organization so your books are ready for your accountant. Not accounting or tax advice.",
+    metaTitle: "Bookkeeping Virtual Assistant | Invoice & Receipt Admin Support | Bravura VA",
+    metaDescription: "Bookkeeping admin support: receipt capture, invoice prep, bill logging and payment reminders, so your books are ready for your accountant.",
     hero: {
       eyebrow: "Bookkeeping Support",
       headline: "Keep Your Financial Admin Tidy, and Your Accountant Happy.",
@@ -229,7 +229,7 @@ export const operationsServices: ServiceContent[] = [
   {
     slug: "project-management-support",
     metaTitle: "Project Management Support Virtual Assistant | Bravura VA",
-    metaDescription: "Project coordination support: task tracking, meeting notes, status updates, deadline follow-ups and project board administration in Asana, Trello, ClickUp, Monday.com and Jira.",
+    metaDescription: "Project coordination support: task tracking, meeting notes, status updates and deadline follow-ups in Asana, Trello, ClickUp, Monday.com and Jira.",
     hero: {
       eyebrow: "Project Management Support",
       headline: "Keep Projects Moving Without Chasing Everyone Yourself.",
@@ -285,7 +285,7 @@ export const operationsServices: ServiceContent[] = [
   {
     slug: "operations-support",
     metaTitle: "Operations Support Virtual Assistant | Processes, Vendors & Back-Office | Bravura VA",
-    metaDescription: "Operations support virtual assistants for SOP documentation, vendor coordination, internal tools administration, reporting and back-office processes that keep growing businesses running smoothly.",
+    metaDescription: "Operations support virtual assistants for SOP documentation, vendor coordination, internal tools admin and reporting that keep a growing business running.",
     hero: {
       eyebrow: "Operations Support",
       headline: "Build a Business That Runs Smoothly, Even When You're Busy.",

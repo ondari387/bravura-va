@@ -1,7 +1,7 @@
 export const site = {
   name: "Bravura VA",
   legalName: "Bravura VA",
-  tagline: "Less Admin. More Growth. Real Human Support.",
+  tagline: "The home of reliable, human-led virtual assistants.",
   url: (process.env.NEXT_PUBLIC_SITE_URL || "https://va.bravura.co.ke").replace(/\/$/, ""),
   description:
     "Human-led virtual assistant and remote business support from Nairobi, Kenya, for startups, entrepreneurs and growing businesses across the USA, UK, Australia and Canada.",

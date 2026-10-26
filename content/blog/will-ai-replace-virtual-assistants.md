@@ -1,6 +1,6 @@
 ---
 title: "Will AI Replace Virtual Assistants?"
-description: "A balanced look at how AI is changing virtual assistance: what AI tools already do well, where human assistants still add essential value, how the VA role is evolving and what it means for business owners."
+description: "Will AI replace virtual assistants? What AI tools already do well, where human assistants still add value, and how the VA role is changing."
 category: "AI & Human Support"
 date: 2026-10-23
 image: womanHeadsetDesk

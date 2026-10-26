@@ -1,6 +1,6 @@
 ---
 title: "Virtual Assistant Services for Startup Founders"
-description: "How startup founders use virtual assistants to protect their time: inbox and calendar, investor admin, hiring coordination, customer support, research and operations, and when to bring one on."
+description: "How startup founders use virtual assistants: inbox and calendar, investor admin, hiring coordination, customer support and research, and when to start."
 category: "Industry Guides"
 date: 2026-10-23
 image: teamStanding

@@ -1,6 +1,3 @@
-@import "@fontsource-variable/plus-jakarta-sans";
-@import "@fontsource-variable/inter";
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -61,9 +58,13 @@
 }
 
 @layer utilities {
-  .js .reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease; }
-  .js .reveal.is-visible { opacity: 1; transform: none; }
+  @supports (animation-timeline: view()) {
+    .reveal { animation: reveal-in linear both; animation-timeline: view(); animation-range: entry 0% entry 35%; }
+  }
   .no-scrollbar::-webkit-scrollbar { display: none; }
   .no-scrollbar { scrollbar-width: none; }
   .bg-dots { background-image: radial-gradient(rgba(89,196,208,.35) 1.5px, transparent 1.5px); background-size: 22px 22px; }
 }
+
+@keyframes reveal-in { from { opacity: 0; translate: 0 18px; } to { opacity: 1; translate: none; } }
+@media (prefers-reduced-motion: reduce) { .reveal, .animate-fade-up, .animate-float { animation: none !important; } }

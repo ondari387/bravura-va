@@ -10,7 +10,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "International Virtual Assistant Services | USA, UK, Australia & Canada | Bravura VA",
-  description: "Bravura VA supports businesses in the United States, United Kingdom, Australia and Canada remotely from Nairobi, Kenya. Compare time zones, currencies and how support works in each market.",
+  description: "Virtual assistant support for the USA, UK, Australia and Canada, delivered remotely from Nairobi, Kenya. Compare time zones, currencies and how it works.",
   path: "/virtual-assistants/",
 });
 

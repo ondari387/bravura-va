@@ -12,7 +12,7 @@ export function AboutSplit() {
           <div aria-hidden="true" className="absolute -left-5 -top-5 h-32 w-32 rounded-full bg-orange" />
           <div aria-hidden="true" className="absolute -bottom-6 -right-6 h-40 w-40 rounded-[2rem] bg-aqua" />
           <div className="relative aspect-[4/5] overflow-hidden rounded-[2.5rem] shadow-lift">
-            <Image src={`${img.womanOfficeLaptop.src}?auto=format&fit=crop&w=900&h=1100&q=75`} alt={img.womanOfficeLaptop.alt} fill sizes="(min-width:1024px) 40vw, 90vw" className="object-cover" />
+            <Image src={img.womanOfficeLaptop.src} alt={img.womanOfficeLaptop.alt} fill sizes="(min-width:1024px) 40vw, 90vw" className="object-cover" />
           </div>
           <div className="absolute -bottom-6 left-6 rounded-2xl bg-white px-5 py-4 shadow-lift">
             <p className="font-heading text-sm font-extrabold text-ink">Nairobi, Kenya</p>

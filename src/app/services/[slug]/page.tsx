@@ -118,7 +118,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               ))}
             </div>
             <div className="relative mt-6 aspect-[16/9] overflow-hidden rounded-3xl">
-              <Image src={`${img[meta.image].src}?auto=format&fit=crop&w=900&h=500&q=70`} alt={img[meta.image].alt} fill sizes="(min-width:1024px) 40vw, 90vw" className="object-cover" />
+              <Image src={img[meta.image].src} alt={img[meta.image].alt} fill sizes="(min-width:1024px) 40vw, 90vw" className="object-cover" />
             </div>
           </div>
         </div>

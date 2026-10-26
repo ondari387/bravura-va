@@ -36,7 +36,7 @@ export function WorldMap() {
         <circle cx={points.nairobi[0]} cy={points.nairobi[1]} r="26" fill="#FF981F" opacity="0.25" />
         <circle cx={points.nairobi[0]} cy={points.nairobi[1]} r="12" fill="#FF981F" stroke="#fff" strokeWidth="4" />
         {[["United States", points.usa, -70, 36], ["Canada", points.canada, -40, -22], ["United Kingdom", points.uk, -58, -24], ["Australia", points.aus, -40, 36], ["Nairobi HQ", points.nairobi, 22, 34]].map(([label, p, dx, dy]) => (
-          <text key={label as string} x={(p as number[])[0] + (dx as number)} y={(p as number[])[1] + (dy as number)} fontSize="20" fontWeight="800" fill="#0D292D" fontFamily="Plus Jakarta Sans Variable, sans-serif">{label as string}</text>
+          <text key={label as string} x={(p as number[])[0] + (dx as number)} y={(p as number[])[1] + (dy as number)} fontSize="20" fontWeight="800" fill="#0D292D" style={{ fontFamily: "var(--font-albert), sans-serif" }}>{label as string}</text>
         ))}
       </svg>
     </div>

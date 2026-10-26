@@ -1,6 +1,6 @@
 ---
 title: "Why US Businesses Are Considering Virtual Assistants from Kenya"
-description: "Kenya is emerging as a destination for remote business support. Here's why American businesses are looking at Kenyan virtual assistants (language, time zones, talent, technology) and what to consider before hiring."
+description: "Why US businesses are hiring virtual assistants from Kenya: English fluency, time-zone overlap, talent and technology, plus what to check before you hire."
 category: "Kenya & Africa Outsourcing"
 date: 2026-10-23
 image: womanOfficeTeam

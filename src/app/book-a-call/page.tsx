@@ -7,7 +7,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "Book a Free Consultation | Bravura VA",
-  description: "Book a free, no-obligation consultation with Bravura VA. Talk through your workload, the tasks you'd like to delegate and whether virtual assistant support is right for your business.",
+  description: "Book a free, no-obligation consultation with Bravura VA. Talk through your workload, what you'd like to delegate and whether a virtual assistant fits.",
   path: "/book-a-call/",
 });
 

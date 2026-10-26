@@ -1,6 +1,6 @@
 ---
 title: "Virtual Assistant Services for UK Small Businesses"
-description: "A guide for UK small business owners considering a virtual assistant or virtual PA: what to delegate, UK vs overseas options, time zones, UK GDPR considerations and how to get started."
+description: "Virtual assistant services for UK small businesses: what to delegate, UK vs overseas options, time zones, UK GDPR and how to get started."
 category: "International Business"
 date: 2026-10-23
 image: womanGlasses

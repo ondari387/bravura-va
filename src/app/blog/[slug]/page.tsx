@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const p = getPost(slug);
   if (!p) return {};
-  const m = pageMeta({ title: p.title, description: p.description, path: `/blog/${slug}/`, type: "article", image: `${img[p.image].src}?auto=format&fit=crop&w=1200&h=630&q=75` });
+  const m = pageMeta({ title: p.title, description: p.description, path: `/blog/${slug}/`, type: "article", image: `${site.url}${img[p.image].src}` });
   return { ...m, keywords: p.keywords, openGraph: { ...m.openGraph, type: "article", publishedTime: p.date, modifiedTime: p.updated || p.date } };
 }
 
@@ -50,7 +50,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
         </div>
         <div className="container-x">
           <div className="relative mx-auto aspect-[16/7] max-w-5xl translate-y-10 overflow-hidden rounded-[2rem] shadow-lift">
-            <Image src={`${img[p.image].src}?auto=format&fit=crop&w=1400&h=620&q=75`} alt={img[p.image].alt} fill priority sizes="(min-width:1024px) 1000px, 95vw" className="object-cover" />
+            <Image src={img[p.image].src} alt={img[p.image].alt} fill priority sizes="(min-width:1024px) 1000px, 95vw" className="object-cover" />
           </div>
         </div>
       </section>
@@ -97,7 +97,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
 
       <JsonLd data={{
         "@context": "https://schema.org", "@type": "BlogPosting",
-        headline: p.title, description: p.description, image: [`${img[p.image].src}?auto=format&fit=crop&w=1200&h=630&q=75`],
+        headline: p.title, description: p.description, image: [`${site.url}${img[p.image].src}`],
         datePublished: p.date, dateModified: p.updated || p.date, mainEntityOfPage: url, url,
         author: { "@type": "Organization", name: site.name, url: `${site.url}/` },
         publisher: { "@id": `${site.url}/#organization` },

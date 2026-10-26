@@ -81,7 +81,7 @@ export function Header() {
       </div>
       <div className="container-x flex h-[76px] items-center justify-between gap-4">
         <Link href="/" className="shrink-0" aria-label="Bravura VA home">
-          <Image src="/images/brand/bravura-va-logo.png" alt="Bravura VA" width={900} height={136} priority className="h-7 w-auto sm:h-8" />
+          <Image src="/images/brand/bravura-va-logo.png" alt="Bravura VA" width={900} height={136} priority sizes="212px" className="h-7 w-auto sm:h-8" />
         </Link>
 
         <nav aria-label="Main" className="hidden lg:block">

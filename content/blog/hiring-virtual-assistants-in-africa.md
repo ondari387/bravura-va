@@ -1,6 +1,6 @@
 ---
 title: "Hiring Virtual Assistants in Africa: Complete Guide"
-description: "Everything international businesses should know about hiring virtual assistants in Africa: key markets like Kenya, Nigeria, South Africa and Ghana, time zones, language, infrastructure, compliance and choosing a provider."
+description: "Hiring virtual assistants in Africa: Kenya, Nigeria, South Africa and Ghana compared on time zones, language, infrastructure and compliance."
 category: "Kenya & Africa Outsourcing"
 date: 2026-10-23
 image: teamStanding

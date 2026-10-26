@@ -1,6 +1,6 @@
 ---
 title: "What to Look for in an International Virtual Assistant Agency"
-description: "A checklist for choosing an international virtual assistant agency: transparency, talent selection, communication, time zones, security, pricing, contracts, continuity and red flags to avoid."
+description: "How to choose an international virtual assistant agency: transparency, vetting, communication, time zones, security, pricing, contracts and red flags."
 category: "International Business"
 date: 2026-10-23
 image: womenAtTable

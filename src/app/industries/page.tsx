@@ -9,7 +9,7 @@ import { Icon } from "@/components/ui/Icon";
 
 export const metadata: Metadata = pageMeta({
   title: "Industries We Support | Virtual Assistants by Industry",
-  description: "Industry-specific virtual assistant support for startups, small businesses, e-commerce, real estate, property management, healthcare admin, legal, agencies, recruitment, SaaS, construction and more.",
+  description: "Virtual assistant support shaped for startups, e-commerce, real estate, agencies, recruitment, SaaS, legal, construction and more. Human-led, from Nairobi.",
   path: "/industries/",
 });
 

@@ -4,7 +4,7 @@ export const industriesPart2: IndustryContent[] = [
   {
     slug: "consulting",
     metaTitle: "Virtual Assistants for Consultants & Consulting Firms | Bravura VA",
-    metaDescription: "Executive and administrative virtual assistants for consultants: calendar management, proposal formatting, client coordination, research, invoicing admin and follow-ups.",
+    metaDescription: "Virtual assistants for consultants: calendar management, proposal formatting, client coordination, research, invoicing admin and follow-ups.",
     eyebrow: "Virtual assistants for consultants",
     headline: "Spend More Time Advising Clients. Less Time Managing Your Calendar.",
     intro: "Consultants sell expertise and time. A consulting virtual assistant protects both: handling scheduling, proposals, research and follow-ups so you can focus on delivering insight and winning the next engagement.",
@@ -37,7 +37,7 @@ export const industriesPart2: IndustryContent[] = [
   {
     slug: "coaching",
     metaTitle: "Virtual Assistants for Coaches | Scheduling, Onboarding & Content | Bravura VA",
-    metaDescription: "Virtual assistant support for business, life and executive coaches: client scheduling, onboarding admin, course and community admin, newsletters, social content and invoicing.",
+    metaDescription: "Virtual assistants for coaches: client scheduling, onboarding admin, course and community admin, newsletters, social content and invoicing.",
     eyebrow: "Virtual assistants for coaches",
     headline: "You Became a Coach to Help People, Not to Chase Bookings.",
     intro: "Coaching businesses run on relationships and content. A coaching virtual assistant handles the scheduling, onboarding, content and admin that support your practice, so you can give clients your full attention.",
@@ -70,7 +70,7 @@ export const industriesPart2: IndustryContent[] = [
   {
     slug: "financial-services",
     metaTitle: "Administrative Virtual Assistants for Financial Services Firms | Bravura VA",
-    metaDescription: "Administrative support for financial advisers, accounting firms and financial services businesses: client scheduling, CRM updates, document collection and paperwork prep, never financial advice.",
+    metaDescription: "Admin support for financial advisers and accounting firms: client scheduling, CRM updates, document collection and paperwork prep. Never financial advice.",
     eyebrow: "Virtual assistants for financial services",
     headline: "Serve More Clients Without Adding More Paperwork.",
     intro: "Advisers, planners and accounting firms carry heavy client-servicing admin. Remote administrative support can manage scheduling, document collection and CRM updates under your supervision, with clear boundaries around regulated activity.",
@@ -104,7 +104,7 @@ export const industriesPart2: IndustryContent[] = [
   {
     slug: "technology-saas",
     metaTitle: "Virtual Assistants for Technology & SaaS Companies | Bravura VA",
-    metaDescription: "Remote support for SaaS and tech companies: tier-1 customer support, onboarding admin, CRM hygiene, help center content, QA admin, research and operations support.",
+    metaDescription: "Remote support for SaaS and tech companies: tier-1 customer support, onboarding admin, CRM hygiene, help centre content and operations support.",
     eyebrow: "Virtual assistants for technology & SaaS",
     headline: "Keep Shipping Product. We'll Help Keep Customers Supported.",
     intro: "Lean tech teams wear many hats: support, onboarding, sales ops and documentation all compete with building the product. Virtual assistants give SaaS companies flexible capacity for the operational work around the software.",
@@ -137,7 +137,7 @@ export const industriesPart2: IndustryContent[] = [
   {
     slug: "construction",
     metaTitle: "Virtual Assistants for Construction Companies & Contractors | Bravura VA",
-    metaDescription: "Construction virtual assistants for document control, estimate and bid admin, subcontractor scheduling, permit and compliance paperwork tracking, client updates and invoicing admin.",
+    metaDescription: "Construction virtual assistants for document control, bid and estimate admin, subcontractor scheduling, compliance paperwork and invoicing admin.",
     eyebrow: "Virtual assistants for construction",
     headline: "Keep Projects Moving Without Getting Buried in Paperwork.",
     intro: "Construction businesses run on schedules, documents and coordination. A construction virtual assistant handles the office-side admin so project managers and owners can stay on site and keep jobs on track.",
@@ -170,7 +170,7 @@ export const industriesPart2: IndustryContent[] = [
   {
     slug: "home-services",
     metaTitle: "Virtual Assistants for Home Service Businesses | Bravura VA",
-    metaDescription: "Virtual receptionists and admin support for plumbers, electricians, HVAC, cleaning and landscaping companies: call handling, job booking, quote follow-up, scheduling and review requests.",
+    metaDescription: "Virtual receptionists and admin for plumbers, electricians, HVAC and cleaning firms: call handling, job booking, quote follow-up and review requests.",
     eyebrow: "Virtual assistants for home services",
     headline: "Stop Losing Jobs to Missed Calls and Slow Quotes.",
     intro: "When you're on a job, you can't answer the phone, and the next customer calls someone else. Home service virtual assistants answer calls, book jobs, follow up quotes and keep your schedule full.",
@@ -236,7 +236,7 @@ export const industriesPart2: IndustryContent[] = [
   {
     slug: "education",
     metaTitle: "Virtual Assistants for Education & Training Providers | Bravura VA",
-    metaDescription: "Administrative support for tutoring businesses, training providers, online course creators and education organizations: enrolment admin, LMS management, scheduling and learner communication.",
+    metaDescription: "Admin support for tutoring businesses, training providers and course creators: enrolment admin, LMS management, scheduling and learner communication.",
     eyebrow: "Virtual assistants for education",
     headline: "More Time for Teaching. Less Time on Enrolment Admin.",
     intro: "Training providers, tutoring companies and course creators spend huge amounts of time on scheduling, enrolment and learner communication. Education virtual assistants handle the admin so educators can focus on learning outcomes.",
@@ -270,7 +270,7 @@ export const industriesPart2: IndustryContent[] = [
   {
     slug: "nonprofits",
     metaTitle: "Virtual Assistants for Nonprofits & Charities | Bravura VA",
-    metaDescription: "Remote administrative support for nonprofits and charities: donor database updates, volunteer coordination, grant application admin, event logistics, newsletters and social media.",
+    metaDescription: "Remote admin support for nonprofits and charities: donor database updates, volunteer coordination, grant admin, event logistics and newsletters.",
     eyebrow: "Virtual assistants for nonprofits",
     headline: "Do More for Your Mission With the Team You Have.",
     intro: "Nonprofit teams are small, passionate and stretched. Virtual assistants help with donor records, volunteer coordination, grant admin and communications, so more of your team's energy goes into the mission.",

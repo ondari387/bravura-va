@@ -23,18 +23,18 @@ export function ContactSection({
               <li>
                 <a href={site.phoneHref} className="flex items-center gap-4 font-semibold hover:underline">
                   <span className="grid h-12 w-12 place-items-center rounded-full bg-white text-teal"><Icon name="phone" className="h-5 w-5" /></span>
-                  <span><span className="block text-sm font-medium text-teal/70">Phone / WhatsApp</span>{site.phone}</span>
+                  <span><span className="block text-sm font-semibold text-teal">Phone / WhatsApp</span>{site.phone}</span>
                 </a>
               </li>
               <li>
                 <a href={site.emailHref} className="flex items-center gap-4 font-semibold hover:underline">
                   <span className="grid h-12 w-12 place-items-center rounded-full bg-white text-teal"><Icon name="mail" className="h-5 w-5" /></span>
-                  <span><span className="block text-sm font-medium text-teal/70">Email</span>{site.email}</span>
+                  <span><span className="block text-sm font-semibold text-teal">Email</span>{site.email}</span>
                 </a>
               </li>
               <li className="flex items-center gap-4 font-semibold">
                 <span className="grid h-12 w-12 place-items-center rounded-full bg-white text-teal"><Icon name="mapPin" className="h-5 w-5" /></span>
-                <span><span className="block text-sm font-medium text-teal/70">Headquarters</span>Nairobi, Kenya</span>
+                <span><span className="block text-sm font-semibold text-teal">Headquarters</span>Nairobi, Kenya</span>
               </li>
             </ul>
           </div>

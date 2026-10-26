@@ -22,8 +22,8 @@ const config: Config = {
         "5xl": ["3rem", { lineHeight: "1.15" }],
       },
       fontFamily: {
-        heading: ['"Plus Jakarta Sans Variable"', "system-ui", "sans-serif"],
-        sans: ['"Inter Variable"', "system-ui", "sans-serif"],
+        heading: ["var(--font-albert)", "system-ui", "sans-serif"],
+        sans: ["var(--font-albert)", "system-ui", "sans-serif"],
       },
       maxWidth: { container: "1240px" },
       borderRadius: { "4xl": "2rem", "5xl": "2.5rem" },

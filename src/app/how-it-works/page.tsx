@@ -11,7 +11,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
   title: "How It Works | Hiring a Virtual Assistant With Bravura VA",
-  description: "How Bravura VA works: a free consultation, a tailored support plan, careful matching, structured onboarding and ongoing check-ins. Simple, transparent steps to start delegating.",
+  description: "How Bravura VA works: a free consultation, a tailored support plan, careful matching, structured onboarding and regular check-ins. Start delegating simply.",
   path: "/how-it-works/",
 });
 
