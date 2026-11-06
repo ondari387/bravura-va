@@ -4,11 +4,11 @@ import { site } from "@/lib/site";
 export function WhatsAppFloat() {
   return (
     <a
-      href={site.whatsappWithText("Hi Bravura VA, I'd like to learn more about your virtual assistant services.")}
+      href={site.whatsappWithText("Hi Tendaji VA, I'd like to learn more about your virtual assistant services.")}
       target="_blank"
       rel="noopener noreferrer"
      
-      aria-label="Chat with Bravura VA on WhatsApp"
+      aria-label="Chat with Tendaji VA on WhatsApp"
       className="group fixed bottom-5 right-5 z-50 hidden items-center md:flex gap-2 rounded-full bg-teal py-2 pl-2 pr-2 text-white shadow-lift transition hover:pr-5 sm:bottom-6 sm:right-6"
     >
       <span className="grid h-11 w-11 place-items-center rounded-full bg-aqua text-teal">

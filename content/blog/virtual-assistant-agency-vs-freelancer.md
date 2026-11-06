@@ -102,4 +102,4 @@ There's no wrong answer, some businesses use an agency for core support and occa
 
 Freelancers offer choice and direct control, making them great for defined projects. Agencies offer structure, continuity and shared responsibility, making them a strong choice for ongoing support. Think about how much time you want to spend recruiting and managing, and how important continuity is to your business.
 
-At [Bravura VA](/how-it-works/), we provide managed, human-led support from Nairobi, Kenya, with clear scopes and regular check-ins. If that sounds like a fit, we'd be happy to talk.
+At [Tendaji VA](/how-it-works/), we provide managed, human-led support from Nairobi, Kenya, with clear scopes and regular check-ins. If that sounds like a fit, we'd be happy to talk.

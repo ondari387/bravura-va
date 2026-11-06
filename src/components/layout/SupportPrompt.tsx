@@ -137,7 +137,7 @@ export function SupportPrompt() {
               <Icon name="send" className="h-4 w-4" /> Send Us the Details
             </Link>
             <a
-              href={site.whatsappWithText(`Hi Bravura VA, I'd like help with ${need.label.toLowerCase()}.`)}
+              href={site.whatsappWithText(`Hi Tendaji VA, I'd like help with ${need.label.toLowerCase()}.`)}
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => act("whatsapp")}

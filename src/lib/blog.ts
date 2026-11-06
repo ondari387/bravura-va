@@ -27,7 +27,7 @@ function parse(file: string): Post {
   };
   renderer.link = ({ href, tokens }) => {
     const text = renderer.parser.parseInline(tokens);
-    const ext = /^https?:\/\//.test(href) && !href.includes("bravura.co.ke");
+    const ext = /^https?:\/\//.test(href) && !href.includes("tendaji-va.co.ke") && !href.includes("va.bravura.co.ke");
     return `<a href="${href}"${ext ? ' target="_blank" rel="noopener noreferrer"' : ""}>${text}</a>`;
   };
   const html = marked.parse(content, { renderer, async: false }) as string;

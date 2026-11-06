@@ -96,4 +96,4 @@ The Philippines and India have long-established outsourcing industries and remai
 
 US businesses are considering Kenyan virtual assistants because the fundamentals are compelling: English-speaking professionals, a technology-savvy culture, a time zone that enables overnight progress, and a modern legal framework. The key, as with any outsourcing decision, is choosing the right people, setting clear expectations and building a strong working rhythm.
 
-[Bravura VA](/virtual-assistant-kenya/) is headquartered in Nairobi and built specifically to support businesses in the USA, UK and Australia. If you'd like to explore what that could look like, we'd love to hear from you.
+[Tendaji VA](/virtual-assistant-kenya/) is headquartered in Nairobi and built specifically to support businesses in the USA, UK and Australia. If you'd like to explore what that could look like, we'd love to hear from you.

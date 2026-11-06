@@ -77,4 +77,4 @@ Ask for quotes in Canadian dollars so you aren't exposed to surprise conversions
 
 A remote virtual assistant can give Canadian businesses reliable help with the work that eats into evenings. Plan overlap around your province's time zone, respect PIPEDA and CASL, get quotes in CAD and start with a clear list of tasks.
 
-Bravura VA supports [Canadian businesses](/virtual-assistant-canada/) remotely from Nairobi, Kenya. [Book a free consultation](/book-a-call/) to discuss what you'd like to delegate.
+Tendaji VA supports [Canadian businesses](/virtual-assistant-canada/) remotely from Nairobi, Kenya. [Book a free consultation](/book-a-call/) to discuss what you'd like to delegate.

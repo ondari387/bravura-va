@@ -102,9 +102,9 @@ Be wary of providers who make guarantees about growth or revenue, display unveri
 - **No documentation.** Without written processes, every new assistant starts from zero.
 - **Over-delegating too soon.** Start with clear, contained tasks and build trust.
 
-## Where Bravura VA fits
+## Where Tendaji VA fits
 
-Bravura VA is a managed virtual assistant service headquartered in Nairobi, Kenya. We support US startups with human-led assistance (executive support, inbox and calendar, customer support, research and operations) with flexible arrangements that can grow with you. We're transparent about where we're based and what we do well, and we'll tell you honestly if we're not the right fit.
+Tendaji VA is a managed virtual assistant service headquartered in Nairobi, Kenya. We support US startups with human-led assistance (executive support, inbox and calendar, customer support, research and operations) with flexible arrangements that can grow with you. We're transparent about where we're based and what we do well, and we'll tell you honestly if we're not the right fit.
 
 ## Wrapping up
 

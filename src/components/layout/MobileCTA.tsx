@@ -23,7 +23,7 @@ export function MobileCTA() {
           <button type="button" onClick={() => open("mobile_sticky")} className="flex-1 rounded-full bg-aqua px-4 py-3 font-heading text-[15px] font-bold text-teal">
             Book a Free Consultation
           </button>
-          <a href={site.whatsappWithText("Hi Bravura VA, I'd like to learn more about your virtual assistant services.")} target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" className="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-teal text-white">
+          <a href={site.whatsappWithText("Hi Tendaji VA, I'd like to learn more about your virtual assistant services.")} target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" className="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-teal text-white">
             <Icon name="chat" className="h-5 w-5" />
           </a>
         </div>

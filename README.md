@@ -1,6 +1,6 @@
-# Bravura VA, Website
+# Tendaji VA, Website
 
-Production-ready marketing website for **Bravura VA**, built with Next.js (App Router), React, TypeScript and Tailwind CSS.
+Production-ready marketing website for **Tendaji VA**, built with Next.js (App Router), React, TypeScript and Tailwind CSS.
 
 ## Quick start
 
@@ -17,7 +17,7 @@ Requires Node.js 18.18+ (Node 20 or 22 recommended).
 
 | Area | Pages |
 |---|---|
-| Core | Home, About, Services, Industries, How It Works, Why Bravura VA, Pricing, Case Studies, Testimonials, Human + AI Support, Blog, FAQ, Contact, Book a Call |
+| Core | Home, About, Services, Industries, How It Works, Why Tendaji VA, Pricing, Case Studies, Testimonials, Human + AI Support, Blog, FAQ, Contact, Book a Call |
 | Services | 19 detailed service pages, `/services/[slug]/` |
 | Industries | 18 industry pages, `/industries/[slug]/` |
 | International | `/virtual-assistants/` index, 5 country pages (USA, UK, Australia, Kenya, Africa), 10 US state pages, 3 UK + 3 Australian city pages |
@@ -107,7 +107,7 @@ Fonts: Plus Jakarta Sans (headings) and Inter (body), self-hosted via Fontsource
 
 ## Deployment
 
-Works on any Node host. Vercel is the simplest: import the folder/repo, add the environment variables, deploy. Then point `bravura.co.ke` at it and submit `https://bravura.co.ke/sitemap.xml` in Google Search Console.
+Works on any Node host. Vercel is the simplest: import the folder/repo, add the environment variables, deploy. Then point `tendaji-va.co.ke` at it and submit `https://tendaji-va.co.ke/sitemap.xml` in Google Search Console.
 
 Notes:
 - The enquiry API has a simple in-memory rate limit; on multi-instance hosting, use your platform's rate limiting.

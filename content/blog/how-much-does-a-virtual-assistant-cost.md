@@ -103,7 +103,7 @@ A reputable provider will answer clearly and put everything in writing.
 
 Usually, yes. Starting with a part-time arrangement focused on a few clearly defined tasks lets you test delegation without a large commitment. Once you see the results, and identify more work to hand over, you can increase hours with confidence.
 
-## How Bravura VA approaches pricing
+## How Tendaji VA approaches pricing
 
 We don't publish one-size-fits-all packages because the right support depends on your workload. Instead, we have a short consultation, understand the hours, skills and working-hour overlap you need, and give you a clear, written quote, with no obligation. You can read more on our [pricing page](/pricing/).
 

@@ -8,7 +8,7 @@ export const faqGroups: { id: string; title: string; faqs: FAQ[] }[] = [
       { q: "What does a virtual assistant actually do?", a: "A virtual assistant handles business tasks remotely, things like managing your inbox and calendar, replying to customer enquiries, updating your CRM, entering data, researching suppliers or prospects, coordinating projects, scheduling social posts or keeping your online store tidy. If a task is repeatable, can be explained, and can be done with online tools, it can usually be delegated." },
       { q: "How do I know which tasks to delegate first?", a: "Start with work that is frequent, time-consuming and doesn't need your personal expertise: inbox triage, scheduling, data entry, customer FAQs, follow-ups and reporting. On your consultation we'll walk through a typical week with you and suggest a sensible first set of tasks." },
       { q: "Do I need to have processes documented before I start?", a: "No. Many clients don't. During onboarding we'll capture how you like things done, often by recording a short screen walkthrough or writing a simple checklist together, and turn that into working notes your assistant follows and keeps up to date." },
-      { q: "What's the difference between Bravura VA and hiring a freelancer?", a: "With a freelancer you usually manage recruitment, quality, cover and continuity yourself. Bravura VA provides a managed service: we help scope the work, match you with a suitable assistant, support onboarding and stay involved so communication and quality stay on track. Freelancers can be a great fit for one-off projects; a managed service suits ongoing support." },
+      { q: "What's the difference between Tendaji VA and hiring a freelancer?", a: "With a freelancer you usually manage recruitment, quality, cover and continuity yourself. Tendaji VA provides a managed service: we help scope the work, match you with a suitable assistant, support onboarding and stay involved so communication and quality stay on track. Freelancers can be a great fit for one-off projects; a managed service suits ongoing support." },
     ],
   },
   {
@@ -17,7 +17,7 @@ export const faqGroups: { id: string; title: string; faqs: FAQ[] }[] = [
     faqs: [
       { q: "Why work with virtual assistants in Kenya?", a: "Kenya has a large, well-educated, English-speaking workforce and Nairobi is one of East Africa's most established business and technology hubs. English is an official language and widely used in business and education, which makes written and spoken communication with US, UK and Australian clients straightforward. Many businesses also find the cost of remote support more manageable than local hiring, while still getting professional, human-led help." },
       { q: "Is communication in English?", a: "Yes. All client communication is in English, by email, chat, video call or phone, whichever your team already uses." },
-      { q: "Do you have offices in the USA, UK, Australia or Canada?", a: "No. Bravura VA is headquartered in Nairobi, Kenya, and supports clients in the United States, United Kingdom, Australia and Canada remotely. We're transparent about that from the first conversation." },
+      { q: "Do you have offices in the USA, UK, Australia or Canada?", a: "No. Tendaji VA is headquartered in Nairobi, Kenya, and supports clients in the United States, United Kingdom, Australia and Canada remotely. We're transparent about that from the first conversation." },
     ],
   },
   {

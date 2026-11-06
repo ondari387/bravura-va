@@ -1,4 +1,4 @@
-This Cookie Policy explains how **Bravura VA** uses cookies and similar technologies on **bravura.co.ke**.
+This Cookie Policy explains how **Tendaji VA** uses cookies and similar technologies on **tendaji-va.co.ke**.
 
 ## What are cookies?
 
@@ -28,4 +28,4 @@ You can change your preferences at any time using the **Cookie Settings** link i
 
 ## Contact
 
-Questions? Email **va@bravura.co.ke**.
+Questions? Email **va@tendaji-va.co.ke**.

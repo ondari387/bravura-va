@@ -6,8 +6,8 @@ import { CalendlyEmbed } from "@/components/layout/Booking";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "Book a Free Consultation | Bravura VA",
-  description: "Book a free, no-obligation consultation with Bravura VA. Talk through your workload, what you'd like to delegate and whether a virtual assistant fits.",
+  title: "Book a Free Consultation | Tendaji VA",
+  description: "Book a free, no-obligation consultation with Tendaji VA. Talk through your workload, what you'd like to delegate and whether a virtual assistant fits.",
   path: "/book-a-call/",
 });
 

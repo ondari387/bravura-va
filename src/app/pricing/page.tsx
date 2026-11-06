@@ -12,7 +12,7 @@ import { faqGroups } from "@/content/faqs";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "Virtual Assistant Pricing | Hourly & Monthly VA Support | Bravura VA",
+  title: "Virtual Assistant Pricing | Hourly & Monthly VA Support | Tendaji VA",
   description: "Virtual assistant pricing: hourly support or Essential, Growth and Dedicated monthly packages, quoted in USD, GBP, AUD or CAD. Request a free quote.",
   path: "/pricing/",
 });

@@ -8,7 +8,7 @@ import { getPostMetas } from "@/lib/blog";
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString();
   const core = [
-    ["/", 1], ["/services/", 0.9], ["/industries/", 0.8], ["/how-it-works/", 0.8], ["/why-bravura-va/", 0.7],
+    ["/", 1], ["/services/", 0.9], ["/industries/", 0.8], ["/how-it-works/", 0.8], ["/why-tendaji-va/", 0.7],
     ["/pricing/", 0.8], ["/case-studies/", 0.6], ["/testimonials/", 0.5], ["/human-ai-virtual-assistants/", 0.7],
     ["/blog/", 0.7], ["/faq/", 0.6], ["/contact/", 0.8], ["/book-a-call/", 0.8], ["/about/", 0.7], ["/virtual-assistants/", 0.7],
     ["/privacy-policy/", 0.2], ["/terms-of-service/", 0.2], ["/cookie-policy/", 0.2], ["/data-protection/", 0.3],

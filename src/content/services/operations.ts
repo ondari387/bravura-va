@@ -3,7 +3,7 @@ import type { ServiceContent } from "./types";
 export const operationsServices: ServiceContent[] = [
   {
     slug: "ecommerce-virtual-assistant",
-    metaTitle: "Shopify Virtual Assistant & E-commerce VA Services | Bravura VA",
+    metaTitle: "Shopify Virtual Assistant & E-commerce VA Services | Tendaji VA",
     metaDescription: "Shopify and e-commerce virtual assistants for product listings, order admin, customer enquiries, returns and inventory updates. Human-led, from Nairobi.",
     hero: {
       eyebrow: "E-commerce & Shopify Virtual Assistant",
@@ -60,7 +60,7 @@ export const operationsServices: ServiceContent[] = [
   },
   {
     slug: "real-estate-virtual-assistant",
-    metaTitle: "Real Estate Virtual Assistant | Listing, Lead & Transaction Admin | Bravura VA",
+    metaTitle: "Real Estate Virtual Assistant | Listing, Lead & Transaction Admin | Tendaji VA",
     metaDescription: "Real estate virtual assistants for listing admin, lead follow-up, showing coordination, CRM updates and transaction paperwork organisation.",
     hero: {
       eyebrow: "Real Estate Virtual Assistant",
@@ -116,7 +116,7 @@ export const operationsServices: ServiceContent[] = [
   },
   {
     slug: "recruitment-virtual-assistant",
-    metaTitle: "Recruitment Virtual Assistant | Sourcing, Scheduling & ATS Support | Bravura VA",
+    metaTitle: "Recruitment Virtual Assistant | Sourcing, Scheduling & ATS Support | Tendaji VA",
     metaDescription: "Recruitment virtual assistants for candidate sourcing research, interview scheduling, ATS admin, candidate communication and job postings.",
     hero: {
       eyebrow: "Recruitment Virtual Assistant",
@@ -172,7 +172,7 @@ export const operationsServices: ServiceContent[] = [
   },
   {
     slug: "bookkeeping-virtual-assistant",
-    metaTitle: "Bookkeeping Virtual Assistant | Invoice & Receipt Admin Support | Bravura VA",
+    metaTitle: "Bookkeeping Virtual Assistant | Invoice & Receipt Admin Support | Tendaji VA",
     metaDescription: "Bookkeeping admin support: receipt capture, invoice prep, bill logging and payment reminders, so your books are ready for your accountant.",
     hero: {
       eyebrow: "Bookkeeping Support",
@@ -228,7 +228,7 @@ export const operationsServices: ServiceContent[] = [
   },
   {
     slug: "project-management-support",
-    metaTitle: "Project Management Support Virtual Assistant | Bravura VA",
+    metaTitle: "Project Management Support Virtual Assistant | Tendaji VA",
     metaDescription: "Project coordination support: task tracking, meeting notes, status updates and deadline follow-ups in Asana, Trello, ClickUp, Monday.com and Jira.",
     hero: {
       eyebrow: "Project Management Support",
@@ -284,7 +284,7 @@ export const operationsServices: ServiceContent[] = [
   },
   {
     slug: "operations-support",
-    metaTitle: "Operations Support Virtual Assistant | Processes, Vendors & Back-Office | Bravura VA",
+    metaTitle: "Operations Support Virtual Assistant | Processes, Vendors & Back-Office | Tendaji VA",
     metaDescription: "Operations support virtual assistants for SOP documentation, vendor coordination, internal tools admin and reporting that keep a growing business running.",
     hero: {
       eyebrow: "Operations Support",

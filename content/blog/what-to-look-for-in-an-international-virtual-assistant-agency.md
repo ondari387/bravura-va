@@ -140,4 +140,4 @@ An agency that's honest in its marketing is more likely to be honest in its serv
 
 The best international VA agencies are transparent, careful about talent, strong communicators, serious about security, clear on pricing and honest in their marketing. Use this checklist, ask direct questions and trust your instincts.
 
-We built [Bravura VA](/why-bravura-va/) around these principles, and we welcome every question on this list.
+We built [Tendaji VA](/why-tendaji-va/) around these principles, and we welcome every question on this list.

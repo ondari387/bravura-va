@@ -13,7 +13,7 @@ export function ServiceCategories({ withHeading = true }: { withHeading?: boolea
         <SectionHeading
           eyebrow="Our services"
           title="The Support You Need. Without Doing It All Yourself."
-          description="From everyday administration to customer service, business operations and creative support, Bravura VA helps you keep important work moving."
+          description="From everyday administration to customer service, business operations and creative support, Tendaji VA helps you keep important work moving."
         />
       )}
       <div className="mt-14 grid gap-6 md:grid-cols-2">

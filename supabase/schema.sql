@@ -1,4 +1,4 @@
--- Bravura VA: run this once in Supabase (SQL Editor > New query > paste > Run)
+-- Tendaji VA: run this once in Supabase (SQL Editor > New query > paste > Run)
 
 create table if not exists public.enquiries (
   id uuid primary key default gen_random_uuid(),

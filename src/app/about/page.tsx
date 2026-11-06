@@ -13,8 +13,8 @@ import { publishedTeam } from "@/content/team";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "About Bravura VA | Human-Led Virtual Assistants From Nairobi, Kenya",
-  description: "Bravura VA is a Nairobi-based virtual assistant company helping businesses in the USA, UK, Australia and Canada delegate to dependable, human-led support.",
+  title: "About Tendaji VA | Human-Led Virtual Assistants From Nairobi, Kenya",
+  description: "Tendaji VA is a Nairobi-based virtual assistant company helping businesses in the USA, UK, Australia and Canada delegate to dependable, human-led support.",
   path: "/about/",
 });
 
@@ -32,9 +32,9 @@ export default function AboutPage() {
     <>
       <PageHero
         crumbs={[{ name: "About Us", href: "/about/" }]}
-        eyebrow="About Bravura VA"
+        eyebrow="About Tendaji VA"
         title="Behind Every Growing Business Is Support That Makes a Difference."
-        description="Bravura VA is a virtual assistant and remote business support company headquartered in Nairobi, Kenya. We help startups, entrepreneurs, executives and growing businesses across the USA, UK, Australia and Canada hand over the work that slows them down, to real people who care about getting it right."
+        description="Tendaji VA is a virtual assistant and remote business support company headquartered in Nairobi, Kenya. We help startups, entrepreneurs, executives and growing businesses across the USA, UK, Australia and Canada hand over the work that slows them down, to real people who care about getting it right."
         image="teamTableLaptops"
       />
 
@@ -53,7 +53,8 @@ export default function AboutPage() {
             <h2 className="h-section mt-4">Because Talented Founders Shouldn&apos;t Drown in Admin</h2>
             <div className="lead mt-6 space-y-4">
               <p>Too many business owners spend their best hours on work that someone else could do well. Meanwhile, Nairobi is full of capable, educated professionals ready to do exactly that work for international businesses.</p>
-              <p>Bravura VA exists to connect the two: giving business owners more time and focus, and creating meaningful remote careers in Kenya.</p>
+              <p>Tendaji VA exists to connect the two: giving business owners more time and focus, and creating meaningful remote careers in Kenya.</p>
+              <p>Our name comes from Swahili, where <em>tendaji</em> describes someone active and effective: a doer. That is the kind of assistant we want every client to work with. (We were previously called Bravura VA.)</p>
             </div>
           </div>
         </div>

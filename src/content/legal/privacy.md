@@ -1,10 +1,10 @@
-This Privacy Policy explains how **Bravura VA** ("Bravura VA", "we", "us", "our"), headquartered in Nairobi, Kenya, collects, uses and protects personal information when you visit **bravura.co.ke** or contact us about our services.
+This Privacy Policy explains how **Tendaji VA** ("Tendaji VA", "we", "us", "our"), headquartered in Nairobi, Kenya, collects, uses and protects personal information when you visit **bravura.co.ke** or contact us about our services.
 
 ## Who we are
 
-Bravura VA provides virtual assistant and remote business support services to businesses, primarily in the United States, United Kingdom, Australia and Canada.
+Tendaji VA provides virtual assistant and remote business support services to businesses, primarily in the United States, United Kingdom, Australia and Canada.
 
-- **Contact:** va@bravura.co.ke | +254 714 089 042
+- **Contact:** va@tendaji-va.co.ke | +254 714 089 042
 - **Location:** Nairobi, Kenya
 - **[EDIT: registered company name, registration number and registered address]**
 
@@ -48,7 +48,7 @@ We keep enquiry information for as long as needed to respond and, if you become 
 
 ## Your rights
 
-Depending on your location, you may have rights to access, correct, delete or restrict use of your personal information, to object to processing, to data portability and to withdraw consent. Residents of certain US states, the UK and Australia have rights under their local laws, and people in Kenya have rights under the Data Protection Act, 2019. To exercise your rights, email **va@bravura.co.ke**. You may also complain to your local data protection authority.
+Depending on your location, you may have rights to access, correct, delete or restrict use of your personal information, to object to processing, to data portability and to withdraw consent. Residents of certain US states, the UK and Australia have rights under their local laws, and people in Kenya have rights under the Data Protection Act, 2019. To exercise your rights, email **va@tendaji-va.co.ke**. You may also complain to your local data protection authority.
 
 ## Security
 
@@ -64,4 +64,4 @@ We may update this policy from time to time. The "Last updated" date shows when 
 
 ## Contact
 
-Questions about this policy? Email **va@bravura.co.ke**.
+Questions about this policy? Email **va@tendaji-va.co.ke**.

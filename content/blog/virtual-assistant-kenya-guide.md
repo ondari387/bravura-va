@@ -112,4 +112,4 @@ If you choose an agency, check that it's transparent about where it's based, how
 
 Kenyan virtual assistants offer international businesses strong English, a broad range of skills and a time zone that works well with the UK, the US East Coast and Australia. Hire thoughtfully, focus on communication, reliability and judgment, and set clear expectations from day one.
 
-[Bravura VA](/virtual-assistant-kenya/) is a Nairobi-based company providing human-led virtual assistance to businesses in the USA, UK and Australia. If you're considering a Kenyan VA, we'd be glad to help.
+[Tendaji VA](/virtual-assistant-kenya/) is a Nairobi-based company providing human-led virtual assistance to businesses in the USA, UK and Australia. If you're considering a Kenyan VA, we'd be glad to help.

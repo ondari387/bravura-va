@@ -13,7 +13,7 @@ type Menu = "services" | "industries" | "company" | null;
 
 const companyLinks: { href: string; label: string; desc: string; icon: IconName }[] = [
   { href: "/about/", label: "About Us", desc: "Who we are and why we exist", icon: "users" },
-  { href: "/why-bravura-va/", label: "Why Bravura VA", desc: "What makes our support different", icon: "star" },
+  { href: "/why-tendaji-va/", label: "Why Tendaji VA", desc: "What makes our support different", icon: "star" },
   { href: "/human-ai-virtual-assistants/", label: "Human + AI Support", desc: "Human judgment, smarter workflows", icon: "brain" },
   { href: "/case-studies/", label: "Case Studies", desc: "Illustrative use cases", icon: "chart" },
   { href: "/testimonials/", label: "Testimonials", desc: "Verified client experiences", icon: "quote" },
@@ -80,8 +80,8 @@ export function Header() {
         </div>
       </div>
       <div className="container-x flex h-[76px] items-center justify-between gap-4">
-        <Link href="/" className="shrink-0" aria-label="Bravura VA home">
-          <Image src="/images/brand/bravura-va-logo.png" alt="Bravura VA" width={900} height={136} priority sizes="212px" className="h-7 w-auto sm:h-8" />
+        <Link href="/" className="shrink-0" aria-label="Tendaji VA home">
+          <Image src="/images/brand/tendaji-va-logo.png" alt="Tendaji VA" width={924} height={180} priority sizes="212px" className="h-7 w-auto sm:h-8" />
         </Link>
 
         <nav aria-label="Main" className="hidden lg:block">

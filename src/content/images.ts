@@ -1,7 +1,7 @@
 /**
  * Central image library.
  * Photos are Unsplash images (free licence), self-hosted in /public/images. They are illustrative only:
- * the people pictured are NOT Bravura VA staff or clients.
+ * the people pictured are NOT Tendaji VA staff or clients.
  * To use your own photography, drop files in /public/images and replace the URL here.
  */
 

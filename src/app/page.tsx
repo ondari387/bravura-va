@@ -22,7 +22,7 @@ import { getPostMetas } from "@/lib/blog";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "Virtual Assistant Services for Small Businesses | Bravura VA",
+  title: "Virtual Assistant Services for Small Businesses | Tendaji VA",
   description: "Hire reliable, human-led virtual assistants from Nairobi, Kenya. Admin, customer support, Shopify and more for businesses in the USA, UK, Australia and Canada.",
   path: "/",
 });

@@ -62,7 +62,7 @@ With a monthly package, you agree a level of support in advance, often a set num
 - **Staying hourly when the work is steady.** You may miss out on continuity and a smoother routine.
 - **Comparing headline rates only.** Look at what's included: matching, onboarding, oversight and cover.
 
-## How Bravura VA approaches it
+## How Tendaji VA approaches it
 
 We offer both: **hourly support** for flexible, task-based help, and **monthly packages** (Essential, Growth and Dedicated) for ongoing work. Every arrangement is quoted in writing in US dollars, British pounds, Australian dollars or Canadian dollars before you commit. See our [pricing page](/pricing/) or [request a quote](/pricing/#quote).
 

@@ -18,7 +18,7 @@ export function LocationTemplate({ page, crumbs, path, children }: { page: Locat
   return (
     <>
       <PageHero crumbs={crumbs} eyebrow={page.eyebrow} title={page.h1} description={<p>{page.intro}</p>} image={page.image} primaryLabel="Book a Free Consultation" secondary={{ href: "/pricing/#quote", label: "Request a Quote" }}>
-        <p className="mt-6 flex items-center gap-2 text-sm font-medium text-ink-muted"><Icon name="mapPin" className="h-4 w-4 text-orange" />{isMarket ? <>Remote support from Nairobi, Kenya. We do not have offices in {page.name === "United States" || page.name === "United Kingdom" ? `the ${page.name}` : page.name}.</> : <>Bravura VA is headquartered in Nairobi, Kenya.</>}</p>
+        <p className="mt-6 flex items-center gap-2 text-sm font-medium text-ink-muted"><Icon name="mapPin" className="h-4 w-4 text-orange" />{isMarket ? <>Remote support from Nairobi, Kenya. We do not have offices in {page.name === "United States" || page.name === "United Kingdom" ? `the ${page.name}` : page.name}.</> : <>Tendaji VA is headquartered in Nairobi, Kenya.</>}</p>
       </PageHero>
 
       <Section tone="white">

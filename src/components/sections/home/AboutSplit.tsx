@@ -20,10 +20,10 @@ export function AboutSplit() {
           </div>
         </div>
         <div>
-          <p className="eyebrow">Welcome to Bravura VA</p>
+          <p className="eyebrow">Welcome to Tendaji VA</p>
           <h2 className="h-section mt-4">We Handle the Work That Keeps You From Doing Yours.</h2>
           <div className="lead mt-6 space-y-4">
-            <p>Bravura VA provides professional remote business support to entrepreneurs, startups, executives and growing companies around the world.</p>
+            <p>Tendaji VA provides professional remote business support to entrepreneurs, startups, executives and growing companies around the world.</p>
             <p>From Nairobi, Kenya, we help international businesses delegate essential administrative, customer service, operational and creative tasks.</p>
             <p>Our goal is simple: give business owners more time, more focus and more capacity to grow.</p>
           </div>
@@ -39,7 +39,7 @@ export function AboutSplit() {
               </div>
             ))}
           </div>
-          <ButtonLink href="/about/" className="mt-8" arrow>Discover Bravura VA</ButtonLink>
+          <ButtonLink href="/about/" className="mt-8" arrow>Discover Tendaji VA</ButtonLink>
         </div>
       </div>
     </Section>

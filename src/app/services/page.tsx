@@ -38,7 +38,7 @@ export default function ServicesPage() {
       <FAQSection faqs={[...faqGroups[0].faqs, faqGroups[3].faqs[1]]} />
       <CTABand />
       <JsonLd data={{
-        "@context": "https://schema.org", "@type": "ItemList", name: "Bravura VA virtual assistant services",
+        "@context": "https://schema.org", "@type": "ItemList", name: "Tendaji VA virtual assistant services",
         itemListElement: services.map((s, i) => ({ "@type": "ListItem", position: i + 1, name: s.name, url: absoluteUrl(`/services/${s.slug}/`) })),
       }} />
     </>

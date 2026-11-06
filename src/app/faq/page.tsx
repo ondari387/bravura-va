@@ -8,8 +8,8 @@ import { faqGroups, allFaqs } from "@/content/faqs";
 import { faqSchema, pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "Virtual Assistant FAQs | Hiring, Time Zones, Pricing & Security | Bravura VA",
-  description: "Answers about hiring a virtual assistant from Bravura VA: working with Kenya-based assistants, time zones, pricing, confidentiality, AI use and onboarding.",
+  title: "Virtual Assistant FAQs | Hiring, Time Zones, Pricing & Security | Tendaji VA",
+  description: "Answers about hiring a virtual assistant from Tendaji VA: working with Kenya-based assistants, time zones, pricing, confidentiality, AI use and onboarding.",
   path: "/faq/",
 });
 

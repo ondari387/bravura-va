@@ -6,11 +6,11 @@ export const originPages: LocationPage[] = [
     slug: "kenya",
     path: "/virtual-assistant-kenya/",
     name: "Kenya",
-    metaTitle: "Virtual Assistant Kenya | Hire Kenyan Virtual Assistants in Nairobi | Bravura VA",
-    metaDescription: "Hire professional Kenyan virtual assistants from Bravura VA in Nairobi. English-speaking, human-led remote support for international and Kenyan businesses.",
+    metaTitle: "Virtual Assistant Kenya | Hire Kenyan Virtual Assistants in Nairobi | Tendaji VA",
+    metaDescription: "Hire professional Kenyan virtual assistants from Tendaji VA in Nairobi. English-speaking, human-led remote support for international and Kenyan businesses.",
     eyebrow: "Virtual assistants in Kenya",
     h1: "Professional Virtual Assistants From Nairobi, Kenya",
-    intro: "Kenya has become one of the most interesting places in the world to find remote business support. Bravura VA is a Nairobi-based virtual assistant company connecting businesses with skilled, English-speaking Kenyan professionals.",
+    intro: "Kenya has become one of the most interesting places in the world to find remote business support. Tendaji VA is a Nairobi-based virtual assistant company connecting businesses with skilled, English-speaking Kenyan professionals.",
     image: "womanOfficeTeam",
     context: {
       title: "Why Kenya for virtual assistance?",
@@ -46,12 +46,12 @@ export const originPages: LocationPage[] = [
     extra: {
       title: "Are you a Kenyan business?",
       paragraphs: [
-        "While our services are designed primarily for clients in the US, UK and Australia, Kenyan companies can also work with Bravura VA for remote administrative, customer and creative support. Get in touch to discuss your needs.",
+        "While our services are designed primarily for clients in the US, UK and Australia, Kenyan companies can also work with Tendaji VA for remote administrative, customer and creative support. Get in touch to discuss your needs.",
       ],
     },
     faqs: [
       { q: "Why hire a virtual assistant from Kenya?", a: "Kenya offers English-speaking professionals, a predictable time zone with useful overlap for the UK, US and Australia, and a growing remote-work ecosystem centred on Nairobi." },
-      { q: "Is Bravura VA a Kenyan company?", a: "Yes. Bravura VA is headquartered in Nairobi, Kenya." },
+      { q: "Is Tendaji VA a Kenyan company?", a: "Yes. Tendaji VA is headquartered in Nairobi, Kenya." },
       { q: "Does Kenya have data protection laws?", a: "Yes. Kenya's Data Protection Act, 2019 regulates the processing of personal data and is overseen by the Office of the Data Protection Commissioner." },
       { q: "Do Kenyan VAs speak English fluently?", a: "English is an official language in Kenya and widely used in education and business. We assess communication skills when matching assistants with clients." },
     ],
@@ -60,18 +60,18 @@ export const originPages: LocationPage[] = [
     slug: "africa",
     path: "/virtual-assistant-africa/",
     name: "Africa",
-    metaTitle: "Hire Virtual Assistants in Africa | African Virtual Assistant Company | Bravura VA",
-    metaDescription: "Considering African virtual assistants? Why international businesses hire remote support in Africa, how key markets compare, and how Bravura VA works.",
+    metaTitle: "Hire Virtual Assistants in Africa | African Virtual Assistant Company | Tendaji VA",
+    metaDescription: "Considering African virtual assistants? Why international businesses hire remote support in Africa, how key markets compare, and how Tendaji VA works.",
     eyebrow: "African virtual assistants",
     h1: "Hiring Virtual Assistants in Africa: Talent, Time Zones and Trust",
-    intro: "Africa has one of the youngest populations in the world and a fast-growing community of remote professionals. Bravura VA is an African virtual assistant company based in Nairobi, Kenya, helping international businesses tap into that talent with confidence.",
+    intro: "Africa has one of the youngest populations in the world and a fast-growing community of remote professionals. Tendaji VA is an African virtual assistant company based in Nairobi, Kenya, helping international businesses tap into that talent with confidence.",
     image: "teamStanding",
     context: {
       title: "Why international businesses are looking to Africa",
       paragraphs: [
         "For years, outsourcing conversations centred on a handful of Asian destinations. Today, more businesses are discovering that Africa offers capable, English-speaking professionals in time zones that line up well with Europe and reasonably with the Americas and Australia.",
         "Several African markets have growing remote-work and business-services sectors. Kenya and Nigeria are known for vibrant tech communities in Nairobi and Lagos; South Africa has an established customer-service industry; and countries such as Ghana and Rwanda are investing in digital skills. Each market has its own strengths, languages and time zones.",
-        "Bravura VA operates from Kenya. We focus on doing one thing well, providing professional, human-led support from Nairobi, rather than claiming operations across the continent.",
+        "Tendaji VA operates from Kenya. We focus on doing one thing well, providing professional, human-led support from Nairobi, rather than claiming operations across the continent.",
       ],
     },
     timezone: {
@@ -98,7 +98,7 @@ export const originPages: LocationPage[] = [
       ],
     },
     faqs: [
-      { q: "Is Bravura VA operating in countries other than Kenya?", a: "No. Bravura VA is based in Nairobi, Kenya. We mention other African markets for context only." },
+      { q: "Is Tendaji VA operating in countries other than Kenya?", a: "No. Tendaji VA is based in Nairobi, Kenya. We mention other African markets for context only." },
       { q: "Are African virtual assistants good at English?", a: "English is an official or widely used business language in many African countries, including Kenya, Nigeria, Ghana and South Africa. As with any hire, assess communication skills for your specific role." },
       { q: "How do I choose between Kenya, Nigeria and South Africa?", a: "Consider time-zone fit, the type of work, language needs and whether you want a managed provider or to hire individuals directly. Our blog compares outsourcing options in more depth." },
     ],

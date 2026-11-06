@@ -47,15 +47,15 @@ export function Footer() {
 
         <div className="grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1.1fr_1fr]">
           <div>
-            <Image src="/images/brand/bravura-va-logo-white.png" alt="Bravura VA" width={900} height={136} sizes="212px" className="h-8 w-auto" />
+            <Image src="/images/brand/tendaji-va-logo-white.png" alt="Tendaji VA" width={932} height={180} sizes="212px" className="h-8 w-auto" />
             <p className="mt-5 text-[15px] leading-relaxed text-white/70">
-              Bravura VA provides professional remote business support to entrepreneurs, startups and growing companies across the USA, UK, Australia and Canada.
+              Tendaji VA provides professional remote business support to entrepreneurs, startups and growing companies across the USA, UK, Australia and Canada.
             </p>
             <p className="mt-3 flex items-center gap-2 text-[15px] font-semibold text-white"><Icon name="mapPin" className="h-4 w-4 text-orange" />Based in Nairobi, Kenya.</p>
             {activeSocials.length > 0 && (
               <ul className="mt-6 flex gap-2">
                 {activeSocials.map((s) => (
-                  <li key={s.key}><a href={site.social[s.key]} target="_blank" rel="noopener noreferrer" aria-label={`Bravura VA on ${s.label}`} className="grid h-10 w-10 place-items-center rounded-full bg-white/10 transition hover:bg-orange hover:text-teal"><Icon name={s.icon} className="h-4 w-4" /></a></li>
+                  <li key={s.key}><a href={site.social[s.key]} target="_blank" rel="noopener noreferrer" aria-label={`Tendaji VA on ${s.label}`} className="grid h-10 w-10 place-items-center rounded-full bg-white/10 transition hover:bg-orange hover:text-teal"><Icon name={s.icon} className="h-4 w-4" /></a></li>
                 ))}
               </ul>
             )}
@@ -75,7 +75,7 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col gap-3 border-t border-white/10 py-6 text-sm text-white/60 md:flex-row md:items-center md:justify-between">
-          <p>© {new Date().getFullYear()} Bravura VA. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Tendaji VA. All rights reserved.</p>
           <ul className="flex flex-wrap gap-x-4 gap-y-1">
             <li><Link href="/privacy-policy/" className="hover:text-aqua">Privacy Policy</Link></li>
             <li><Link href="/terms-of-service/" className="hover:text-aqua">Terms of Service</Link></li>

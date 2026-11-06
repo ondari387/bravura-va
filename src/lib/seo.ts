@@ -18,8 +18,8 @@ export function pageMeta({ title, description, path, image, type = "website", no
 }): Metadata {
   const url = absoluteUrl(path);
   // Keep titles readable in search results: add the brand only when it fits, drop it from long titles.
-  if (title.endsWith(" | Bravura VA") && title.length > 65) title = title.slice(0, -" | Bravura VA".length);
-  else if (!title.includes("Bravura VA") && title.length <= 52) title = `${title} | Bravura VA`;
+  if (title.endsWith(" | Tendaji VA") && title.length > 65) title = title.slice(0, -" | Tendaji VA".length);
+  else if (!title.includes("Tendaji VA") && title.length <= 52) title = `${title} | Tendaji VA`;
   const ogImage = image || site.ogImage;
   description = snippet(description);
   return {
@@ -34,11 +34,13 @@ export function pageMeta({ title, description, path, image, type = "website", no
 
 export const orgSchema = {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": ["Organization", "ProfessionalService"],
   "@id": `${site.url}/#organization`,
   name: site.name,
+  alternateName: site.alternateNames,
   url: `${site.url}/`,
-  logo: `${site.url}/images/brand/bravura-va-logo.png`,
+  logo: { "@type": "ImageObject", url: `${site.url}/images/brand/icon-512.png`, width: 512, height: 512 },
+  image: `${site.url}${site.ogImage}`,
   description: site.description,
   email: site.email,
   telephone: site.phone,
@@ -56,6 +58,7 @@ export const websiteSchema = {
   "@id": `${site.url}/#website`,
   url: `${site.url}/`,
   name: site.name,
+  alternateName: site.alternateNames,
   publisher: { "@id": `${site.url}/#organization` },
   inLanguage: "en",
 };

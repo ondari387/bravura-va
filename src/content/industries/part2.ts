@@ -3,7 +3,7 @@ import type { IndustryContent } from "./types";
 export const industriesPart2: IndustryContent[] = [
   {
     slug: "consulting",
-    metaTitle: "Virtual Assistants for Consultants & Consulting Firms | Bravura VA",
+    metaTitle: "Virtual Assistants for Consultants & Consulting Firms | Tendaji VA",
     metaDescription: "Virtual assistants for consultants: calendar management, proposal formatting, client coordination, research, invoicing admin and follow-ups.",
     eyebrow: "Virtual assistants for consultants",
     headline: "Spend More Time Advising Clients. Less Time Managing Your Calendar.",
@@ -36,7 +36,7 @@ export const industriesPart2: IndustryContent[] = [
   },
   {
     slug: "coaching",
-    metaTitle: "Virtual Assistants for Coaches | Scheduling, Onboarding & Content | Bravura VA",
+    metaTitle: "Virtual Assistants for Coaches | Scheduling, Onboarding & Content | Tendaji VA",
     metaDescription: "Virtual assistants for coaches: client scheduling, onboarding admin, course and community admin, newsletters, social content and invoicing.",
     eyebrow: "Virtual assistants for coaches",
     headline: "You Became a Coach to Help People, Not to Chase Bookings.",
@@ -69,7 +69,7 @@ export const industriesPart2: IndustryContent[] = [
   },
   {
     slug: "financial-services",
-    metaTitle: "Administrative Virtual Assistants for Financial Services Firms | Bravura VA",
+    metaTitle: "Administrative Virtual Assistants for Financial Services Firms | Tendaji VA",
     metaDescription: "Admin support for financial advisers and accounting firms: client scheduling, CRM updates, document collection and paperwork prep. Never financial advice.",
     eyebrow: "Virtual assistants for financial services",
     headline: "Serve More Clients Without Adding More Paperwork.",
@@ -94,7 +94,7 @@ export const industriesPart2: IndustryContent[] = [
       { title: "Peak-season capacity", text: "Extra help when workload spikes.", icon: "trendingUp" },
       { title: "Clear boundaries", text: "Admin only, no financial advice.", icon: "shield" },
     ],
-    regulatedNote: "Bravura VA provides administrative support only and does not provide financial, investment, tax or accounting advice. Firms regulated by bodies such as the SEC and FINRA (US), the FCA (UK) or ASIC (Australia) remain responsible for supervision, record-keeping, outsourcing and data-protection obligations, which must be assessed before work begins.",
+    regulatedNote: "Tendaji VA provides administrative support only and does not provide financial, investment, tax or accounting advice. Firms regulated by bodies such as the SEC and FINRA (US), the FCA (UK) or ASIC (Australia) remain responsible for supervision, record-keeping, outsourcing and data-protection obligations, which must be assessed before work begins.",
     faqs: [
       { q: "Can your assistants give clients financial information?", a: "They can share factual, pre-approved information such as appointment details, but never advice or recommendations." },
       { q: "Do you support accounting firms during tax season?", a: "Yes, with administrative tasks like document collection, scheduling and data entry. Tax preparation and advice remain with your qualified staff." },
@@ -103,7 +103,7 @@ export const industriesPart2: IndustryContent[] = [
   },
   {
     slug: "technology-saas",
-    metaTitle: "Virtual Assistants for Technology & SaaS Companies | Bravura VA",
+    metaTitle: "Virtual Assistants for Technology & SaaS Companies | Tendaji VA",
     metaDescription: "Remote support for SaaS and tech companies: tier-1 customer support, onboarding admin, CRM hygiene, help centre content and operations support.",
     eyebrow: "Virtual assistants for technology & SaaS",
     headline: "Keep Shipping Product. We'll Help Keep Customers Supported.",
@@ -136,7 +136,7 @@ export const industriesPart2: IndustryContent[] = [
   },
   {
     slug: "construction",
-    metaTitle: "Virtual Assistants for Construction Companies & Contractors | Bravura VA",
+    metaTitle: "Virtual Assistants for Construction Companies & Contractors | Tendaji VA",
     metaDescription: "Construction virtual assistants for document control, bid and estimate admin, subcontractor scheduling, compliance paperwork and invoicing admin.",
     eyebrow: "Virtual assistants for construction",
     headline: "Keep Projects Moving Without Getting Buried in Paperwork.",
@@ -169,7 +169,7 @@ export const industriesPart2: IndustryContent[] = [
   },
   {
     slug: "home-services",
-    metaTitle: "Virtual Assistants for Home Service Businesses | Bravura VA",
+    metaTitle: "Virtual Assistants for Home Service Businesses | Tendaji VA",
     metaDescription: "Virtual receptionists and admin for plumbers, electricians, HVAC and cleaning firms: call handling, job booking, quote follow-up and review requests.",
     eyebrow: "Virtual assistants for home services",
     headline: "Stop Losing Jobs to Missed Calls and Slow Quotes.",
@@ -202,7 +202,7 @@ export const industriesPart2: IndustryContent[] = [
   },
   {
     slug: "hospitality",
-    metaTitle: "Virtual Assistants for Hotels, Rentals & Hospitality Businesses | Bravura VA",
+    metaTitle: "Virtual Assistants for Hotels, Rentals & Hospitality Businesses | Tendaji VA",
     metaDescription: "Hospitality virtual assistants for reservation admin, guest messaging, short-term rental support, online review management, supplier admin and social media.",
     eyebrow: "Virtual assistants for hospitality",
     headline: "Great Guest Experiences Start Long Before Check-In.",
@@ -235,7 +235,7 @@ export const industriesPart2: IndustryContent[] = [
   },
   {
     slug: "education",
-    metaTitle: "Virtual Assistants for Education & Training Providers | Bravura VA",
+    metaTitle: "Virtual Assistants for Education & Training Providers | Tendaji VA",
     metaDescription: "Admin support for tutoring businesses, training providers and course creators: enrolment admin, LMS management, scheduling and learner communication.",
     eyebrow: "Virtual assistants for education",
     headline: "More Time for Teaching. Less Time on Enrolment Admin.",
@@ -269,7 +269,7 @@ export const industriesPart2: IndustryContent[] = [
   },
   {
     slug: "nonprofits",
-    metaTitle: "Virtual Assistants for Nonprofits & Charities | Bravura VA",
+    metaTitle: "Virtual Assistants for Nonprofits & Charities | Tendaji VA",
     metaDescription: "Remote admin support for nonprofits and charities: donor database updates, volunteer coordination, grant admin, event logistics and newsletters.",
     eyebrow: "Virtual assistants for nonprofits",
     headline: "Do More for Your Mission With the Team You Have.",

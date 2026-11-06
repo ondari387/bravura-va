@@ -3,7 +3,7 @@ import type { IndustryContent } from "./types";
 export const industriesPart1: IndustryContent[] = [
   {
     slug: "startups",
-    metaTitle: "Virtual Assistants for Startups | Founder & Startup Support | Bravura VA",
+    metaTitle: "Virtual Assistants for Startups | Founder & Startup Support | Tendaji VA",
     metaDescription: "Virtual assistants for startup founders: inbox and calendar, investor update prep, research, customer support and operations, without early full-time hires.",
     eyebrow: "Virtual assistants for startups",
     headline: "Building a Startup? You Don't Have to Build It Alone.",
@@ -36,7 +36,7 @@ export const industriesPart1: IndustryContent[] = [
   },
   {
     slug: "small-businesses",
-    metaTitle: "Virtual Assistants for Small Businesses & SMEs | Bravura VA",
+    metaTitle: "Virtual Assistants for Small Businesses & SMEs | Tendaji VA",
     metaDescription: "Affordable, dependable virtual assistants for small businesses in the USA, UK, Australia and Canada: admin, customer replies, scheduling and bookkeeping admin.",
     eyebrow: "Virtual assistants for small businesses",
     headline: "You're Running a Small Business. You Shouldn't Have to Do Every Job.",
@@ -69,7 +69,7 @@ export const industriesPart1: IndustryContent[] = [
   },
   {
     slug: "ecommerce",
-    metaTitle: "E-commerce Virtual Assistants | Shopify & Amazon Store Support | Bravura VA",
+    metaTitle: "E-commerce Virtual Assistants | Shopify & Amazon Store Support | Tendaji VA",
     metaDescription: "Virtual assistants for e-commerce and online retail: Shopify and Amazon admin, product listings, order and returns support, and customer service.",
     eyebrow: "Virtual assistants for e-commerce",
     headline: "More Orders Shouldn't Mean More Admin Headaches.",
@@ -102,7 +102,7 @@ export const industriesPart1: IndustryContent[] = [
   },
   {
     slug: "real-estate",
-    metaTitle: "Real Estate Virtual Assistants for Agents & Brokers | Bravura VA",
+    metaTitle: "Real Estate Virtual Assistants for Agents & Brokers | Tendaji VA",
     metaDescription: "Virtual assistants for real estate agents and brokerages: lead follow-up, listing admin, showing coordination, CRM updates and transaction documents.",
     eyebrow: "Virtual assistants for real estate",
     headline: "Spend More Time With Clients. Less Time Chasing Admin.",
@@ -136,7 +136,7 @@ export const industriesPart1: IndustryContent[] = [
   },
   {
     slug: "property-management",
-    metaTitle: "Virtual Assistants for Property Management Companies | Bravura VA",
+    metaTitle: "Virtual Assistants for Property Management Companies | Tendaji VA",
     metaDescription: "Property management virtual assistants for tenant communication, maintenance logging, vendor scheduling, lease admin, rent reminders and owner reports.",
     eyebrow: "Virtual assistants for property management",
     headline: "Keep Tenants Happy and Properties Running, Without Drowning in Requests.",
@@ -170,7 +170,7 @@ export const industriesPart1: IndustryContent[] = [
   },
   {
     slug: "healthcare-administration",
-    metaTitle: "Healthcare Administrative Virtual Assistants (Non-Clinical) | Bravura VA",
+    metaTitle: "Healthcare Administrative Virtual Assistants (Non-Clinical) | Tendaji VA",
     metaDescription: "Non-clinical admin support for healthcare and wellness practices: scheduling, reminders and inbox tasks, scoped after privacy requirements are assessed.",
     eyebrow: "Healthcare administration support",
     headline: "Less Front-Office Admin. More Time for Patients.",
@@ -195,7 +195,7 @@ export const industriesPart1: IndustryContent[] = [
       { title: "Organized records", text: "Admin tasks completed consistently.", icon: "fileText" },
       { title: "Compliance-first setup", text: "Requirements assessed before any work begins.", icon: "shield" },
     ],
-    regulatedNote: "Important: Bravura VA provides non-clinical administrative support only and does not give medical advice. Bravura VA is not HIPAA-certified, and no organization can be. US covered entities must assess HIPAA requirements, including whether a Business Associate Agreement is needed, before sharing protected health information. Practices in the UK and Australia must consider UK GDPR and the Privacy Act 1988 respectively. These obligations must be assessed and agreed before any work begins.",
+    regulatedNote: "Important: Tendaji VA provides non-clinical administrative support only and does not give medical advice. Tendaji VA is not HIPAA-certified, and no organization can be. US covered entities must assess HIPAA requirements, including whether a Business Associate Agreement is needed, before sharing protected health information. Practices in the UK and Australia must consider UK GDPR and the Privacy Act 1988 respectively. These obligations must be assessed and agreed before any work begins.",
     faqs: [
       { q: "Are your assistants HIPAA compliant?", a: "Compliance depends on how the work is set up, not just who does it. We don't claim certification. Before any work involving patient information, we'll discuss your requirements, including whether a Business Associate Agreement is needed, and only proceed if the arrangement is appropriate." },
       { q: "Can a VA give patients medical information?", a: "No. Assistants handle non-clinical administration only and route clinical questions to your team." },
@@ -204,7 +204,7 @@ export const industriesPart1: IndustryContent[] = [
   },
   {
     slug: "legal-services",
-    metaTitle: "Virtual Assistants for Law Firms & Legal Practices (Admin Only) | Bravura VA",
+    metaTitle: "Virtual Assistants for Law Firms & Legal Practices (Admin Only) | Tendaji VA",
     metaDescription: "Virtual assistants for law firms and solo attorneys: calendar management, client intake admin, document organisation, billing admin. Never legal advice.",
     eyebrow: "Virtual assistants for legal services",
     headline: "More Billable Hours. Less Administrative Drag.",
@@ -229,7 +229,7 @@ export const industriesPart1: IndustryContent[] = [
       { title: "Better client experience", text: "Prompt, professional intake and communication.", icon: "smile" },
       { title: "Clear boundaries", text: "Admin support only, never legal advice.", icon: "shield" },
     ],
-    regulatedNote: "Bravura VA assistants provide administrative support only and do not provide legal advice or perform reserved legal activities. Law firms remain responsible for supervising non-lawyer assistance and for meeting their professional conduct, confidentiality and data-protection obligations, which should be assessed before work begins.",
+    regulatedNote: "Tendaji VA assistants provide administrative support only and do not provide legal advice or perform reserved legal activities. Law firms remain responsible for supervising non-lawyer assistance and for meeting their professional conduct, confidentiality and data-protection obligations, which should be assessed before work begins.",
     faqs: [
       { q: "Can a virtual assistant draft legal documents?", a: "Assistants can format documents and populate templates under attorney direction, but they don't draft legal advice or substantive legal documents independently." },
       { q: "How is client confidentiality protected?", a: "Through written confidentiality agreements, limited access, working inside your secure systems and following your firm's policies." },
@@ -238,7 +238,7 @@ export const industriesPart1: IndustryContent[] = [
   },
   {
     slug: "marketing-agencies",
-    metaTitle: "Virtual Assistants for Marketing Agencies | Bravura VA",
+    metaTitle: "Virtual Assistants for Marketing Agencies | Tendaji VA",
     metaDescription: "Remote support for marketing agencies: project coordination, client reporting prep, content scheduling, design production and white-label support.",
     eyebrow: "Virtual assistants for marketing agencies",
     headline: "Your Agency Is Growing. So Is the Work Behind the Scenes.",
@@ -271,7 +271,7 @@ export const industriesPart1: IndustryContent[] = [
   },
   {
     slug: "recruitment-staffing",
-    metaTitle: "Virtual Assistants for Recruitment & Staffing Agencies | Bravura VA",
+    metaTitle: "Virtual Assistants for Recruitment & Staffing Agencies | Tendaji VA",
     metaDescription: "Virtual assistants for recruitment and staffing firms: sourcing research, interview scheduling, ATS updates, candidate communication and job postings.",
     eyebrow: "Virtual assistants for recruitment & staffing",
     headline: "Spend Time Placing Candidates, Not Updating Systems.",

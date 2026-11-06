@@ -53,7 +53,7 @@ export function International() {
           <h2 className="h-section mt-4">Your Next Great Business Assistant Could Be in Nairobi.</h2>
           <div className="lead mt-6 space-y-4">
             <p>Business support no longer needs to be limited by geography.</p>
-            <p>Bravura VA connects businesses in the United States, United Kingdom, Australia and Canada with Nairobi-based remote support professionals, working to an agreed overlap with your business day.</p>
+            <p>Tendaji VA connects businesses in the United States, United Kingdom, Australia and Canada with Nairobi-based remote support professionals, working to an agreed overlap with your business day.</p>
           </div>
           <ButtonLink href="/virtual-assistants/" className="mt-8" arrow>Explore International Support</ButtonLink>
         </div>

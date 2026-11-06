@@ -1,6 +1,6 @@
 /**
  * VERIFIED TESTIMONIALS ONLY.
- * Bravura VA is a new company. Add entries here only with the client's written permission.
+ * Tendaji VA is a new company. Add entries here only with the client's written permission.
  * While this list is empty, the site shows a process-focused trust section instead of reviews.
  * Do not add invented names, quotes or ratings. Review/rating schema is never generated from this list.
  *

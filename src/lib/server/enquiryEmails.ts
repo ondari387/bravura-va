@@ -37,14 +37,14 @@ export function notificationEmail(r: Rec) {
 
 export function autoReplyEmail(r: Rec) {
   const first = r.name.split(" ")[0];
-  const subject = "Thanks for contacting Bravura VA";
+  const subject = "Thanks for contacting Tendaji VA";
   const html = `
   <div style="font-family:Arial,sans-serif;color:#10152E;max-width:600px;line-height:1.6">
     <p>Hi ${esc(first)},</p>
-    <p>Thank you for getting in touch with Bravura VA. We've received your message and will reply by email to arrange next steps.</p>
+    <p>Thank you for getting in touch with Tendaji VA. We've received your message and will reply by email to arrange next steps.</p>
     <p>If it's urgent, you can reach us on WhatsApp at <a href="https://wa.me/254714089042" style="color:#0D292D">+254 714 089 042</a>.</p>
-    <p>Best regards,<br/>The Bravura VA Team<br/><span style="color:#59686B">Nairobi, Kenya</span></p>
+    <p>Best regards,<br/>The Tendaji VA Team<br/><span style="color:#59686B">Nairobi, Kenya</span></p>
   </div>`;
-  const text = `Hi ${first},\n\nThank you for getting in touch with Bravura VA. We've received your message and will reply by email to arrange next steps.\n\nIf it's urgent, you can reach us on WhatsApp at +254 714 089 042.\n\nBest regards,\nThe Bravura VA Team\nNairobi, Kenya`;
+  const text = `Hi ${first},\n\nThank you for getting in touch with Tendaji VA. We've received your message and will reply by email to arrange next steps.\n\nIf it's urgent, you can reach us on WhatsApp at +254 714 089 042.\n\nBest regards,\nThe Tendaji VA Team\nNairobi, Kenya`;
   return { subject, html, text };
 }

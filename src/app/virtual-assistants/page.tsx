@@ -9,7 +9,7 @@ import { marketPages, originPages } from "@/content/locations";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "International Virtual Assistant Services | USA, UK, Australia & Canada | Bravura VA",
+  title: "International Virtual Assistant Services | USA, UK, Australia & Canada | Tendaji VA",
   description: "Virtual assistant support for the USA, UK, Australia and Canada, delivered remotely from Nairobi, Kenya. Compare time zones, currencies and how it works.",
   path: "/virtual-assistants/",
 });
@@ -17,7 +17,7 @@ export const metadata: Metadata = pageMeta({
 export default function InternationalPage() {
   return (
     <>
-      <PageHero crumbs={[{ name: "International", href: "/virtual-assistants/" }]} eyebrow="Based in Nairobi. Supporting global business." title="Your Next Great Business Assistant Could Be in Nairobi." description="Business support no longer needs to be limited by geography. Bravura VA connects businesses in the United States, United Kingdom, Australia and Canada with Nairobi-based remote support professionals, working to an agreed overlap with your day." compact />
+      <PageHero crumbs={[{ name: "International", href: "/virtual-assistants/" }]} eyebrow="Based in Nairobi. Supporting global business." title="Your Next Great Business Assistant Could Be in Nairobi." description="Business support no longer needs to be limited by geography. Tendaji VA connects businesses in the United States, United Kingdom, Australia and Canada with Nairobi-based remote support professionals, working to an agreed overlap with your day." compact />
       <Section tone="white">
         <div className="rounded-[2.5rem] bg-offwhite p-6 sm:p-10"><WorldMap /></div>
       </Section>

@@ -66,9 +66,9 @@ To be balanced: Nairobi's international remote-support sector is younger than th
 
 These are manageable considerations, but they're worth acknowledging.
 
-## Why we built Bravura VA in Nairobi
+## Why we built Tendaji VA in Nairobi
 
-We started [Bravura VA](/about/) in Nairobi because we see what the city's professionals can do. We believe international businesses deserve dependable, human-led support, and that Nairobi is a great place to provide it from.
+We started [Tendaji VA](/about/) in Nairobi because we see what the city's professionals can do. We believe international businesses deserve dependable, human-led support, and that Nairobi is a great place to provide it from.
 
 ## In summary
 

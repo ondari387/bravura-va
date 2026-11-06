@@ -3,8 +3,8 @@ import { LegalPage } from "@/components/sections/LegalPage";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "Privacy Policy | Bravura VA",
-  description: "Bravura VA Privacy Policy: how we handle information and the terms that apply when you use our website and services.",
+  title: "Privacy Policy | Tendaji VA",
+  description: "Tendaji VA Privacy Policy: how we handle information and the terms that apply when you use our website and services.",
   path: "/privacy-policy/",
 });
 

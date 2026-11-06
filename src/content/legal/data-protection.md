@@ -1,4 +1,4 @@
-This page explains how **Bravura VA** approaches data protection and confidentiality when supporting client businesses. It complements our [Privacy Policy](/privacy-policy/), which covers personal data collected through this website.
+This page explains how **Tendaji VA** approaches data protection and confidentiality when supporting client businesses. It complements our [Privacy Policy](/privacy-policy/), which covers personal data collected through this website.
 
 ## Our role
 
@@ -24,4 +24,4 @@ We are based in Kenya and take into account the **Kenya Data Protection Act, 201
 
 ## Your questions
 
-Clients and prospective clients can request more information about our data protection practices by emailing **va@bravura.co.ke**.
+Clients and prospective clients can request more information about our data protection practices by emailing **va@tendaji-va.co.ke**.

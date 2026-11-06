@@ -11,7 +11,7 @@ cta: "Want to see whether Kenya is the right fit for your role? Ask us, we'll be
 
 If you're outsourcing virtual assistant work, you've probably come across three destinations again and again: the Philippines, India and, increasingly, Kenya. Each has real strengths, and the "best" choice depends on your business, your time zone and the work you need done.
 
-This article offers a balanced comparison. (Full disclosure: Bravura VA is based in Kenya, so we've tried to be especially fair to the alternatives.)
+This article offers a balanced comparison. (Full disclosure: Tendaji VA is based in Kenya, so we've tried to be especially fair to the alternatives.)
 
 ## At a glance
 

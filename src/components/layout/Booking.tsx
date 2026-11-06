@@ -33,7 +33,7 @@ export function CalendlyEmbed({ height = 680 }: { height?: number }) {
   const src = `${site.calendlyUrl}${site.calendlyUrl.includes("?") ? "&" : "?"}hide_gdpr_banner=1&primary_color=59c4d0`;
   return (
     <iframe
-      title="Book a free consultation with Bravura VA"
+      title="Book a free consultation with Tendaji VA"
       src={src}
       className="w-full rounded-2xl bg-white"
       style={{ height }}
@@ -51,7 +51,7 @@ export function BookingFallback({ compact }: { compact?: boolean }) {
         In the meantime, reach us directly and we&apos;ll arrange a consultation at a time that suits your time zone.
       </p>
       <div className="mt-5 grid gap-3 sm:grid-cols-3">
-        <a href={site.whatsappWithText("Hi Bravura VA, I'd like to book a free consultation.")} target="_blank" rel="noopener noreferrer" className={buttonClass("primary", "w-full")}>
+        <a href={site.whatsappWithText("Hi Tendaji VA, I'd like to book a free consultation.")} target="_blank" rel="noopener noreferrer" className={buttonClass("primary", "w-full")}>
           <Icon name="chat" className="h-4 w-4" /> WhatsApp Us
         </a>
         <a href={`${site.emailHref}?subject=${encodeURIComponent("Consultation request")}`} className={buttonClass("secondary", "w-full")}>

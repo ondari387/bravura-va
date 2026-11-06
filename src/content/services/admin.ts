@@ -3,12 +3,12 @@ import type { ServiceContent } from "./types";
 export const adminServices: ServiceContent[] = [
   {
     slug: "administrative-support",
-    metaTitle: "Administrative & Executive Virtual Assistant Services | Bravura VA | Bravura VA",
+    metaTitle: "Administrative & Executive Virtual Assistant Services | Tendaji VA | Tendaji VA",
     metaDescription: "Hire an administrative virtual assistant for inbox, calendar, travel, documents, CRM updates and follow-ups. Human-led support for US, UK, AU and CA firms.",
     hero: {
       eyebrow: "Admin & Executive Support",
       headline: "Stop Spending Your Best Hours on Admin.",
-      intro: "Inboxes, spreadsheets, meeting notes, file clean-ups, reports: the admin never ends, and it always lands on the busiest person. Bravura VA gives you a dependable administrative virtual assistant who keeps the routine work moving so you can focus on customers, decisions and growth.",
+      intro: "Inboxes, spreadsheets, meeting notes, file clean-ups, reports: the admin never ends, and it always lands on the busiest person. Tendaji VA gives you a dependable administrative virtual assistant who keeps the routine work moving so you can focus on customers, decisions and growth.",
     },
     overview: [
       "Administrative work is the quiet engine of every business. Nobody started a company to rename files, chase signatures or rebuild the same spreadsheet each Monday: yet these tasks have to be done, and done properly. When they're squeezed between sales calls and client work, they're rushed, delayed or forgotten. Invoices go out late. Documents are hard to find. Meetings happen without anyone capturing what was agreed.",
@@ -59,7 +59,7 @@ export const adminServices: ServiceContent[] = [
   },
   {
     slug: "inbox-calendar-management",
-    metaTitle: "Inbox & Calendar Management Virtual Assistant | Bravura VA",
+    metaTitle: "Inbox & Calendar Management Virtual Assistant | Tendaji VA",
     metaDescription: "A virtual assistant to manage your inbox and calendar: email triage, inbox systems, scheduling across time zones and follow-ups. Human-led, from Nairobi.",
     hero: {
       eyebrow: "Inbox & Calendar Management",
@@ -115,7 +115,7 @@ export const adminServices: ServiceContent[] = [
   },
   {
     slug: "executive-virtual-assistant",
-    metaTitle: "Executive Virtual Assistant Services for Founders & Leaders | Bravura VA",
+    metaTitle: "Executive Virtual Assistant Services for Founders & Leaders | Tendaji VA",
     metaDescription: "An executive virtual assistant for calendar management, travel, meeting prep, research and stakeholder follow-ups. Remote executive support from Nairobi.",
     hero: {
       eyebrow: "Executive Virtual Assistant",
@@ -171,7 +171,7 @@ export const adminServices: ServiceContent[] = [
   },
   {
     slug: "personal-virtual-assistant",
-    metaTitle: "Personal Virtual Assistant Services | Life Admin Help | Bravura VA",
+    metaTitle: "Personal Virtual Assistant Services | Life Admin Help | Tendaji VA",
     metaDescription: "A personal virtual assistant for errands, appointments, bookings, research and household admin, so busy professionals get their time back.",
     hero: {
       eyebrow: "Personal Virtual Assistant",
@@ -208,7 +208,7 @@ export const adminServices: ServiceContent[] = [
     software: ["Google Calendar", "Outlook", "Gmail", "WhatsApp", "Notion", "Todoist", "1Password", "LastPass", "Amazon", "OpenTable", "Airbnb", "Booking.com", "Google Drive", "Dropbox"],
     support: [
       "Personal support requires trust, so we're careful about boundaries from the start. We agree exactly which tasks your assistant handles, what they can book or buy without asking, and how sensitive information (like personal accounts or family details) is accessed and stored.",
-      "Because Bravura VA works remotely, personal support covers anything that can be done online or by phone and email. For tasks that need someone physically present, your assistant can coordinate local providers on your behalf.",
+      "Because Tendaji VA works remotely, personal support covers anything that can be done online or by phone and email. For tasks that need someone physically present, your assistant can coordinate local providers on your behalf.",
     ],
     humanAi: "AI apps can suggest restaurants or draft a reminder, but personal admin is full of preferences that matter: the hotel you didn't like last time, the relative who needs a phone call rather than a text, the budget you'd rather not exceed. A personal assistant remembers those things and applies them with care, using approved tools only where they genuinely save time.",
     why: [
@@ -227,7 +227,7 @@ export const adminServices: ServiceContent[] = [
   },
   {
     slug: "data-entry-research",
-    metaTitle: "Data Entry & Research Virtual Assistant Services | Bravura VA",
+    metaTitle: "Data Entry & Research Virtual Assistant Services | Tendaji VA",
     metaDescription: "Accurate data entry, CRM updates, list building, market research and spreadsheet clean-up by human virtual assistants in Nairobi, Kenya.",
     hero: {
       eyebrow: "Data Entry & Research",

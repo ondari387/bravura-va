@@ -8,8 +8,8 @@ import { publishedTestimonials } from "@/content/testimonials";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "Testimonials | Verified Client Experiences | Bravura VA",
-  description: "Verified client experiences with Bravura VA. We only publish genuine testimonials with client permission, never invented reviews or ratings.",
+  title: "Testimonials | Verified Client Experiences | Tendaji VA",
+  description: "Verified client experiences with Tendaji VA. We only publish genuine testimonials with client permission, never invented reviews or ratings.",
   path: "/testimonials/",
 });
 
@@ -20,7 +20,7 @@ export default function TestimonialsPage() {
         crumbs={[{ name: "Testimonials", href: "/testimonials/" }]}
         eyebrow="Testimonials"
         title="Real Feedback From Real Clients. Nothing Else."
-        description={publishedTestimonials.length ? "Here's what clients say about working with Bravura VA, shared with their permission." : "We're a new company, and we've chosen not to fill this page with placeholder praise. Verified testimonials will appear here as our clients share their experiences."}
+        description={publishedTestimonials.length ? "Here's what clients say about working with Tendaji VA, shared with their permission." : "We're a new company, and we've chosen not to fill this page with placeholder praise. Verified testimonials will appear here as our clients share their experiences."}
         compact
       />
       <Testimonials tone="off" />
@@ -40,7 +40,7 @@ export default function TestimonialsPage() {
           ))}
         </div>
       </Section>
-      <CTABand title="Be One of Our First Success Stories." description="Early clients get our full attention as we build Bravura VA. Let's talk about what you'd like to delegate." />
+      <CTABand title="Be One of Our First Success Stories." description="Early clients get our full attention as we build Tendaji VA. Let's talk about what you'd like to delegate." />
     </>
   );
 }

@@ -100,9 +100,9 @@ Ask:
 
 Be wary of any provider claiming offices across the continent without clear evidence, or making guarantees about results.
 
-## Where Bravura VA fits
+## Where Tendaji VA fits
 
-[Bravura VA](/virtual-assistant-africa/) is based in Nairobi, Kenya. We focus on doing one thing well: providing professional, human-led virtual assistance from Kenya to businesses in the USA, UK and Australia. We don't claim operations in other African countries, we'd rather be transparent about exactly who you're working with.
+[Tendaji VA](/virtual-assistant-africa/) is based in Nairobi, Kenya. We focus on doing one thing well: providing professional, human-led virtual assistance from Kenya to businesses in the USA, UK and Australia. We don't claim operations in other African countries, we'd rather be transparent about exactly who you're working with.
 
 ## In summary
 

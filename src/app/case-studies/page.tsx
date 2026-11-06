@@ -11,8 +11,8 @@ import { img } from "@/content/images";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "Case Studies & Illustrative Use Cases | Bravura VA",
-  description: "How Bravura VA structures virtual assistant support for e-commerce stores, SaaS founders, real estate teams and home service businesses. Illustrative examples.",
+  title: "Case Studies & Illustrative Use Cases | Tendaji VA",
+  description: "How Tendaji VA structures virtual assistant support for e-commerce stores, SaaS founders, real estate teams and home service businesses. Illustrative examples.",
   path: "/case-studies/",
 });
 
@@ -23,7 +23,7 @@ export default function CaseStudiesPage() {
         crumbs={[{ name: "Case Studies", href: "/case-studies/" }]}
         eyebrow="Case studies"
         title="What Delegation Can Look Like in Practice."
-        description={<p>Bravura VA is a new company, so we won&apos;t show you invented success stories. Below are <strong className="text-ink">illustrative use cases</strong>, realistic scenarios showing how support is typically scoped and implemented. Verified client case studies will be published here, with permission, as they become available.</p>}
+        description={<p>Tendaji VA is a new company, so we won&apos;t show you invented success stories. Below are <strong className="text-ink">illustrative use cases</strong>, realistic scenarios showing how support is typically scoped and implemented. Verified client case studies will be published here, with permission, as they become available.</p>}
         compact
       />
       <Section tone="off">

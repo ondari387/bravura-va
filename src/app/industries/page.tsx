@@ -20,7 +20,7 @@ export default function IndustriesPage() {
         crumbs={[{ name: "Industries", href: "/industries/" }]}
         eyebrow="Who we help"
         title="Different Businesses. Different Challenges. The Right Support Makes a Difference."
-        description="Every industry has its own rhythm, tools and pressure points. Explore how Bravura VA shapes remote support around the realities of your sector."
+        description="Every industry has its own rhythm, tools and pressure points. Explore how Tendaji VA shapes remote support around the realities of your sector."
         image="teamMeetingBright"
       />
       <Section tone="off">

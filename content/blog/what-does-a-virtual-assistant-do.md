@@ -95,4 +95,4 @@ It depends on the hours you need, the skills involved, where the assistant is ba
 
 A virtual assistant takes recurring, process-driven work off your plate, from inbox and calendar to customers, sales admin and store operations. The best results come from starting with a clear list, explaining tasks well and agreeing how you'll communicate.
 
-Bravura VA provides human-led virtual assistants from Nairobi, Kenya, for businesses in the [USA](/virtual-assistant-usa/), [UK](/virtual-assistant-uk/), [Australia](/virtual-assistant-australia/) and [Canada](/virtual-assistant-canada/).
+Tendaji VA provides human-led virtual assistants from Nairobi, Kenya, for businesses in the [USA](/virtual-assistant-usa/), [UK](/virtual-assistant-uk/), [Australia](/virtual-assistant-australia/) and [Canada](/virtual-assistant-canada/).

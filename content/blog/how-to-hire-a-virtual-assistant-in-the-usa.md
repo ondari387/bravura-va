@@ -55,7 +55,7 @@ You post a job on a marketplace, review profiles and hire an individual. This gi
 
 ### Working with a managed VA agency
 
-An agency like [Bravura VA](/about/) helps scope the role, matches you with a suitable assistant and stays involved in onboarding and quality. You typically have one service agreement and a point of contact if anything needs adjusting. This suits ongoing support where continuity matters.
+An agency like [Tendaji VA](/about/) helps scope the role, matches you with a suitable assistant and stays involved in onboarding and quality. You typically have one service agreement and a point of contact if anything needs adjusting. This suits ongoing support where continuity matters.
 
 ### Hiring an employee
 

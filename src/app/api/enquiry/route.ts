@@ -81,7 +81,7 @@ export async function POST(req: Request) {
 
   // 2. Email notifications. The enquiry is already saved, so email problems don't fail the request.
   if (resendConfigured) {
-    const notifyTo = (process.env.NOTIFY_EMAIL || "va@bravura.co.ke").split(",").map((s) => s.trim()).filter(Boolean);
+    const notifyTo = (process.env.NOTIFY_EMAIL || "va@tendaji-va.co.ke").split(",").map((s) => s.trim()).filter(Boolean);
     const jobs: Promise<unknown>[] = [sendEmail({ to: notifyTo, replyTo: record.email, ...notificationEmail(record) })];
     if (process.env.SEND_AUTOREPLY === "true") jobs.push(sendEmail({ to: record.email, replyTo: notifyTo[0], ...autoReplyEmail(record) }));
     const results = await Promise.allSettled(jobs);

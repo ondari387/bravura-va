@@ -24,7 +24,7 @@ const albert = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: { default: "Bravura VA | Virtual Assistant Services for Growing Businesses", template: "%s | Bravura VA" },
+  title: { default: "Tendaji VA | Virtual Assistant Services for Growing Businesses", template: "%s | Tendaji VA" },
   description: site.description,
   applicationName: site.name,
   openGraph: { siteName: site.name, type: "website", locale: "en_US", images: [{ url: site.ogImage, width: 1200, height: 630 }] },

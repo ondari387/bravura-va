@@ -89,9 +89,9 @@ Before your team or assistants use AI tools, decide which tools are approved and
 
 Nobody can predict exactly how AI will develop. Tools will keep improving, and some tasks done by people today will be fully automated tomorrow. But businesses are ultimately run for and by people: customers, employees, partners. The need for someone who understands your business, communicates with care and takes responsibility isn't going away.
 
-## How Bravura VA approaches AI
+## How Tendaji VA approaches AI
 
-At Bravura VA, we describe our approach as **human-led, AI-assisted**. Our assistants use suitable AI tools where clients approve them and where they genuinely help, but a person remains responsible for checking output, applying judgment and following through. We don't put confidential data into tools clients haven't approved. Learn more on our [Human + AI Support page](/human-ai-virtual-assistants/).
+At Tendaji VA, we describe our approach as **human-led, AI-assisted**. Our assistants use suitable AI tools where clients approve them and where they genuinely help, but a person remains responsible for checking output, applying judgment and following through. We don't put confidential data into tools clients haven't approved. Learn more on our [Human + AI Support page](/human-ai-virtual-assistants/).
 
 ## Where to go from here
 

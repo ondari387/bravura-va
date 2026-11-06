@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Bravura VA",
-    short_name: "Bravura VA",
+    name: "Tendaji VA",
+    short_name: "Tendaji VA",
     description: "Human-led virtual assistant support from Nairobi, Kenya.",
     start_url: "/",
     display: "standalone",

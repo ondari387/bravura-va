@@ -3,12 +3,12 @@ import type { ServiceContent } from "./types";
 export const customerServices: ServiceContent[] = [
   {
     slug: "customer-support",
-    metaTitle: "Customer Support Virtual Assistant | Email & Live Chat Support | Bravura VA",
+    metaTitle: "Customer Support Virtual Assistant | Email & Live Chat Support | Tendaji VA",
     metaDescription: "Outsourced customer support virtual assistants for email, live chat, phone (where agreed), tickets, order enquiries and escalations. Human-led, from Nairobi.",
     hero: {
       eyebrow: "Customer Support",
       headline: "Still Answering Customer Emails After Hours?",
-      intro: "Customers expect clear, friendly and timely answers. When enquiries pile up, response times slip and frustration grows. Bravura VA provides human customer support assistants who handle email, chat and phone enquiries with care, follow your policies and escalate the issues that need you.",
+      intro: "Customers expect clear, friendly and timely answers. When enquiries pile up, response times slip and frustration grows. Tendaji VA provides human customer support assistants who handle email, chat and phone enquiries with care, follow your policies and escalate the issues that need you.",
     },
     overview: [
       "Customer support is where your reputation is made or lost, one conversation at a time. A customer who gets a quick, helpful reply is far more likely to come back and recommend you. A customer who waits three days for an answer to a simple question may simply leave.",
@@ -60,12 +60,12 @@ export const customerServices: ServiceContent[] = [
   },
   {
     slug: "virtual-receptionist",
-    metaTitle: "Virtual Receptionist Services | Remote Call Answering & Booking | Bravura VA",
+    metaTitle: "Virtual Receptionist Services | Remote Call Answering & Booking | Tendaji VA",
     metaDescription: "A virtual receptionist to answer calls, take messages, screen enquiries and book appointments, so no customer or lead slips through.",
     hero: {
       eyebrow: "Virtual Receptionist",
       headline: "Never Let Another Enquiry Go to Voicemail.",
-      intro: "Every missed call could be a new customer calling someone else. A Bravura VA virtual receptionist answers calls professionally, takes accurate messages, books appointments and makes sure every enquiry gets a response, without you hiring a front-desk team.",
+      intro: "Every missed call could be a new customer calling someone else. A Tendaji VA virtual receptionist answers calls professionally, takes accurate messages, books appointments and makes sure every enquiry gets a response, without you hiring a front-desk team.",
     },
     overview: [
       "For many businesses, the phone is still where the most valuable conversations start: a homeowner needing an urgent repair, a patient booking an appointment, a client with a question about their order. But when you're on a job site, in a meeting or with another customer, answering every call isn't realistic.",
@@ -116,7 +116,7 @@ export const customerServices: ServiceContent[] = [
   },
   {
     slug: "lead-generation",
-    metaTitle: "Lead Generation Virtual Assistant | Prospect Research & Lists | Bravura VA",
+    metaTitle: "Lead Generation Virtual Assistant | Prospect Research & Lists | Tendaji VA",
     metaDescription: "Lead generation virtual assistants for prospect research, list building, contact verification, lead qualification and CRM entry. Human-led B2B support.",
     hero: {
       eyebrow: "Lead Generation",
@@ -172,7 +172,7 @@ export const customerServices: ServiceContent[] = [
   },
   {
     slug: "sales-support",
-    metaTitle: "Sales Support Virtual Assistant | CRM, Follow-ups & Appointment Setting | Bravura VA",
+    metaTitle: "Sales Support Virtual Assistant | CRM, Follow-ups & Appointment Setting | Tendaji VA",
     metaDescription: "Sales support virtual assistants for CRM admin, lead qualification, appointment setting, follow-ups and pipeline updates, so your sellers can sell.",
     hero: {
       eyebrow: "Sales Support",

@@ -1,14 +1,16 @@
 export const site = {
-  name: "Bravura VA",
-  legalName: "Bravura VA",
+  name: "Tendaji VA",
+  legalName: "Tendaji VA",
+  // Other names people may search for. Bravura VA is the previous brand name, kept so search engines connect the two.
+  alternateNames: ["Tendaji Virtual Assistants", "Tendaji Virtual Assistant Services", "Bravura VA"],
   tagline: "The home of reliable, human-led virtual assistants.",
-  url: (process.env.NEXT_PUBLIC_SITE_URL || "https://va.bravura.co.ke").replace(/\/$/, ""),
+  url: (process.env.NEXT_PUBLIC_SITE_URL || "https://tendaji-va.co.ke").replace(/\/$/, ""),
   description:
-    "Human-led virtual assistant and remote business support from Nairobi, Kenya, for startups, entrepreneurs and growing businesses across the USA, UK, Australia and Canada.",
+    "Tendaji VA is a virtual assistant company in Nairobi, Kenya, providing human-led remote support to startups and small businesses across the USA, UK, Australia and Canada.",
   phone: "+254 714 089 042",
   phoneHref: "tel:+254714089042",
-  email: "va@bravura.co.ke",
-  emailHref: "mailto:va@bravura.co.ke",
+  email: "va@tendaji-va.co.ke",
+  emailHref: "mailto:va@tendaji-va.co.ke",
   whatsapp: "https://wa.me/254714089042",
   whatsappWithText: (text: string) => `https://wa.me/254714089042?text=${encodeURIComponent(text)}`,
   location: "Nairobi, Kenya",

@@ -9,7 +9,7 @@ import { CTABand } from "@/components/sections/CTABand";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "Human + AI Virtual Assistants | Human-Led, AI-Assisted Support | Bravura VA",
+  title: "Human + AI Virtual Assistants | Human-Led, AI-Assisted Support | Tendaji VA",
   description: "Capable human virtual assistants using approved AI tools responsibly. Learn what to automate, what to delegate to a person, and how we keep AI use safe.",
   path: "/human-ai-virtual-assistants/",
 });
@@ -30,7 +30,7 @@ const principles = [
 
 const faqs = [
   { q: "Will AI replace virtual assistants?", a: "AI is already changing how assistants work by speeding up drafting, summarizing and research. But businesses still need people to apply judgment, manage relationships, handle exceptions and take responsibility. We think the future is assistants who use AI well, not AI working alone." },
-  { q: "Do I need to use AI tools to work with Bravura VA?", a: "No. Some clients prefer no AI use at all, and we respect that. Others approve specific tools for specific tasks." },
+  { q: "Do I need to use AI tools to work with Tendaji VA?", a: "No. Some clients prefer no AI use at all, and we respect that. Others approve specific tools for specific tasks." },
   { q: "Which AI tools do your assistants use?", a: "It depends on your preferences and the tools you already pay for (for example, AI features built into Google Workspace, Microsoft 365, your helpdesk or your CRM). We agree this with you." },
   { q: "Is it safe to use AI with customer data?", a: "It depends on the tool, your contract with its provider and the laws that apply to you. We won't use customer or confidential data with AI tools unless you've approved that use." },
   { q: "Can your assistants help us set up automations?", a: "Yes, for straightforward automations in tools like Zapier or Make, and they'll often spot tasks that could be automated. More complex technical builds may need a developer." },
@@ -43,7 +43,7 @@ export default function HumanAIPage() {
         crumbs={[{ name: "Human + AI Support", href: "/human-ai-virtual-assistants/" }]}
         eyebrow="Human + AI virtual assistants"
         title="AI Can Draft the Email. We Make Sure the Customer Gets Help."
-        description="AI tools are genuinely useful. They can draft, summarize and sort faster than any person. But business still runs on judgment, relationships and follow-through. Bravura VA combines capable human assistants with efficient, approved digital tools, so you get speed and care."
+        description="AI tools are genuinely useful. They can draft, summarize and sort faster than any person. But business still runs on judgment, relationships and follow-through. Tendaji VA combines capable human assistants with efficient, approved digital tools, so you get speed and care."
         image="womanHeadsetDesk"
       />
       <HumanAI cta={false} />

@@ -185,7 +185,7 @@ export function EnquiryForm({ formType = "contact", defaultService = "", submitL
             onChange={(e) => { setConsent(e.target.checked); if (errors.consent) setErrors((er) => { const n = { ...er }; delete n.consent; return n; }); }}
             className="mt-0.5 h-5 w-5 shrink-0 rounded accent-[#59C4D0]" aria-invalid={!!errors.consent}
           />
-          <span>I agree that Bravura VA may use these details to respond to my enquiry, as described in the <Link href="/privacy-policy/" className="font-semibold text-teal underline">Privacy Policy</Link>.</span>
+          <span>I agree that Tendaji VA may use these details to respond to my enquiry, as described in the <Link href="/privacy-policy/" className="font-semibold text-teal underline">Privacy Policy</Link>.</span>
         </label>
         {errors.consent && <p className="mt-1.5 text-sm font-medium text-ink">⚠ {errors.consent}</p>}
       </div>

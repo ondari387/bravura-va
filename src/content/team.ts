@@ -8,7 +8,7 @@ export type TeamMember = {
 };
 
 export const team: TeamMember[] = [
-  { name: "[Founder Name]", role: "Founder", bio: "[Add the founder's real background, why they started Bravura VA and what they focus on.]", photo: "", linkedin: "", published: false },
+  { name: "[Founder Name]", role: "Founder", bio: "[Add the founder's real background, why they started Tendaji VA and what they focus on.]", photo: "", linkedin: "", published: false },
   { name: "[Team Member Name]", role: "[Role, e.g. Client Success Lead]", bio: "[Add a short, accurate biography.]", photo: "", linkedin: "", published: false },
 ];
 

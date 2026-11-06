@@ -1,4 +1,4 @@
-These Terms of Service govern your use of the **bravura.co.ke** website operated by **Bravura VA**, headquartered in Nairobi, Kenya. Services provided to clients are governed by a separate written service agreement or proposal, which takes priority over these website terms.
+These Terms of Service govern your use of the **tendaji-va.co.ke** website operated by **Tendaji VA**, headquartered in Nairobi, Kenya. Services provided to clients are governed by a separate written service agreement or proposal, which takes priority over these website terms.
 
 ## Using this website
 
@@ -18,11 +18,11 @@ Our website may link to third-party websites and refer to third-party software. 
 
 ## Photography
 
-Some images on this website are stock photography used for illustration and do not depict Bravura VA staff or clients.
+Some images on this website are stock photography used for illustration and do not depict Tendaji VA staff or clients.
 
 ## Intellectual property
 
-Website content, design and branding belong to Bravura VA or its licensors. You may not copy or reuse them without permission, except for personal, non-commercial reference.
+Website content, design and branding belong to Tendaji VA or its licensors. You may not copy or reuse them without permission, except for personal, non-commercial reference.
 
 ## Client services
 
@@ -38,7 +38,7 @@ When you engage us, the following are agreed in writing before work begins:
 
 ## Limitation of liability
 
-To the fullest extent permitted by law, Bravura VA is not liable for any indirect or consequential loss arising from your use of this website. Nothing in these terms excludes liability that cannot be excluded by law.
+To the fullest extent permitted by law, Tendaji VA is not liable for any indirect or consequential loss arising from your use of this website. Nothing in these terms excludes liability that cannot be excluded by law.
 
 ## Governing law
 
@@ -50,4 +50,4 @@ We may update these terms. The "Last updated" date shows when they last changed.
 
 ## Contact
 
-Email **va@bravura.co.ke** or call **+254 714 089 042**.
+Email **va@tendaji-va.co.ke** or call **+254 714 089 042**.

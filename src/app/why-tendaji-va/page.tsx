@@ -10,9 +10,9 @@ import { CTABand } from "@/components/sections/CTABand";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "Why Bravura VA | Human-Led Virtual Assistants You Can Rely On",
-  description: "Why businesses in the USA, UK, Australia and Canada choose Bravura VA: skilled Nairobi talent, clear communication, flexible arrangements, honest service.",
-  path: "/why-bravura-va/",
+  title: "Why Tendaji VA | Human-Led Virtual Assistants You Can Rely On",
+  description: "Why businesses in the USA, UK, Australia and Canada choose Tendaji VA: skilled Nairobi talent, clear communication, flexible arrangements, honest service.",
+  path: "/why-tendaji-va/",
 });
 
 const promises = [
@@ -33,8 +33,8 @@ export default function WhyPage() {
   return (
     <>
       <PageHero
-        crumbs={[{ name: "Why Bravura VA", href: "/why-bravura-va/" }]}
-        eyebrow="Why Bravura VA"
+        crumbs={[{ name: "Why Tendaji VA", href: "/why-tendaji-va/" }]}
+        eyebrow="Why Tendaji VA"
         title="Great Support Should Make Business Easier. Not More Complicated."
         description="Plenty of companies offer virtual assistants. We focus on the things that actually make delegation work: the right person, clear communication, honest expectations and support that grows with you."
         image="womanGlasses"
@@ -55,7 +55,7 @@ export default function WhyPage() {
             </div>
           </div>
           <div className="rounded-[2rem] bg-orange p-8 text-teal sm:p-10 lg:self-start">
-            <h2 className="font-heading text-3xl font-extrabold text-teal">What Bravura VA Is Not</h2>
+            <h2 className="font-heading text-3xl font-extrabold text-teal">What Tendaji VA Is Not</h2>
             <ul className="mt-6 space-y-3">
               {notList.map((n) => <li key={n} className="flex gap-3 text-lg font-semibold"><Icon name="x" className="mt-1 h-5 w-5 shrink-0" />{n}</li>)}
             </ul>
@@ -67,7 +67,7 @@ export default function WhyPage() {
       <HumanAI />
       <Testimonials tone="off" />
       <Section tone="white">
-        <SectionHeading eyebrow="Transparency" title="Where We're Based, and Where We're Not" description="Bravura VA is headquartered in Nairobi, Kenya. We support businesses in the United States, United Kingdom, Australia and Canada remotely and do not have offices in those countries. We'd rather you know exactly who you're working with from day one." />
+        <SectionHeading eyebrow="Transparency" title="Where We're Based, and Where We're Not" description="Tendaji VA is headquartered in Nairobi, Kenya. We support businesses in the United States, United Kingdom, Australia and Canada remotely and do not have offices in those countries. We'd rather you know exactly who you're working with from day one." />
       </Section>
       <CTABand />
     </>

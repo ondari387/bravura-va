@@ -10,8 +10,8 @@ import { trustPoints } from "@/content/shared";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "How It Works | Hiring a Virtual Assistant With Bravura VA",
-  description: "How Bravura VA works: a free consultation, a tailored support plan, careful matching, structured onboarding and regular check-ins. Start delegating simply.",
+  title: "How It Works | Hiring a Virtual Assistant With Tendaji VA",
+  description: "How Tendaji VA works: a free consultation, a tailored support plan, careful matching, structured onboarding and regular check-ins. Start delegating simply.",
   path: "/how-it-works/",
 });
 

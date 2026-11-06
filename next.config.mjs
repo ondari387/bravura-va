@@ -1,3 +1,5 @@
+const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://tendaji-va.co.ke").replace(/\/$/, "");
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   trailingSlash: true,
@@ -23,6 +25,11 @@ const nextConfig = {
   async redirects() {
     return [
       { source: "/home", destination: "/", permanent: true },
+      { source: "/why-bravura-va", destination: "/why-tendaji-va/", permanent: true },
+      // Old brand domain: once the site runs on tendaji-va.co.ke, send every va.bravura.co.ke URL to the same page there.
+      ...(siteUrl.includes("tendaji-va.co.ke")
+        ? [{ source: "/:path*", has: [{ type: "host", value: "va.bravura.co.ke" }], destination: `${siteUrl}/:path*`, permanent: true }]
+        : []),
       { source: "/contact-us", destination: "/contact/", permanent: true },
       { source: "/about-us", destination: "/about/", permanent: true },
       { source: "/book", destination: "/book-a-call/", permanent: true },

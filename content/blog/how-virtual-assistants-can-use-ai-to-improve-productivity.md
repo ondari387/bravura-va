@@ -109,4 +109,4 @@ AI should make support better, not just faster. Good signs include:
 
 AI is a powerful productivity tool for virtual assistants: when it's used with approval, care and human review. The result is support that combines the speed of AI with the judgment, accountability and personal touch that only people provide.
 
-That's the approach we take at [Bravura VA](/human-ai-virtual-assistants/).
+That's the approach we take at [Tendaji VA](/human-ai-virtual-assistants/).

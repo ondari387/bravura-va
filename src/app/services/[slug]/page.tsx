@@ -157,7 +157,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             <p className="mt-4 text-xs text-ink-muted">Product names are trademarks of their respective owners. Listing them does not imply partnership or certification.</p>
           </div>
           <div>
-            <p className="eyebrow">How Bravura VA supports the workflow</p>
+            <p className="eyebrow">How Tendaji VA supports the workflow</p>
             <h2 className="h-section mt-4">Structured From Day One</h2>
             <div className="lead mt-5 space-y-4">{s.support.map((p) => <p key={p.slice(0, 30)}>{p}</p>)}</div>
           </div>

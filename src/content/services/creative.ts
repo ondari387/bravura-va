@@ -3,7 +3,7 @@ import type { ServiceContent } from "./types";
 export const creativeServices: ServiceContent[] = [
   {
     slug: "content-writing",
-    metaTitle: "Content Writing Virtual Assistant | Blogs, Newsletters & Web Copy | Bravura VA",
+    metaTitle: "Content Writing Virtual Assistant | Blogs, Newsletters & Web Copy | Tendaji VA",
     metaDescription: "Content writing support for blog posts, newsletters, product descriptions and website copy: researched, written for real readers, edited to your voice.",
     hero: {
       eyebrow: "Content Writing",
@@ -59,7 +59,7 @@ export const creativeServices: ServiceContent[] = [
   },
   {
     slug: "graphic-design",
-    metaTitle: "Graphic Design Virtual Assistant | Social Graphics & Presentations | Bravura VA",
+    metaTitle: "Graphic Design Virtual Assistant | Social Graphics & Presentations | Tendaji VA",
     metaDescription: "Graphic design support for social graphics, presentations, documents and brand templates: on-brand, quick-turnaround design from a remote assistant.",
     hero: {
       eyebrow: "Graphic Design",
@@ -115,7 +115,7 @@ export const creativeServices: ServiceContent[] = [
   },
   {
     slug: "social-media-management",
-    metaTitle: "Social Media Virtual Assistant | Content Scheduling & Community Support | Bravura VA",
+    metaTitle: "Social Media Virtual Assistant | Content Scheduling & Community Support | Tendaji VA",
     metaDescription: "Social media virtual assistants for content calendars, scheduling, community replies and monthly reporting across LinkedIn, Instagram and Facebook.",
     hero: {
       eyebrow: "Social Media Support",
@@ -171,7 +171,7 @@ export const creativeServices: ServiceContent[] = [
   },
   {
     slug: "wordpress-virtual-assistant",
-    metaTitle: "WordPress Virtual Assistant | Website Content & Maintenance Support | Bravura VA",
+    metaTitle: "WordPress Virtual Assistant | Website Content & Maintenance Support | Tendaji VA",
     metaDescription: "A WordPress virtual assistant for content uploads, blog publishing, page updates, image optimisation and routine plugin admin. Not custom development.",
     hero: {
       eyebrow: "WordPress Virtual Assistant",

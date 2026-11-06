@@ -15,7 +15,7 @@ export function HomeHero() {
             <span className="relative text-teal">Reliable Virtual Assistants<svg aria-hidden="true" viewBox="0 0 300 16" className="absolute -bottom-1.5 left-0 h-2.5 w-full" preserveAspectRatio="none"><path d="M3 12C70 4 160 2 297 8" stroke="#FF981F" strokeWidth="6" strokeLinecap="round" fill="none" /></svg></span> for Businesses in the USA, UK, Australia &amp; Canada
           </h1>
           <p className="lead mt-7 max-w-xl">
-            Spend less time on admin and more time growing your business. Bravura VA provides skilled, affordable, human-led virtual assistants from Nairobi, Kenya, helping businesses manage daily operations, customer support, scheduling and more.
+            Spend less time on admin and more time growing your business. Tendaji VA provides skilled, affordable, human-led virtual assistants from Nairobi, Kenya, helping businesses manage daily operations, customer support, scheduling and more.
           </p>
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
             <BookCallButton source="home_hero">Book a Free Consultation</BookCallButton>

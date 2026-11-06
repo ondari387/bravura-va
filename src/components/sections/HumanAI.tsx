@@ -14,7 +14,7 @@ export function HumanAI({ cta = true }: { cta?: boolean }) {
           <h2 className="h-section mt-4 text-white">AI Can Draft the Email. We Make Sure the Customer Gets Help.</h2>
           <div className="mt-6 space-y-4 text-lg leading-relaxed text-white/75">
             <p>AI can summarize meetings, generate content and automate repetitive tasks. But businesses still need people who understand context, communicate with customers, manage exceptions and follow through.</p>
-            <p>Bravura VA combines capable human assistance with efficient digital workflows to help businesses get work done with care and accountability.</p>
+            <p>Tendaji VA combines capable human assistance with efficient digital workflows to help businesses get work done with care and accountability.</p>
           </div>
           {cta && <ButtonLink href="/human-ai-virtual-assistants/" variant="primary" className="mt-8" arrow>Explore Human-Led Virtual Assistance</ButtonLink>}
         </div>

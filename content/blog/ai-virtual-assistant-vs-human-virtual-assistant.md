@@ -94,4 +94,4 @@ Both approaches require care with data:
 
 AI assistants are fast, scalable and increasingly capable for routine work. Human assistants bring judgment, empathy, accountability and context. The smartest businesses use AI for what it does best and people for what they do best, and make sure a human is responsible for the outcome.
 
-That's exactly how we work at [Bravura VA](/human-ai-virtual-assistants/): human-led support, enhanced by the right tools.
+That's exactly how we work at [Tendaji VA](/human-ai-virtual-assistants/): human-led support, enhanced by the right tools.
