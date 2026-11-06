@@ -46,7 +46,7 @@ export const orgSchema = {
   telephone: site.phone,
   slogan: site.tagline,
   address: { "@type": "PostalAddress", addressLocality: "Nairobi", addressCountry: "KE" },
-  areaServed: [{ "@type": "Country", name: "United States" }, { "@type": "Country", name: "United Kingdom" }, { "@type": "Country", name: "Australia" }, { "@type": "Country", name: "Canada" }],
+  areaServed: [...["United States", "United Kingdom", "Australia", "Canada", "New Zealand", "Ireland", "United Arab Emirates"].map((name) => ({ "@type": "Country", name })), { "@type": "Place", name: "Worldwide" }],
   contactPoint: [{ "@type": "ContactPoint", telephone: site.phone, email: site.email, contactType: "sales", availableLanguage: ["English"] }],
   sameAs: Object.values(site.social).filter(Boolean),
   knowsAbout: ["Virtual assistant services", "Administrative support", "Customer support outsourcing", "E-commerce and Shopify support", "Lead generation", "Bookkeeping support", "Social media support", "WordPress website support", "Recruitment support", "Remote work across time zones"],
@@ -72,7 +72,7 @@ export function serviceSchema({ name, description, path, serviceType }: { name: 
     description,
     url: absoluteUrl(path),
     provider: { "@id": `${site.url}/#organization` },
-    areaServed: ["United States", "United Kingdom", "Australia", "Canada"],
+    areaServed: ["United States", "United Kingdom", "Australia", "Canada", "New Zealand", "Ireland", "United Arab Emirates", "Worldwide"],
   };
 }
 

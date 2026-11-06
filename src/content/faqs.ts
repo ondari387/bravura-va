@@ -18,6 +18,7 @@ export const faqGroups: { id: string; title: string; faqs: FAQ[] }[] = [
       { q: "Why work with virtual assistants in Kenya?", a: "Kenya has a large, well-educated, English-speaking workforce and Nairobi is one of East Africa's most established business and technology hubs. English is an official language and widely used in business and education, which makes written and spoken communication with US, UK and Australian clients straightforward. Many businesses also find the cost of remote support more manageable than local hiring, while still getting professional, human-led help." },
       { q: "Is communication in English?", a: "Yes. All client communication is in English, by email, chat, video call or phone, whichever your team already uses." },
       { q: "Do you have offices in the USA, UK, Australia or Canada?", a: "No. Tendaji VA is headquartered in Nairobi, Kenya, and supports clients in the United States, United Kingdom, Australia and Canada remotely. We're transparent about that from the first conversation." },
+      { q: "Do you work with businesses outside the USA, UK, Australia and Canada?", a: "Yes. We also support businesses in New Zealand, Ireland and the United Arab Emirates, and anywhere else teams work in English and online tools. We plan working hours around your time zone during the consultation." },
     ],
   },
   {

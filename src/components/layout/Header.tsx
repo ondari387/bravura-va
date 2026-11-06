@@ -24,6 +24,9 @@ const marketLinks = [
   { href: "/virtual-assistant-uk/", label: "United Kingdom" },
   { href: "/virtual-assistant-australia/", label: "Australia" },
   { href: "/virtual-assistant-canada/", label: "Canada" },
+  { href: "/virtual-assistant-new-zealand/", label: "New Zealand" },
+  { href: "/virtual-assistant-ireland/", label: "Ireland" },
+  { href: "/virtual-assistant-uae/", label: "UAE" },
   { href: "/virtual-assistant-kenya/", label: "Why Kenya" },
 ];
 

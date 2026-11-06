@@ -139,9 +139,12 @@ export const primaryServices: { slug: string; label: string; text: string }[] = 
 export const priorityIndustries = ["startups", "small-businesses", "ecommerce", "real-estate", "marketing-agencies", "recruitment-staffing", "consulting", "technology-saas", "property-management", "legal-services"];
 
 /** International markets with dedicated pages. */
-export const markets: { slug: string; name: string; href: string; flag: string; tz: string; currency: string }[] = [
-  { slug: "usa", name: "United States", href: "/virtual-assistant-usa/", flag: "US", tz: "Nairobi is 7-11 hours ahead of mainland US time", currency: "USD" },
-  { slug: "uk", name: "United Kingdom", href: "/virtual-assistant-uk/", flag: "UK", tz: "Nairobi is 2-3 hours ahead of UK time", currency: "GBP" },
-  { slug: "australia", name: "Australia", href: "/virtual-assistant-australia/", flag: "AU", tz: "Nairobi is 5-8 hours behind Australian time", currency: "AUD" },
-  { slug: "canada", name: "Canada", href: "/virtual-assistant-canada/", flag: "CA", tz: "Nairobi is 6-11 hours ahead of most of Canada", currency: "CAD" },
+export const markets: { slug: string; name: string; href: string; flag: string; tz: string; currency: string; primary?: boolean }[] = [
+  { slug: "usa", name: "United States", href: "/virtual-assistant-usa/", flag: "US", tz: "Nairobi is 7-11 hours ahead of mainland US time", currency: "USD", primary: true },
+  { slug: "uk", name: "United Kingdom", href: "/virtual-assistant-uk/", flag: "UK", tz: "Nairobi is 2-3 hours ahead of UK time", currency: "GBP", primary: true },
+  { slug: "australia", name: "Australia", href: "/virtual-assistant-australia/", flag: "AU", tz: "Nairobi is 5-8 hours behind Australian time", currency: "AUD", primary: true },
+  { slug: "canada", name: "Canada", href: "/virtual-assistant-canada/", flag: "CA", tz: "Nairobi is 6-11 hours ahead of most of Canada", currency: "CAD", primary: true },
+  { slug: "new-zealand", name: "New Zealand", href: "/virtual-assistant-new-zealand/", flag: "NZ", tz: "Nairobi is 9-10 hours behind New Zealand", currency: "NZD" },
+  { slug: "ireland", name: "Ireland", href: "/virtual-assistant-ireland/", flag: "IE", tz: "Nairobi is 2-3 hours ahead of Ireland", currency: "EUR" },
+  { slug: "uae", name: "United Arab Emirates", href: "/virtual-assistant-uae/", flag: "AE", tz: "Nairobi is 1 hour behind the UAE", currency: "AED" },
 ];

@@ -12,7 +12,7 @@ const marketText: Record<string, string> = {
 };
 
 const points = {
-  nairobi: [602, 299], usa: [250, 170], canada: [222, 92], uk: [500, 112], aus: [905, 405],
+  nairobi: [602, 299], usa: [250, 170], canada: [222, 92], uk: [500, 112], aus: [905, 405], nz: [978, 452], uae: [660, 208], ie: [478, 104],
 };
 const arc = (a: number[], b: number[], lift: number) => {
   const mx = (a[0] + b[0]) / 2, my = Math.min(a[1], b[1]) - lift;
@@ -22,10 +22,13 @@ const arc = (a: number[], b: number[], lift: number) => {
 export function WorldMap() {
   return (
     <div className="relative">
-      <svg viewBox="0 0 1000 500" className="h-auto w-full" role="img" aria-label="Map showing Nairobi, Kenya connected to the United States, United Kingdom, Australia and Canada">
+      <svg viewBox="0 0 1000 500" className="h-auto w-full" role="img" aria-label="Map showing Nairobi, Kenya connected to the United States, Canada, United Kingdom, Ireland, United Arab Emirates, Australia and New Zealand">
         <image href="/images/world-dots.svg" x="0" y="0" width="1000" height="500" opacity="0.55" />
-        {[["usa", 120], ["canada", 150], ["uk", 70], ["aus", 90]].map(([k, l]) => (
+        {[["usa", 120], ["canada", 150], ["uk", 70], ["aus", 90], ["nz", 60], ["uae", 30], ["ie", 80]].map(([k, l]) => (
           <path key={k as string} d={arc(points.nairobi, points[k as keyof typeof points], l as number)} fill="none" stroke="#FF981F" strokeWidth="3" strokeDasharray="8 8" strokeLinecap="round" />
+        ))}
+        {(["nz", "uae", "ie"] as const).map((k) => (
+          <circle key={k} cx={points[k][0]} cy={points[k][1]} r="6" fill="#0D292D" stroke="#fff" strokeWidth="2.5" />
         ))}
         {(["usa", "canada", "uk", "aus"] as const).map((k) => (
           <g key={k}>
@@ -60,7 +63,7 @@ export function International() {
         <div className="rounded-[2.5rem] bg-white p-4 shadow-card sm:p-8"><WorldMap /></div>
       </div>
       <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-        {markets.map((c, i) => (
+        {markets.filter((m) => m.primary).map((c, i) => (
           <Link key={c.name} href={c.href} className="group rounded-3xl bg-white p-7 shadow-card ring-1 ring-teal/5 transition hover:-translate-y-1 hover:shadow-lift">
             <span className={i % 2 === 0 ? "grid h-12 w-12 place-items-center rounded-2xl bg-orange text-teal" : "grid h-12 w-12 place-items-center rounded-2xl bg-aqua text-teal"}><Icon name="flag" className="h-5 w-5" /></span>
             <h3 className="mt-5 text-xl font-extrabold">{c.name}</h3>
@@ -70,6 +73,13 @@ export function International() {
           </Link>
         ))}
       </div>
+      <p className="mt-8 text-center text-ink-muted">
+        We also support businesses in{" "}
+        {markets.filter((m) => !m.primary).map((m, i, a) => (
+          <span key={m.slug}><Link href={m.href} className="font-semibold text-teal underline-offset-4 hover:underline">{m.name}</Link>{i < a.length - 2 ? ", " : i === a.length - 2 ? " and " : ""}</span>
+        ))}
+        , and anywhere else English-speaking teams need reliable remote support.
+      </p>
     </Section>
   );
 }

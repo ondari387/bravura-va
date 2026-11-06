@@ -23,7 +23,7 @@ const exploreCol = [
 ];
 const marketsCol = [
   ["United States", "/virtual-assistant-usa/"], ["United Kingdom", "/virtual-assistant-uk/"], ["Australia", "/virtual-assistant-australia/"],
-  ["Canada", "/virtual-assistant-canada/"], ["Why Kenya", "/virtual-assistant-kenya/"], ["Africa", "/virtual-assistant-africa/"],
+  ["Canada", "/virtual-assistant-canada/"], ["New Zealand", "/virtual-assistant-new-zealand/"], ["Ireland", "/virtual-assistant-ireland/"], ["UAE", "/virtual-assistant-uae/"], ["Why Kenya", "/virtual-assistant-kenya/"], ["Africa", "/virtual-assistant-africa/"],
 ];
 const socials: { key: keyof typeof site.social; icon: IconName; label: string }[] = [
   { key: "linkedin", icon: "linkedin", label: "LinkedIn" }, { key: "facebook", icon: "facebook", label: "Facebook" },
