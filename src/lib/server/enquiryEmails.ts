@@ -1,4 +1,15 @@
 import { esc } from "./resend";
+import { site } from "@/lib/site";
+
+// Logo for email headers. Email apps can't use web fonts or SVG, so this is the hosted PNG, sized in HTML.
+const logo = (variant: "white" | "dark") =>
+  `<img src="${site.url}/images/brand/tendaji-va-logo${variant === "white" ? "-white" : ""}.png" width="150" height="29" alt="Tendaji VA" style="display:block;border:0;outline:none;height:29px;width:150px">`;
+
+const footer = `
+    <p style="margin:24px 0 0;font-size:12px;color:#59686B;text-align:center">
+      Tendaji VA &middot; Human-led virtual assistants &middot; Nairobi, Kenya<br/>
+      <a href="${site.url}" style="color:#59686B">${site.url.replace(/^https?:\/\//, "")}</a>
+    </p>`;
 
 type Rec = {
   formType: string; name: string; email: string; phone: string; company: string; country: string; service: string;
@@ -20,7 +31,8 @@ export function notificationEmail(r: Rec) {
   const html = `
   <div style="font-family:Arial,sans-serif;color:#10152E;max-width:600px">
     <div style="background:#0D292D;color:#fff;padding:20px 24px;border-radius:12px 12px 0 0">
-      <strong style="font-size:18px">${esc(labels[r.formType] || "New enquiry")}</strong>
+      ${logo("white")}
+      <strong style="display:block;margin-top:14px;font-size:18px">${esc(labels[r.formType] || "New enquiry")}</strong>
     </div>
     <div style="border:1px solid #E5F8F8;border-top:0;padding:24px;border-radius:0 0 12px 12px">
       <table style="width:100%;border-collapse:collapse;font-size:14px">
@@ -29,7 +41,7 @@ export function notificationEmail(r: Rec) {
       <p style="margin:20px 0 6px;color:#59686B;font-size:13px">Message</p>
       <div style="background:#F8F9F5;padding:16px;border-radius:8px;white-space:pre-wrap;font-size:14px">${esc(r.message)}</div>
       <p style="margin-top:20px;font-size:13px;color:#59686B">Reply to this email to respond directly to ${esc(r.name)}.</p>
-    </div>
+    </div>${footer}
   </div>`;
   const text = `${subject}\n\n${rows.map(([k, v]) => `${k}: ${v}`).join("\n")}\n\nMessage:\n${r.message}`;
   return { subject, html, text };
@@ -40,10 +52,14 @@ export function autoReplyEmail(r: Rec) {
   const subject = "Thanks for contacting Tendaji VA";
   const html = `
   <div style="font-family:Arial,sans-serif;color:#10152E;max-width:600px;line-height:1.6">
+    <div style="background:#0D292D;padding:20px 24px;border-radius:12px 12px 0 0;border-bottom:4px solid #59C4D0">${logo("white")}</div>
+    <div style="border:1px solid #E5F8F8;border-top:0;padding:8px 24px 24px;border-radius:0 0 12px 12px">
     <p>Hi ${esc(first)},</p>
     <p>Thank you for getting in touch with Tendaji VA. We've received your message and will reply by email to arrange next steps.</p>
     <p>If it's urgent, you can reach us on WhatsApp at <a href="https://wa.me/254714089042" style="color:#0D292D">+254 714 089 042</a>.</p>
     <p>Best regards,<br/>The Tendaji VA Team<br/><span style="color:#59686B">Nairobi, Kenya</span></p>
+    <p><a href="${site.calendlyUrl}" style="display:inline-block;background:#59C4D0;color:#0D292D;font-weight:bold;text-decoration:none;padding:10px 18px;border-radius:999px">Book a free consultation</a></p>
+    </div>${footer}
   </div>`;
   const text = `Hi ${first},\n\nThank you for getting in touch with Tendaji VA. We've received your message and will reply by email to arrange next steps.\n\nIf it's urgent, you can reach us on WhatsApp at +254 714 089 042.\n\nBest regards,\nThe Tendaji VA Team\nNairobi, Kenya`;
   return { subject, html, text };
