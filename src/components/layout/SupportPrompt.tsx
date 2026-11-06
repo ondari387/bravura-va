@@ -15,7 +15,7 @@ import { track } from "@/lib/analytics";
  */
 const KEY = "bva-support-prompt";
 const REST_DAYS = 14;
-const SKIP = ["/contact", "/book-a-call", "/privacy-policy", "/terms-of-service", "/cookie-policy", "/data-protection"];
+const SKIP = ["/contact", "/book-a-call", "/privacy-policy", "/terms-of-service", "/cookie-policy", "/data-protection", "/compose"];
 
 const needs: { label: string; icon: IconName; service: string }[] = [
   { label: "Inbox, calendar & admin", icon: "inbox", service: "Administrative Support" },
